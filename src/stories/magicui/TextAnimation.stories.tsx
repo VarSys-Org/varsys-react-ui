@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { HyperText } from "../../components/ui/hyper-text"
-import { NumberTicker } from "../../components/ui/number-ticker"
+import { HyperText } from "../../components/text-effects/hyper-text"
+import { NumberTicker } from "../../components/text-effects/number-ticker"
 
 const meta: Meta = {
   title: "MagicUI/Text Animation",

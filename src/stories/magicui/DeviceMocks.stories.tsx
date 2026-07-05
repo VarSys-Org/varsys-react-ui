@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { Safari } from "../../components/ui/safari"
-import { Iphone } from "../../components/ui/iphone"
+import { Safari } from "../../components/device-mocks/safari"
+import { Iphone } from "../../components/device-mocks/iphone"
 
 const meta: Meta = {
   title: "MagicUI/DeviceMocks",

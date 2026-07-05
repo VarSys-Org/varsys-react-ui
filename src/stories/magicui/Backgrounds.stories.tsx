@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { FlickeringGrid } from "../../components/ui/flickering-grid"
-import { RetroGrid } from "../../components/ui/retro-grid"
-import { DotPattern } from "../../components/ui/dot-pattern"
-import { Ripple } from "../../components/ui/ripple"
-import { GridPattern } from "../../components/ui/grid-pattern"
+import { FlickeringGrid } from "../../components/effects/flickering-grid"
+import { RetroGrid } from "../../components/effects/retro-grid"
+import { DotPattern } from "../../components/effects/dot-pattern"
+import { Ripple } from "../../components/effects/ripple"
+import { GridPattern } from "../../components/effects/grid-pattern"
 
 const meta: Meta = {
   title: "MagicUI/Backgrounds",

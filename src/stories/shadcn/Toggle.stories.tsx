@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { Toggle, toggleVariants } from "../../components/ui/toggle"
+import { Toggle, toggleVariants } from "../../components/forms/toggle"
 
 const meta: Meta<typeof Toggle> = {
   title: "shadcn/Toggle",

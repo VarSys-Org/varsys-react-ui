@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { CardContainer, CardBody, CardItem } from "../../components/ui/3d-card"
-import { TextGenerateEffect } from "../../components/ui/text-generate-effect"
+import { CardContainer, CardBody, CardItem } from "../../components/cards/3d-card"
+import { TextGenerateEffect } from "../../components/text-effects/text-generate-effect"
 
 const meta: Meta = {
   title: "Aceternity/Cards",

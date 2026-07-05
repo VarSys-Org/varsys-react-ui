@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { BentoGrid, BentoCard } from "../../components/ui/bento-grid"
+import { BentoGrid, BentoCard } from "../../components/cards/bento-grid"
 import { Sparkles, Globe, Zap, Shield, Cpu, Layers } from "lucide-react"
 
 const meta: Meta<typeof BentoGrid> = {

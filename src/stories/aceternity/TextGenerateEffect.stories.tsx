@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { TextGenerateEffect } from "../../components/ui/text-generate-effect"
+import { TextGenerateEffect } from "../../components/text-effects/text-generate-effect"
 
 const meta: Meta<typeof TextGenerateEffect> = {
   title: "Aceternity/TextGenerateEffect",

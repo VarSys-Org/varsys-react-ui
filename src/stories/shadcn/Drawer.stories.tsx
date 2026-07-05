@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { Drawer, DrawerClose, DrawerContent, DrawerDescription, DrawerFooter, DrawerHeader, DrawerTitle, DrawerTrigger } from "../../components/ui/drawer"
-import { Button } from "../../components/ui/button"
+import { Drawer, DrawerClose, DrawerContent, DrawerDescription, DrawerFooter, DrawerHeader, DrawerTitle, DrawerTrigger } from "../../components/overlays/drawer"
+import { Button } from "../../components/buttons/button"
 
 const meta: Meta<typeof Drawer> = {
   title: "shadcn/Drawer",

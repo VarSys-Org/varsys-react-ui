@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "../../components/ui/dropdown-menu"
-import { Button } from "../../components/ui/button"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "../../components/navigation/dropdown-menu"
+import { Button } from "../../components/buttons/button"
 
 const meta: Meta<typeof DropdownMenu> = {
   title: "shadcn/DropdownMenu",

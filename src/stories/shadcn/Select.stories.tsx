@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../../components/ui/select"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../../components/forms/select"
 
 const meta: Meta<typeof Select> = {
   title: "shadcn/Select",

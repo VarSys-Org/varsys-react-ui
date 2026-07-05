@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { Textarea } from "../../components/ui/textarea"
-import { Label } from "../../components/ui/label"
+import { Textarea } from "../../components/forms/textarea"
+import { Label } from "../../components/forms/label"
 
 const meta: Meta<typeof Textarea> = {
   title: "shadcn/Textarea",

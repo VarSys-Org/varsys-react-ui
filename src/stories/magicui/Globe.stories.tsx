@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { Globe } from "../../components/ui/globe"
-import { Modal, ModalTrigger, ModalBody, ModalContent, ModalFooter } from "../../components/ui/animated-modal"
-import { Button } from "../../components/ui/button"
+import { Globe } from "../../components/data-viz/globe"
+import { Modal, ModalTrigger, ModalBody, ModalContent, ModalFooter } from "../../components/overlays/animated-modal"
+import { Button } from "../../components/buttons/button"
 
 const meta: Meta<typeof Globe> = {
   title: "MagicUI/Globe",

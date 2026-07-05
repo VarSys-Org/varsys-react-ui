@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { Dock, DockIcon } from "../../components/ui/dock"
+import { Dock, DockIcon } from "../../components/layout/dock"
 import { Home, Settings, User, Mail } from "lucide-react"
 
 const meta: Meta = {

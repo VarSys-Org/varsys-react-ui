@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { NumberTicker } from "../../components/ui/number-ticker"
-import { Meteors } from "../../components/ui/meteors"
+import { NumberTicker } from "../../components/text-effects/number-ticker"
+import { Meteors } from "../../components/effects/meteors"
 
 const meta: Meta = {
   title: "Aceternity/Effects",

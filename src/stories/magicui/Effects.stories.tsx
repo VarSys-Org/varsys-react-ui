@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { AnimatedList } from "../../components/ui/animated-list"
-import { AnimatedBeam } from "../../components/ui/animated-beam"
-import { BorderBeam } from "../../components/ui/border-beam"
-import { ShineBorder } from "../../components/ui/shine-border"
-import { MagicCard } from "../../components/ui/magic-card"
+import { AnimatedList } from "../../components/effects/animated-list"
+import { AnimatedBeam } from "../../components/effects/animated-beam"
+import { BorderBeam } from "../../components/effects/border-beam"
+import { ShineBorder } from "../../components/cards/shine-border"
+import { MagicCard } from "../../components/cards/magic-card"
 
 const meta: Meta = {
   title: "MagicUI/Effects",

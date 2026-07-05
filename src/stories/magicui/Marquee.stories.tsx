@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { Marquee } from "../../components/ui/marquee"
+import { Marquee } from "../../components/layout/marquee"
 import { cn } from "../../lib/utils"
 
 const meta: Meta<typeof Marquee> = {

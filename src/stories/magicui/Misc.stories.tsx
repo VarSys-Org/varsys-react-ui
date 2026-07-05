@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { SparklesText } from "../../components/ui/sparkles-text"
-import { ShimmerButton } from "../../components/ui/shimmer-button"
+import { SparklesText } from "../../components/text-effects/sparkles-text"
+import { ShimmerButton } from "../../components/buttons/shimmer-button"
 
 const meta: Meta = {
   title: "MagicUI/Misc",

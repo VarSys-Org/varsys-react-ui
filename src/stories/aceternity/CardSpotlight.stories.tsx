@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { CardSpotlight } from "../../components/ui/card-spotlight"
+import { CardSpotlight } from "../../components/cards/card-spotlight"
 
 const meta: Meta = {
   title: "Aceternity/Spotlight",

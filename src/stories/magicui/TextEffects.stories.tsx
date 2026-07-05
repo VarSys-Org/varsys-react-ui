@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { TextAnimate } from "../../components/ui/text-animate"
-import { HyperText } from "../../components/ui/hyper-text"
-import { TypingAnimation } from "../../components/ui/typing-animation"
-import { MorphingText } from "../../components/ui/morphing-text"
-import { SparklesText } from "../../components/ui/sparkles-text"
-import { NumberTicker } from "../../components/ui/number-ticker"
+import { TextAnimate } from "../../components/text-effects/text-animate"
+import { HyperText } from "../../components/text-effects/hyper-text"
+import { TypingAnimation } from "../../components/text-effects/typing-animation"
+import { MorphingText } from "../../components/text-effects/morphing-text"
+import { SparklesText } from "../../components/text-effects/sparkles-text"
+import { NumberTicker } from "../../components/text-effects/number-ticker"
 
 const meta: Meta = {
   title: "MagicUI/TextEffects",

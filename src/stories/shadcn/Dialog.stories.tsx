@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "../../components/ui/dialog"
-import { Button } from "../../components/ui/button"
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "../../components/overlays/dialog"
+import { Button } from "../../components/buttons/button"
 
 const meta: Meta<typeof Dialog> = {
   title: "shadcn/Dialog",

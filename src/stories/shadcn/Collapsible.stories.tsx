@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "../../components/ui/collapsible"
-import { Button } from "../../components/ui/button"
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "../../components/navigation/collapsible"
+import { Button } from "../../components/buttons/button"
 
 const meta: Meta<typeof Collapsible> = {
   title: "shadcn/Collapsible",

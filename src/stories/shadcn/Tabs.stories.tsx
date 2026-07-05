@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../components/ui/tabs"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../components/navigation/tabs"
 
 const meta: Meta<typeof Tabs> = {
   title: "shadcn/Tabs",

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { FlipWords } from "../../components/ui/flip-words"
+import { FlipWords } from "../../components/text-effects/flip-words"
 
 const meta: Meta<typeof FlipWords> = {
   title: "Aceternity/FlipWords",

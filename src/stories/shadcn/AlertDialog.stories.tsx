@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "../../components/ui/alert-dialog"
-import { Button } from "../../components/ui/button"
+import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "../../components/overlays/alert-dialog"
+import { Button } from "../../components/buttons/button"
 
 const meta: Meta<typeof AlertDialog> = {
   title: "shadcn/AlertDialog",

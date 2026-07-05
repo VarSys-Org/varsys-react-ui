@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { ShimmerButton } from "../../components/ui/shimmer-button"
-import { RainbowButton } from "../../components/ui/rainbow-button"
-import { PulsatingButton } from "../../components/ui/pulsating-button"
-import { RippleButton } from "../../components/ui/ripple-button"
+import { ShimmerButton } from "../../components/buttons/shimmer-button"
+import { RainbowButton } from "../../components/buttons/rainbow-button"
+import { PulsatingButton } from "../../components/buttons/pulsating-button"
+import { RippleButton } from "../../components/buttons/ripple-button"
 
 const meta: Meta = {
   title: "MagicUI/Buttons",

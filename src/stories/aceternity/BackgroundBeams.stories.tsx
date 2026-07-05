@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { BackgroundBeams } from "../../components/ui/background-beams"
+import { BackgroundBeams } from "../../components/effects/background-beams"
 
 const meta: Meta<typeof BackgroundBeams> = {
   title: "Aceternity/BackgroundBeams",

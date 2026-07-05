@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { CardContainer, CardBody, CardItem } from "../../components/ui/3d-card"
+import { CardContainer, CardBody, CardItem } from "../../components/cards/3d-card"
 
 const meta: Meta<typeof CardContainer> = {
   title: "Aceternity/3DCard",

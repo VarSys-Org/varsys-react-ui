@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { AuroraBackground } from "../../components/ui/aurora-background"
+import { AuroraBackground } from "../../components/effects/aurora-background"
 
 const meta: Meta<typeof AuroraBackground> = {
   title: "Aceternity/AuroraBackground",
