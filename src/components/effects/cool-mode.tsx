@@ -9,7 +9,7 @@ export interface BaseParticle {
   top: number
 }
 
-export interface BaseParticleOptions {
+export interface BaseParticleSetup {
   particle?: string
   size?: number
 }
@@ -22,7 +22,7 @@ export interface CoolParticle extends BaseParticle {
   spinVal: number
 }
 
-export interface CoolParticleOptions extends BaseParticleOptions {
+export interface CoolParticleSetup extends BaseParticleSetup {
   particleCount?: number
   speedHorz?: number
   speedUp?: number
@@ -54,7 +54,7 @@ let instanceCounter = 0
 
 const applyParticleEffect = (
   element: HTMLElement,
-  options?: CoolParticleOptions
+  options?: CoolParticleSetup
 ): (() => void) => {
   instanceCounter++
 
@@ -270,7 +270,7 @@ const applyParticleEffect = (
 
 interface CoolModeProps {
   children: ReactNode
-  options?: CoolParticleOptions
+  options?: CoolParticleSetup
 }
 
 export const CoolMode: React.FC<CoolModeProps> = ({ children, options }) => {

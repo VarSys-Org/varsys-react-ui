@@ -809,20 +809,20 @@ export function RetroGrid({
     ...style,
     opacity,
   } as CSSProperties
-  const normalizedAngle = clamp(angle, MIN_ANGLE, MAX_ANGLE)
-  const normalizedCellSize = Math.max(cellSize, 1)
+  const clampedAngle = clamp(angle, MIN_ANGLE, MAX_ANGLE)
+  const gridCellSize = Math.max(cellSize, 1)
   const fallbackProjectionStyles = {
     perspective: `${PERSPECTIVE_PX}px`,
   } as CSSProperties
   const fallbackRotationStyles = {
-    transform: `rotateX(${normalizedAngle}deg)`,
+    transform: `rotateX(${clampedAngle}deg)`,
   } as CSSProperties
   const lightFallbackGridStyles = createFallbackGridStyle(
-    normalizedCellSize,
+    gridCellSize,
     lightLineColor
   )
   const darkFallbackGridStyles = createFallbackGridStyle(
-    normalizedCellSize,
+    gridCellSize,
     darkLineColor
   )
 

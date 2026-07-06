@@ -37,3 +37,86 @@
 #### Outcome
 - The UI package passes `pnpm typecheck` successfully with zero TypeScript compilation errors.
 - The Storybook development server starts up cleanly on port 6006.
+
+### [2026-07-04] — Extract varsys-ui to separate GitHub repo (OP#623)
+
+#### Before
+- varsys-ui was part of the VarSysKB monorepo at `packages/varsys-ui/`
+
+#### Change
+- Initialized new git repo, created `.gitignore`
+- Created new repository at `VarSys-Org/varsys-react-ui` on GitHub
+- Pushed all component source files to the new repo
+
+#### Files Affected
+- Created: `.gitignore`
+- Created: GitHub repo `VarSys-Org/varsys-react-ui`
+
+#### Outcome
+- varsys-ui now lives in its own repo at https://github.com/VarSys-Org/varsys-react-ui
+
+### [2026-07-05] — Reorganize components into categories (OP#624)
+
+#### Before
+- All components were in flat `src/components/ui/` directory
+
+#### Change
+- Created 12 category directories
+- Moved 114 component files to their logical categories
+- Updated all import paths in `index.ts`, `App.tsx`, and 61 story files
+
+#### New Structure
+| Category | Files | Examples |
+|----------|-------|---------|
+| buttons/ | 8 | Button, RainbowButton, ShimmerButton, RippleButton |
+| cards/ | 7 | 3d-card, BentoGrid, MagicCard, NeonGradientCard |
+| overlays/ | 9 | Dialog, Drawer, Sheet, AnimatedModal, Tooltip |
+| navigation/ | 8 | Accordion, Breadcrumb, Tabs, DropdownMenu |
+| forms/ | 10 | Checkbox, RadioGroup, Select, Switch, Toggle |
+| display/ | 10 | Avatar, Badge, Table, Progress, Timeline |
+| text-effects/ | 15 | FlipWords, TextAnimate, TypingAnimation |
+| effects/ | 31 | Particles, Confetti, Beams, Grids, Sparkles |
+| device-mocks/ | 6 | Safari, Iphone, MacbookScroll, TweetCard |
+| scroll/ | 3 | ParallaxScroll, StickyScroll, HeroParallax |
+| data-viz/ | 4 | Globe, WorldMap, IconCloud, OrbitingCircles |
+| layout/ | 3 | Dock, Marquee, FileTree |
+
+#### Outcome
+- Components are now easy to find and copy-paste by category
+
+### [2026-07-05] — Deploy varsys-react-ui Storybook to Dokploy (OP#625)
+
+#### Before
+- No deployment pipeline existed for varsys-react-ui
+- Components could only be viewed locally via `storybook dev`
+
+#### Change
+- Created `docker/Dockerfile` (multi-stage: node build + nginx serve)
+- Created `docker/nginx.conf` for Storybook static hosting
+- Created `.github/workflows/deploy.yml` (GitHub Actions CI/CD)
+- Set up Dokploy application with Docker image from ghcr.io
+- Added port mapping (80) and domain (ui.varsys.co.in)
+- Added DNS A record for ui.varsys.co.in
+
+#### CI/CD Pipeline
+1. Push to master -> GitHub Actions triggers
+2. Builds Docker image -> pushes to ghcr.io/varsys-org/varsys-react-ui:latest
+3. Dokploy pulls new image -> deploys automatically
+
+#### Outcome
+- Storybook live at https://ui.varsys.co.in
+- Auto-deploys on every push to master
+
+### [2026-07-05/06] — Fix Appwrite Traefik + Dokploy integration (OP#626)
+
+#### Problem
+- Appwrite Traefik (ports 80/443) uses `appwrite_web`/`appwrite_websecure` entrypoints
+- Dokploy auto-generates domain configs with `web`/`websecure` entrypoints
+- Required manual Traefik config files for each new Dokploy domain
+
+#### Fix (in progress)
+- Mounted Dokploy Traefik dynamic config directory into Appwrite Traefik
+- Adding `web`/`websecure` entrypoints to Appwrite Traefik on same ports
+
+#### Outcome (pending)
+- Dokploy domains will work automatically without manual Traefik configs
