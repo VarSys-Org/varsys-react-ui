@@ -1,0 +1,208 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   VarSys Dashboard Theme — "Hand-Crafted Industrial"
+   
+   Copy this file into your project's src/index.css or main CSS entry point.
+   Override --brand-primary below with your project's accent color.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+
+/* ── Light Theme ─────────────────────────────────────────────────────────── */
+:root {
+  /* Layout */
+  --shell-bg: #E8E8E8;
+  --header-bg: #F4F4F4;
+  --panel-bg: #F4F4F4;
+  --panel-muted: #E8E8E8;
+  --panel-border: rgba(117, 115, 116, 0.35);
+  --panel-shadow: 0 8px 24px rgba(42, 42, 42, 0.08);
+  --card-soft-bg: #F4F4F4;
+  --card-strong-bg: #F4F4F4;
+
+  /* Brand — override this in your project's CSS */
+  --brand-primary: #3B82F6;
+  --brand-rgb: 59, 130, 246;
+
+  /* Typography */
+  --text-primary: #2A2A2A;
+  --text-muted: #757374;
+  --text-dim: #757374;
+
+  /* Status */
+  --status-connected: #22c55e;
+  --status-warn: #f59e0b;
+  --status-error: var(--brand-primary);
+  --status-neutral: #6b7280;
+
+  /* Semantic */
+  --success-bg: #dcfce7;
+  --success-border: #4ade80;
+  --success-text: #15803d;
+  --danger-bg: #F4F4F4;
+  --danger-border: var(--brand-primary);
+  --danger-text: var(--brand-primary);
+
+  /* Layout dimensions */
+  --header-h: 42px;
+  --sidebar-w-collapsed: 56px;
+  --sidebar-w-expanded: 200px;
+}
+
+/* ── Dark Theme ───────────────────────────────────────────────────────────── */
+.dark {
+  --shell-bg: #17181d;
+  --header-bg: #1f2128;
+  --panel-bg: #22252d;
+  --panel-muted: #2b2e37;
+  --panel-border: rgba(117, 115, 116, 0.42);
+  --panel-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+  --card-soft-bg: #22252d;
+  --card-strong-bg: #20232b;
+  --text-primary: #F4F4F4;
+  --text-muted: #E8E8E8;
+  --text-dim: #757374;
+  --success-bg: rgba(34, 197, 94, 0.15);
+  --success-border: rgba(34, 197, 94, 0.4);
+  --success-text: #86efac;
+  --danger-bg: rgba(var(--brand-rgb), 0.15);
+  --danger-border: rgba(var(--brand-rgb), 0.4);
+  --danger-text: var(--brand-primary);
+}
+
+/* ── Aurora Theme (optional) ────────────────────────────────────────────── */
+.aurora {
+  --shell-bg: #0b1026;
+  --header-bg: rgba(20, 25, 56, 0.9);
+  --panel-bg: rgba(18, 24, 57, 0.86);
+  --panel-muted: rgba(255, 255, 255, 0.08);
+  --panel-border: rgba(129, 140, 248, 0.4);
+  --panel-shadow: 0 16px 34px rgba(6, 10, 28, 0.55);
+  --text-primary: #ecf2ff;
+  --text-muted: #c5d1ff;
+  --text-dim: #98a8da;
+  --status-connected: #34d399;
+  --status-warn: #fbbf24;
+  --status-error: #fb7185;
+  --status-neutral: #9ca3af;
+  --success-bg: rgba(16, 185, 129, 0.18);
+  --success-border: rgba(52, 211, 153, 0.55);
+  --success-text: #6ee7b7;
+  --danger-bg: rgba(244, 63, 94, 0.16);
+  --danger-border: rgba(251, 113, 133, 0.6);
+  --danger-text: #fda4af;
+}
+
+/* ── Body ambient backgrounds ───────────────────────────────────────────── */
+.dark body {
+  background-color: #17181d;
+  background-image:
+    radial-gradient(circle at 8% 10%, rgba(var(--brand-rgb), 0.16) 0%, transparent 35%),
+    radial-gradient(circle at 92% 16%, rgba(245, 158, 11, 0.12) 0%, transparent 34%),
+    radial-gradient(circle at 80% 86%, rgba(34, 197, 94, 0.11) 0%, transparent 32%);
+}
+
+.aurora body {
+  background-color: #0b1026;
+  background-image:
+    radial-gradient(circle at 8% 8%, rgba(244, 63, 94, 0.42) 0%, transparent 34%),
+    radial-gradient(circle at 84% 12%, rgba(56, 189, 248, 0.34) 0%, transparent 38%),
+    radial-gradient(circle at 30% 84%, rgba(139, 92, 246, 0.33) 0%, transparent 40%),
+    radial-gradient(circle at 80% 78%, rgba(245, 158, 11, 0.28) 0%, transparent 38%);
+}
+
+.dark header {
+  background-image: linear-gradient(100deg,
+    rgba(var(--brand-rgb), 0.12) 0%,
+    rgba(117, 115, 116, 0.10) 54%,
+    rgba(245, 158, 11, 0.1) 100%);
+}
+
+.aurora header {
+  background-image: linear-gradient(100deg,
+    rgba(59, 130, 246, 0.24) 0%,
+    rgba(217, 70, 239, 0.2) 45%,
+    rgba(251, 113, 133, 0.24) 100%);
+}
+
+/* ── Surface classes ─────────────────────────────────────────────────────── */
+.panel-shell {
+  border: 1px solid var(--panel-border);
+  border-radius: 1rem;
+  background: var(--panel-bg);
+  backdrop-filter: blur(4px);
+  box-shadow: var(--panel-shadow);
+  overflow: hidden;
+}
+
+.surface-elevated {
+  background: var(--card-soft-bg);
+  box-shadow: var(--panel-shadow);
+}
+
+.surface-strong {
+  background: var(--card-strong-bg);
+  box-shadow: var(--panel-shadow);
+}
+
+.surface-muted {
+  background: var(--panel-muted);
+}
+
+.dark .surface-strong {
+  background: linear-gradient(180deg, rgba(40, 43, 52, 0.96) 0%, rgba(30, 33, 40, 0.96) 100%);
+}
+
+.dark .surface-elevated {
+  background: linear-gradient(155deg, rgba(43, 46, 56, 0.96) 0%, rgba(33, 36, 45, 0.96) 100%);
+}
+
+.aurora .surface-strong {
+  background: linear-gradient(160deg, rgba(26, 34, 74, 0.92) 0%, rgba(18, 24, 56, 0.96) 100%);
+}
+
+.aurora .surface-elevated {
+  background: linear-gradient(140deg, rgba(35, 44, 92, 0.92) 0%, rgba(98, 41, 122, 0.5) 100%);
+}
+
+.dark .main-scroll {
+  background-image: linear-gradient(135deg,
+    rgba(var(--brand-rgb), 0.06) 0%,
+    rgba(117, 115, 116, 0.04) 50%,
+    rgba(245, 158, 11, 0.05) 100%);
+}
+
+/* ── Body base ───────────────────────────────────────────────────────────── */
+body {
+  margin: 0;
+  background: var(--shell-bg);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  font-family: "Space Grotesk", "Manrope", sans-serif;
+}
+
+code, pre, .font-mono {
+  font-family: "IBM Plex Mono", "JetBrains Mono", monospace;
+}
+
+/* ── Custom scrollbar ────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--panel-border);
+  border-radius: 2px;
+}
+
+/* ── Animations ───────────────────────────────────────────────────────────── */
+@keyframes send-flash {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+.animate-send-flash {
+  animation: send-flash 400ms ease;
+}
