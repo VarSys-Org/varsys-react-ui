@@ -19,27 +19,57 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Run OpenCode daily upgrade
+      - name: Run OpenCode daily component upgrade
         uses: anomalyco/opencode/github@latest
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
         with:
-          model: anthropic/claude-sonnet-4-20250514
+          model: opencode-go/kimi-k2.7-code
+          share: false
           prompt: |
-            Review the varsys-react-ui component library codebase at packages/varsys-ui.
+            You maintain the varsys-react-ui component library at packages/varsys-ui.
 
-            Tasks:
-            1. Check all component source files under src/components/ for any bugs, TypeScript errors, or deprecated API usage. Fix them.
-            2. Check all Storybook story files under src/stories/ - ensure they render correctly and match their component APIs.
-            3. Review package.json dependencies - check if any can be upgraded to latest compatible versions without breaking changes.
-            4. Check for any missing exports in src/index.ts - every component in src/components/ should be exported.
-            5. If dependencies were updated, run `npm install --legacy-peer-deps` and commit the updated lockfile.
-            6. Run `npm run build` to verify the build passes.
-            7. Run `npm run build-storybook` to verify Storybook builds.
+            COMPONENT SOURCES to scan daily for NEW components:
+            - https://ui.shadcn.com (shadcn/ui)
+            - https://magicui.design (Magic UI animated components)
+            - https://ui.aceternity.com (Aceternity UI)
+            - https://originui.com (Origin UI)
+            - https://21st.dev (community marketplace)
+            - https://radi-ui.com (Radi UI)
+            - https://tremor.so (Tremor dashboard components)
+            - https://hyperui.dev (HyperUI)
+            - https://floatui.com (Float UI)
+            - https://preline.co (Preline)
+            - https://mantine.dev (Mantine)
 
-            For each issue found:
-            - Fix it directly in the codebase
-            - Commit with a clear message referencing what was fixed
+            CATEGORY RULES (place each component in its correct folder):
+            src/components/buttons/   -> Button variants, icon buttons
+            src/components/cards/     -> Cards, bento grids, spotlights
+            src/components/forms/     -> Inputs, selects, toggles, sliders
+            src/components/navigation/-> Menus, tabs, accordion, breadcrumbs
+            src/components/overlays/  -> Dialogs, modals, sheets, drawers, popovers, tooltips
+            src/components/display/   -> Avatars, badges, tables, timelines, progress
+            src/components/text-effects/ -> Animated text, typing effects
+            src/components/effects/   -> Particles, beams, grids, backgrounds
+            src/components/device-mocks/ -> Phone, browser, macbook mockups
+            src/components/layout/   -> Dock, marquee, resizable panels
+            src/components/data-viz/ -> Globes, maps, charts
 
-            If no issues are found, do nothing.
-            Do not open issues or PRs - commit directly to master.
+            For each NEW component found:
+            1. Read source code from the website using curl or webfetch
+            2. Check if we already have it (compare with existing files)
+            3. Write component to src/components/<category>/<name>.tsx
+            4. Create a Storybook story at src/stories/<category>/<Name>.stories.tsx
+            5. Add export to src/index.ts
+            6. Add any needed dependencies to package.json
+            7. Run: npm install --legacy-peer-deps
+            8. Run: npm run build
+            9. Commit with message: "feat: add <component> from <source>"
+
+            MAINTENANCE TASKS (every run):
+            1. Check for TypeScript errors across src/components/ and fix them
+            2. Check story files match their component APIs
+            3. Ensure every component in src/components/ is exported in src/index.ts
+            4. Run npm run build to verify
+
+            Commit directly to master. Do not create PRs.
