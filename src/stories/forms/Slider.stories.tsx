@@ -9,4 +9,4 @@ const meta: Meta<typeof Slider> = {
 export default meta
 type Story = StoryObj<typeof meta>
 
-export const Default: Story = { args: { defaultValue: [50], max: 100, step: 1 }, render: (args) => <Slider {...args} className="w-[60%]" /> }
+export const Default: Story = { args: { defaultValue: [50], max: 100, step: 1 } }
