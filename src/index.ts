@@ -58,7 +58,24 @@ export { Stats, Stat, StatFigure, StatTitle, StatValue, StatDesc } from "./compo
 export { Countdown } from "./components/display/countdown"
 export { DataTable, DataTableColumnHeader, DataTablePagination, DataTableToolbar, DataTableViewOptions, DataTableFacetedFilter } from "./components/display/data-table"
 
+// === Magic UI Components (additional) ===
+export { AnimatedSubscribeButton } from "./components/buttons/animated-subscribe-button"
+
 // === Aceternity UI Components ===
+export { ContainerScroll, Header, Card as ContainerScrollCard } from "./components/effects/container-scroll"
+export { TracingBeam } from "./components/effects/tracing-beam"
+export { Vortex } from "./components/effects/vortex"
+export { LampContainer } from "./components/effects/lamp"
+export { GoogleGeminiEffect } from "./components/effects/google-gemini-effect"
+export { FloatingNav } from "./components/navigation/floating-nav"
+export { AnimatedTooltip } from "./components/overlays/animated-tooltip"
+export { HoverBorderGradient } from "./components/buttons/hover-border-gradient"
+export { AnimatedTestimonials } from "./components/display/animated-testimonials"
+export { ImagesSlider } from "./components/display/images-slider"
+export { Compare } from "./components/display/compare"
+export { EvervaultCard } from "./components/cards/evervault-card"
+export { GlareCard } from "./components/cards/glare-card"
+export { TypewriterEffect, TypewriterEffectSmooth } from "./components/text-effects/typewriter-effect"
 export { BackgroundBeams } from "./components/effects/background-beams"
 export { CardContainer, CardBody, CardItem } from "./components/cards/3d-card"
 export { CardSpotlight } from "./components/cards/card-spotlight"
