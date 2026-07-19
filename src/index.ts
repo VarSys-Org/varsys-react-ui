@@ -63,6 +63,17 @@ export { Stats, Stat, StatFigure, StatTitle, StatValue, StatDesc } from "./compo
 export { Countdown } from "./components/display/countdown"
 export { DataTable, DataTableColumnHeader, DataTablePagination, DataTableToolbar, DataTableViewOptions, DataTableFacetedFilter } from "./components/display/data-table"
 
+// === New Base UI Components ===
+export { ComboboxRoot, ComboboxLabel, ComboboxValue, ComboboxIcon, ComboboxInput, ComboboxTrigger, ComboboxClear, ComboboxInputGroup, ComboboxPortal, ComboboxPositioner, ComboboxContent, ComboboxPopup, ComboboxArrow, ComboboxStatus, ComboboxEmpty, ComboboxList, ComboboxRow, ComboboxSeparator, ComboboxGroup, ComboboxGroupLabel, ComboboxCollection, ComboboxItem, ComboboxItemIndicator, ComboboxChips, ComboboxChip, ComboboxChipRemove, ComboboxBackdrop } from "./components/forms/combobox"
+export { Meter, MeterLabel, MeterValue } from "./components/display/meter"
+export { PreviewCard, PreviewCardTrigger, PreviewCardContent } from "./components/overlays/preview-card"
+export { CheckboxGroup } from "./components/forms/checkbox-group"
+export { CTASection } from "./components/layout/cta-section"
+export { FAQ } from "./components/layout/faq"
+export { SectionHeader } from "./components/layout/section-header"
+export { PricingCard } from "./components/cards/pricing-card"
+export { LogoCloud } from "./components/display/logo-cloud"
+
 // === Magic UI Components (additional) ===
 export { AnimatedSubscribeButton } from "./components/buttons/animated-subscribe-button"
 
