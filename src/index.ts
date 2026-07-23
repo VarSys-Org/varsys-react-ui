@@ -118,6 +118,13 @@ export { Globe } from "./components/data-viz/globe"
 export { BarList } from "./components/data-viz/bar-list"
 export { CategoryBar } from "./components/data-viz/category-bar"
 export { default as WorldMap } from "./components/data-viz/world-map"
+
+// === New shadcn UI Components (Chat & Conversation) ===
+export { Attachment, AttachmentGroup, AttachmentMedia, AttachmentContent, AttachmentTitle, AttachmentDescription, AttachmentActions, AttachmentAction, AttachmentTrigger } from "./components/display/attachment"
+export { BubbleGroup, Bubble, BubbleContent, BubbleReactions } from "./components/display/bubble"
+export { Marker as ChatMarker, MarkerIcon, MarkerContent, markerVariants } from "./components/display/marker"
+export { MessageGroup, Message, MessageAvatar, MessageContent, MessageFooter, MessageHeader } from "./components/display/message"
+export { MessageScrollerProvider, MessageScroller, MessageScrollerViewport, MessageScrollerContent, MessageScrollerItem, MessageScrollerButton, useMessageScroller, useMessageScrollerScrollable, useMessageScrollerVisibility } from "./components/display/message-scroller"
 export { DottedMap } from "./components/data-viz/dotted-map"
 export type { Marker, DottedMapProps } from "./components/data-viz/dotted-map"
 export { CalendarHeatmap, RadarChart, SankeyDiagram, TreemapChart, HeatmapChart, FunnelChart } from "./components/data-viz/charts"
