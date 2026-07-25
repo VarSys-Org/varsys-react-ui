@@ -268,3 +268,9 @@ export { AnimateList, useListAnimation } from "./components/effects/animate-list
 export { ScrollReveal, ScrollProgressBar } from "./components/effects/scroll-reveal"
 export { InfiniteSlider } from "./components/layout/infinite-slider"
 export { SmoothScroll, ScrollSnap } from "./components/scroll/smooth-scroll"
+
+// === New shadcn/ui Components ===
+export { ButtonGroup, ButtonGroupSeparator, ButtonGroupText } from "./components/buttons/button-group"
+export { ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLegendContent } from "./components/data-viz/chart"
+export type { ChartConfig } from "./components/data-viz/chart"
+export { NativeSelect, NativeSelectOptGroup, NativeSelectOption } from "./components/forms/native-select"
