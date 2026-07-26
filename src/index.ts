@@ -274,3 +274,12 @@ export { ButtonGroup, ButtonGroupSeparator, ButtonGroupText } from "./components
 export { ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLegendContent } from "./components/data-viz/chart"
 export type { ChartConfig } from "./components/data-viz/chart"
 export { NativeSelect, NativeSelectOptGroup, NativeSelectOption } from "./components/forms/native-select"
+
+// === shadcn/ui Sidebar ===
+export { Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarGroupAction, SidebarGroupContent, SidebarGroupLabel, SidebarHeader, SidebarInput, SidebarInset, SidebarMenu, SidebarMenuAction, SidebarMenuBadge, SidebarMenuButton, SidebarMenuItem, SidebarMenuSkeleton, SidebarMenuSub, SidebarMenuSubButton, SidebarMenuSubItem, SidebarProvider, SidebarRail, SidebarSeparator, SidebarTrigger, useSidebar } from "./components/navigation/sidebar"
+
+// === shadcn/ui Item ===
+export { Item, ItemMedia, ItemContent, ItemActions, ItemGroup, ItemSeparator, ItemTitle, ItemDescription, ItemHeader, ItemFooter } from "./components/display/item"
+
+// === shadcn/ui Direction ===
+export { DirectionProvider, useDirection } from "./components/display/direction"
