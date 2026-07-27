@@ -173,6 +173,22 @@ export { DitherShader } from "./components/effects/dither-shader"
 export { PixelatedCanvas } from "./components/effects/pixelated-canvas"
 export { AsciiArt } from "./components/effects/ascii-art"
 
+// === New Aceternity UI Components ===
+export { BackgroundLines } from "./components/effects/background-lines"
+export { StatefulButton } from "./components/buttons/stateful-button"
+export { MaskContainer } from "./components/effects/svg-mask-effect"
+export { Cover } from "./components/effects/cover"
+export { MultiStepLoader } from "./components/effects/multi-step-loader"
+export type { LoadingState } from "./components/effects/multi-step-loader"
+export { ContainerTextFlip } from "./components/text-effects/container-text-flip"
+export { LayoutTextFlip } from "./components/text-effects/layout-text-flip"
+export { LayoutGrid } from "./components/cards/layout-grid"
+export type { LayoutGridCard } from "./components/cards/layout-grid"
+export { Carousel as AppleCardsCarousel, AppleCard } from "./components/display/apple-cards-carousel"
+export type { AppleCardType } from "./components/display/apple-cards-carousel"
+export { TextFlippingBoard } from "./components/text-effects/text-flipping-board"
+export { WebcamPixelGrid } from "./components/effects/webcam-pixel-grid"
+
 // === Magic UI Components ===
 export { Marquee } from "./components/layout/marquee"
 export { BentoGrid, BentoCard } from "./components/cards/bento-grid"
