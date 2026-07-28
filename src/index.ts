@@ -299,3 +299,17 @@ export { Item, ItemMedia, ItemContent, ItemActions, ItemGroup, ItemSeparator, It
 
 // === shadcn/ui Direction ===
 export { DirectionProvider, useDirection } from "./components/display/direction"
+
+// === Aceternity UI Components (New) ===
+export { FloatingDock } from "./components/navigation/floating-dock"
+export { CodeBlock } from "./components/display/code-block"
+export { LinkPreview } from "./components/overlays/link-preview"
+export { LoaderOne, LoaderTwo, LoaderThree, LoaderFour, LoaderFive } from "./components/display/loader"
+export { ExpandableCard, CloseIcon as ExpandableCardCloseIcon } from "./components/cards/expandable-card"
+export type { ExpandableCardItem } from "./components/cards/expandable-card"
+export { Globe3D } from "./components/data-viz/globe-3d"
+export type { GlobeMarker, Globe3DConfig } from "./components/data-viz/globe-3d"
+export { HoverEffect, Card as HoverEffectCard, CardTitle as HoverEffectCardTitle, CardDescription as HoverEffectCardDescription } from "./components/cards/card-hover-effect"
+export { TextRevealCard, TextRevealCardTitle, TextRevealCardDescription } from "./components/effects/text-reveal-card"
+export { SignupForm } from "./components/forms/signup-form"
+export { useOutsideClick } from "./hooks/use-outside-click"
