@@ -313,3 +313,6 @@ export { HoverEffect, Card as HoverEffectCard, CardTitle as HoverEffectCardTitle
 export { TextRevealCard, TextRevealCardTitle, TextRevealCardDescription } from "./components/effects/text-reveal-card"
 export { SignupForm } from "./components/forms/signup-form"
 export { useOutsideClick } from "./hooks/use-outside-click"
+
+// === Origin UI PopupMenu ===
+export { PopupMenu, PopupMenuPortal, PopupMenuTrigger, PopupMenuPopup, PopupMenuGroup, PopupMenuItem, PopupMenuLinkItem, PopupMenuCheckboxItem, PopupMenuRadioGroup, PopupMenuRadioItem, PopupMenuLabel, PopupMenuSeparator, PopupMenuShortcut, PopupMenuSub, PopupMenuSubTrigger, PopupMenuSubPopup } from "./components/navigation/menu"
