@@ -318,3 +318,30 @@ export { useOutsideClick } from "./hooks/use-outside-click"
 
 // === Origin UI PopupMenu ===
 export { PopupMenu, PopupMenuPortal, PopupMenuTrigger, PopupMenuPopup, PopupMenuGroup, PopupMenuItem, PopupMenuLinkItem, PopupMenuCheckboxItem, PopupMenuRadioGroup, PopupMenuRadioItem, PopupMenuLabel, PopupMenuSeparator, PopupMenuShortcut, PopupMenuSub, PopupMenuSubTrigger, PopupMenuSubPopup } from "./components/navigation/menu"
+
+// === Origin UI / coss components ===
+export { CheckboxTree, useCheckboxTree } from "./components/forms/checkbox-tree"
+export type { TreeNode, CheckboxTreeProps, CheckboxTreeRenderProps } from "./components/forms/checkbox-tree"
+export { Multiselect, useDebounce } from "./components/forms/multiselect"
+export type { Option as MultiselectOption, MultiselectProps, MultiselectRef } from "./components/forms/multiselect"
+
+// === Magic UI components (additional) ===
+export { GlobeCobe } from "./components/data-viz/globe-cobe"
+export { ClientTweetCard } from "./components/device-mocks/client-tweet-card"
+
+// === Float UI components ===
+export { IntegrationsCard } from "./components/cards/integrations-card"
+export type { IntegrationItem } from "./components/cards/integrations-card"
+export { TeamSection } from "./components/layout/team-section"
+export type { TeamMember } from "./components/layout/team-section"
+export { UploadFileCard } from "./components/forms/upload-file-card"
+
+// === Preline UI components ===
+export { Ratings } from "./components/forms/ratings"
+export type { RatingsProps } from "./components/forms/ratings"
+export { LegendIndicator } from "./components/display/legend-indicator"
+export type { LegendItem, LegendIndicatorProps } from "./components/display/legend-indicator"
+
+// === HyperUI components ===
+export { QuantityInput } from "./components/forms/quantity-input"
+export type { QuantityInputProps } from "./components/forms/quantity-input"
