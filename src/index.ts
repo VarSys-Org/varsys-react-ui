@@ -345,3 +345,17 @@ export type { LegendItem, LegendIndicatorProps } from "./components/display/lege
 // === HyperUI components ===
 export { QuantityInput } from "./components/forms/quantity-input"
 export type { QuantityInputProps } from "./components/forms/quantity-input"
+export { Poll } from "./components/forms/poll"
+export type { PollOption, PollProps } from "./components/forms/poll"
+
+// === Tremor components (additional) ===
+export { ProgressBar } from "./components/display/progress-bar"
+export type { ProgressBarProps, ProgressBarVariant } from "./components/display/progress-bar"
+export { TabNavigation } from "./components/navigation/tab-navigation"
+export type { TabNavigationItem, TabNavigationProps } from "./components/navigation/tab-navigation"
+export { SparkAreaChart, SparkLineChart, SparkBarChart } from "./components/data-viz/spark-chart"
+export type { SparkAreaChartProps, SparkLineChartProps, SparkBarChartProps } from "./components/data-viz/spark-chart"
+
+// === Preline UI components (additional) ===
+export { Stepper } from "./components/navigation/stepper"
+export type { StepperItem, StepperProps } from "./components/navigation/stepper"
