@@ -359,3 +359,18 @@ export type { SparkAreaChartProps, SparkLineChartProps, SparkBarChartProps } fro
 // === Preline UI components (additional) ===
 export { Stepper } from "./components/navigation/stepper"
 export type { StepperItem, StepperProps } from "./components/navigation/stepper"
+
+// === Tremor chart components ===
+export { AreaChart } from "./components/data-viz/area-chart"
+export type { AreaChartEventProps } from "./components/data-viz/area-chart"
+export { BarChart } from "./components/data-viz/bar-chart"
+export type { BarChartEventProps } from "./components/data-viz/bar-chart"
+export { LineChart } from "./components/data-viz/line-chart"
+export type { LineChartEventProps } from "./components/data-viz/line-chart"
+export { ComboChart } from "./components/data-viz/combo-chart"
+export type { ComboChartEventProps } from "./components/data-viz/combo-chart"
+export { DonutChart } from "./components/data-viz/donut-chart"
+export type { DonutChartEventProps } from "./components/data-viz/donut-chart"
+
+// === Tremor RadioCardGroup ===
+export { RadioCardGroup, RadioCardItem, RadioCardIndicator } from "./components/forms/radio-card-group"
