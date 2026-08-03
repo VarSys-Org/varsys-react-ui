@@ -374,3 +374,34 @@ export type { DonutChartEventProps } from "./components/data-viz/donut-chart"
 
 // === Tremor RadioCardGroup ===
 export { RadioCardGroup, RadioCardItem, RadioCardIndicator } from "./components/forms/radio-card-group"
+
+// === HyperUI / Float UI / Preline components ===
+export { PricingSection } from "./components/cards/pricing-section"
+export type { PricingPlan, PricingSectionProps } from "./components/cards/pricing-section"
+export { StatCard } from "./components/display/stat-card"
+export type { StatCardProps } from "./components/display/stat-card"
+export { Testimonial } from "./components/display/testimonial"
+export type { TestimonialProps } from "./components/display/testimonial"
+export { StatsBand } from "./components/display/stats-band"
+export type { StatBandItem, StatsBandProps } from "./components/display/stats-band"
+export { AvatarGroup } from "./components/display/avatar-group"
+export type { AvatarGroupProps } from "./components/display/avatar-group"
+export { MarqueeTicker } from "./components/effects/marquee-ticker"
+export type { MarqueeTickerProps } from "./components/effects/marquee-ticker"
+
+// === Magic UI components (additional) ===
+export { BoxReveal } from "./components/text-effects/box-reveal"
+export type { BoxRevealProps } from "./components/text-effects/box-reveal"
+export { FlipText } from "./components/text-effects/flip-text"
+export type { FlipTextProps } from "./components/text-effects/flip-text"
+export { ScratchToReveal } from "./components/effects/scratch-to-reveal"
+export type { ScratchToRevealProps } from "./components/effects/scratch-to-reveal"
+
+// === Aceternity UI components (additional) ===
+export { StarsBackground } from "./components/effects/stars-background"
+export type { StarsBackgroundProps } from "./components/effects/stars-background"
+
+// === Origin UI components (additional) ===
+export { Tree as TreeView, TreeItem, TreeItemLabel, TreeDragLine } from "./components/display/tree"
+export type { TreeProps, TreeItemProps, TreeItemLabelProps, TreeDragLineProps } from "./components/display/tree"
+export { Cropper, CropperDescription, CropperImage, CropperCropArea } from "./components/forms/cropper"
