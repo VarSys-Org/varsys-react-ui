@@ -405,3 +405,57 @@ export type { StarsBackgroundProps } from "./components/effects/stars-background
 export { Tree as TreeView, TreeItem, TreeItemLabel, TreeDragLine } from "./components/display/tree"
 export type { TreeProps, TreeItemProps, TreeItemLabelProps, TreeDragLineProps } from "./components/display/tree"
 export { Cropper, CropperDescription, CropperImage, CropperCropArea } from "./components/forms/cropper"
+
+// === Aceternity Labs components ===
+export { GooDropdown } from "./components/navigation/gooey-dropdown"
+export { default as GooeyDropdown } from "./components/navigation/gooey-dropdown"
+export type { GooDropdownProps, DropdownItem } from "./components/navigation/gooey-dropdown"
+export { FeyCards } from "./components/cards/fey-cards"
+export type { FeyCardsProps } from "./components/cards/fey-cards"
+export { GtaViPoster } from "./components/effects/gta-vi-poster"
+export type { GtaViPosterProps } from "./components/effects/gta-vi-poster"
+export { SvgPathMorphing } from "./components/buttons/svg-path-morphing"
+export type { SvgPathMorphingProps } from "./components/buttons/svg-path-morphing"
+export { WisprFlowText } from "./components/text-effects/wispr-flow-text-animation"
+export type { HeroProps as WisprFlowTextProps } from "./components/text-effects/wispr-flow-text-animation"
+export { InterfaceCraftCards } from "./components/cards/interface-crafts-cards"
+export type { InterfaceCraftCardsProps } from "./components/cards/interface-crafts-cards"
+
+// === shadcn/ui Radar & Radial charts ===
+export { PolarRadarChart } from "./components/data-viz/radar-chart"
+export type { PolarRadarChartProps, PolarRadarChartDatum } from "./components/data-viz/radar-chart"
+export { PolarRadialChart } from "./components/data-viz/radial-chart"
+export type { PolarRadialChartProps, PolarRadialChartDatum } from "./components/data-viz/radial-chart"
+
+// === 21st.dev components ===
+export { DisplayCard } from "./components/cards/display-cards"
+export type { DisplayCardProps, DisplayCardsProps } from "./components/cards/display-cards"
+export { default as DisplayCards } from "./components/cards/display-cards"
+export { RadialOrbitalTimeline } from "./components/data-viz/radial-orbital-timeline"
+export type { TimelineItem as RadialOrbitalTimelineItem, RadialOrbitalTimelineProps } from "./components/data-viz/radial-orbital-timeline"
+export { LiquidMetalButton } from "./components/buttons/liquid-metal-button"
+export type { LiquidMetalButtonProps } from "./components/buttons/liquid-metal-button"
+export { TextRotate } from "./components/text-effects/text-rotate"
+export type { TextRotateProps, TextRotateRef } from "./components/text-effects/text-rotate"
+
+// === Float UI components ===
+export { Footer } from "./components/layout/footer"
+export type { FooterProps, FooterLink } from "./components/layout/footer"
+export { HeroSection } from "./components/layout/hero-section"
+export type { HeroSectionProps, HeroNavItem } from "./components/layout/hero-section"
+export { ContactSection } from "./components/layout/contact-section"
+export type { ContactSectionProps } from "./components/layout/contact-section"
+
+// === HyperUI components ===
+export { BlogCard } from "./components/cards/blog-card"
+export type { BlogCardProps } from "./components/cards/blog-card"
+export { ProductCard } from "./components/cards/product-card"
+export type { ProductCardProps } from "./components/cards/product-card"
+export { FeatureGrid } from "./components/layout/feature-grid"
+export type { FeatureGridProps, FeatureGridItem } from "./components/layout/feature-grid"
+
+// === Preline UI components ===
+export { Blockquote } from "./components/display/blockquote"
+export type { BlockquoteProps } from "./components/display/blockquote"
+export { ColorPicker } from "./components/forms/color-picker"
+export type { ColorPickerProps } from "./components/forms/color-picker"
