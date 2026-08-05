@@ -459,3 +459,93 @@ export { Blockquote } from "./components/display/blockquote"
 export type { BlockquoteProps } from "./components/display/blockquote"
 export { ColorPicker } from "./components/forms/color-picker"
 export type { ColorPickerProps } from "./components/forms/color-picker"
+
+// === Motion Primitives components ===
+export { InView } from "./components/effects/in-view"
+export type { InViewProps } from "./components/effects/in-view"
+export { Magnetic } from "./components/effects/magnetic"
+export type { MagneticProps } from "./components/effects/magnetic"
+export { AnimatedNumber } from "./components/display/animated-number"
+export type { AnimatedNumberProps } from "./components/display/animated-number"
+export { Disclosure, DisclosureProvider, DisclosureTrigger, DisclosureContent } from "./components/navigation/disclosure"
+export type { DisclosureProps, DisclosureProviderProps, DisclosureContextType } from "./components/navigation/disclosure"
+export { TextEffect } from "./components/text-effects/text-effect"
+export type { TextEffectProps, PresetType, PerType } from "./components/text-effects/text-effect"
+export {
+  MorphingDialog,
+  MorphingDialogTrigger,
+  MorphingDialogContainer,
+  MorphingDialogContent,
+  MorphingDialogClose,
+  MorphingDialogTitle,
+  MorphingDialogSubtitle,
+  MorphingDialogDescription,
+  MorphingDialogImage,
+} from "./components/overlays/morphing-dialog"
+export type {
+  MorphingDialogProps,
+  MorphingDialogProviderProps,
+  MorphingDialogContextType,
+} from "./components/overlays/morphing-dialog"
+export {
+  MorphingPopover,
+  MorphingPopoverTrigger,
+  MorphingPopoverContent,
+} from "./components/overlays/morphing-popover"
+export type {
+  MorphingPopoverProps,
+  MorphingPopoverTriggerProps,
+  MorphingPopoverContentProps,
+} from "./components/overlays/morphing-popover"
+export { default as ToolbarDynamic } from "./components/navigation/toolbar-dynamic"
+export { default as ToolbarExpandable } from "./components/navigation/toolbar-expandable"
+
+// === Tremor Metric ===
+export { Metric } from "./components/display/metric"
+export type { MetricProps } from "./components/display/metric"
+
+// === Float UI components ===
+export { LoginForm } from "./components/forms/login-form"
+export type { LoginFormProps } from "./components/forms/login-form"
+export { NewsletterSignup } from "./components/layout/newsletter-signup"
+export type { NewsletterSignupProps } from "./components/layout/newsletter-signup"
+export { JobCard } from "./components/cards/job-card"
+export type { JobCardProps, JobCardItem } from "./components/cards/job-card"
+export { TeamMemberCard } from "./components/cards/team-member-card"
+export type { TeamMemberCardProps, TeamMemberCardMember } from "./components/cards/team-member-card"
+export { BlogSection } from "./components/layout/blog-section"
+export type { BlogSectionProps, BlogPost } from "./components/layout/blog-section"
+export { NotFoundPage } from "./components/layout/not-found-page"
+export type { NotFoundPageProps } from "./components/layout/not-found-page"
+export { AnnouncementBanner } from "./components/layout/announcement-banner"
+export type { AnnouncementBannerProps } from "./components/layout/announcement-banner"
+export { AmountInput } from "./components/forms/amount-input"
+export type { AmountInputProps } from "./components/forms/amount-input"
+
+// === Preline UI components (additional) ===
+export { Clipboard } from "./components/display/clipboard"
+export type { ClipboardProps } from "./components/display/clipboard"
+export { CopyMarkup } from "./components/forms/copy-markup"
+export type { CopyMarkupProps } from "./components/forms/copy-markup"
+export { Searchbox } from "./components/overlays/searchbox"
+export type { SearchboxProps, SearchResult } from "./components/overlays/searchbox"
+export { StaticIcon } from "./components/display/static-icon"
+export type { StaticIconProps } from "./components/display/static-icon"
+export { StrongPassword } from "./components/forms/strong-password"
+export type { StrongPasswordProps, PasswordChecks } from "./components/forms/strong-password"
+export { TimePicker } from "./components/forms/time-picker"
+export type { TimePickerProps } from "./components/forms/time-picker"
+export { ToggleCount } from "./components/forms/toggle-count"
+export type { ToggleCountProps, ToggleCountPlan } from "./components/forms/toggle-count"
+export { TogglePassword } from "./components/forms/toggle-password"
+export type { TogglePasswordProps } from "./components/forms/toggle-password"
+export { TextEditor } from "./components/forms/text-editor"
+export type { TextEditorProps } from "./components/forms/text-editor"
+
+// === HyperUI components ===
+export { MediaObject } from "./components/display/media-object"
+export type { MediaObjectProps } from "./components/display/media-object"
+export { SkipLink } from "./components/navigation/skip-link"
+export type { SkipLinkProps, SkipLinkItem } from "./components/navigation/skip-link"
+export { DetailsList } from "./components/display/details-list"
+export type { DetailsListProps, DetailsListItem } from "./components/display/details-list"
