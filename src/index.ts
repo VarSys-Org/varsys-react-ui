@@ -549,3 +549,41 @@ export { SkipLink } from "./components/navigation/skip-link"
 export type { SkipLinkProps, SkipLinkItem } from "./components/navigation/skip-link"
 export { DetailsList } from "./components/display/details-list"
 export type { DetailsListProps, DetailsListItem } from "./components/display/details-list"
+
+// === New components: Aceternity, Tremor, HyperUI, Preline, Float UI ===
+export { MovingLine } from "./components/effects/moving-line"
+export type { MovingLineProps, MovingLineItem } from "./components/effects/moving-line"
+export { ParallaxScroll2 } from "./components/scroll/parallax-scroll-2"
+export type { ParallaxScroll2Props } from "./components/scroll/parallax-scroll-2"
+export { DateRangePicker } from "./components/forms/date-range-picker"
+export type {
+  DateRangePickerProps,
+  DateRangePreset,
+  DateRangeValue,
+} from "./components/forms/date-range-picker"
+export { EmptyState } from "./components/display/empty-state"
+export type { EmptyStateProps, EmptyStateAction } from "./components/display/empty-state"
+export { VerticalMenu } from "./components/navigation/vertical-menu"
+export type { VerticalMenuProps, VerticalMenuItem } from "./components/navigation/vertical-menu"
+export { Devices, BrowserWindow, PhoneMockup } from "./components/device-mocks/devices"
+export type {
+  DevicesProps,
+  BrowserWindowProps,
+  PhoneMockupProps,
+} from "./components/device-mocks/devices"
+export {
+  MegaMenu,
+  MegaMenuTrigger,
+  MegaMenuContent,
+  MegaMenuColumn,
+  MegaMenuLink,
+} from "./components/navigation/mega-menu"
+export type {
+  MegaMenuProps,
+  MegaMenuTriggerProps,
+  MegaMenuContentProps,
+  MegaMenuColumnProps,
+  MegaMenuLinkProps,
+} from "./components/navigation/mega-menu"
+export { LogoGrid } from "./components/display/logo-grid"
+export type { LogoGridProps, LogoGridItem } from "./components/display/logo-grid"
