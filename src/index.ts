@@ -587,3 +587,56 @@ export type {
 } from "./components/navigation/mega-menu"
 export { LogoGrid } from "./components/display/logo-grid"
 export type { LogoGridProps, LogoGridItem } from "./components/display/logo-grid"
+
+// === shadcn/ui Questionnaire ===
+export {
+  Questionnaire,
+  QuestionnaireActions,
+  QuestionnaireChoice,
+  QuestionnaireChoiceDescription,
+  QuestionnaireChoices,
+  QuestionnaireDescription,
+  QuestionnaireError,
+  QuestionnaireInput,
+  QuestionnaireItem,
+  QuestionnaireNext,
+  QuestionnairePrevious,
+  QuestionnaireProgress,
+  QuestionnaireSkip,
+  QuestionnaireSubmit,
+  QuestionnaireTitle,
+} from "./components/forms/questionnaire"
+export type {
+  QuestionnaireInputType,
+} from "@shadcn/react/questionnaire"
+
+// === Aceternity UI components (additional) ===
+export { AnimatedTabs, FadeInDiv } from "./components/navigation/animated-tabs"
+export type { AnimatedTabsProps, FadeInDivProps } from "./components/navigation/animated-tabs"
+export {
+  AnimatedSidebar,
+  AnimatedSidebarProvider,
+  AnimatedSidebarBody,
+  AnimatedDesktopSidebar,
+  AnimatedMobileSidebar,
+  AnimatedSidebarLink,
+  useAnimatedSidebar,
+} from "./components/navigation/animated-sidebar"
+export type { AnimatedSidebarLink as AnimatedSidebarLinkType } from "./components/navigation/animated-sidebar"
+
+// === Preline UI components (additional) ===
+export { ScrollSpy } from "./components/navigation/scroll-spy"
+export type { ScrollSpyProps, ScrollSpySection } from "./components/navigation/scroll-spy"
+export { ListGroup } from "./components/display/list-group"
+export type { ListGroupProps, ListGroupItem } from "./components/display/list-group"
+
+// === HyperUI components ===
+export { CartDrawer } from "./components/overlays/cart-drawer"
+export type { CartDrawerProps, CartItem, CartTotals } from "./components/overlays/cart-drawer"
+export { FilterGroup } from "./components/forms/filter-group"
+export type { FilterGroupProps, FilterDef, FilterOption } from "./components/forms/filter-group"
+export { ProductCollection } from "./components/cards/product-collection"
+export type {
+  ProductCollectionProps,
+  ProductCollectionItem,
+} from "./components/cards/product-collection"
