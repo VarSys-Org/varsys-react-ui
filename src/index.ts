@@ -640,3 +640,26 @@ export type {
   ProductCollectionProps,
   ProductCollectionItem,
 } from "./components/cards/product-collection"
+
+// === Preline UI components (new) ===
+export { ChatThread } from "./components/display/chat-thread"
+export type { ChatThreadProps, ChatMessage } from "./components/display/chat-thread"
+export { UploadProgress, formatFileSize } from "./components/display/upload-progress"
+export type {
+  UploadProgressProps,
+  UploadFile,
+  UploadStatus,
+} from "./components/display/upload-progress"
+export { LayoutSplitter } from "./components/layout/layout-splitter"
+export type { LayoutSplitterProps } from "./components/layout/layout-splitter"
+
+// === HyperUI components (new) ===
+export { VerticalTimeline } from "./components/display/vertical-timeline"
+export type {
+  VerticalTimelineProps,
+  TimelineEntry,
+} from "./components/display/vertical-timeline"
+export { ResponsiveGrid } from "./components/layout/responsive-grid"
+export type { ResponsiveGridProps } from "./components/layout/responsive-grid"
+export { RangeInput } from "./components/forms/range-input"
+export type { RangeInputProps } from "./components/forms/range-input"
