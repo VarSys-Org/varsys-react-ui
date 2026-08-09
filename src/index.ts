@@ -663,3 +663,38 @@ export { ResponsiveGrid } from "./components/layout/responsive-grid"
 export type { ResponsiveGridProps } from "./components/layout/responsive-grid"
 export { RangeInput } from "./components/forms/range-input"
 export type { RangeInputProps } from "./components/forms/range-input"
+
+// === Aceternity UI components (new) ===
+export { GridBackground } from "./components/effects/grid-background"
+export type { GridBackgroundProps } from "./components/effects/grid-background"
+export { ButtonsCard } from "./components/buttons/buttons-card"
+export type { ButtonsCardProps } from "./components/buttons/buttons-card"
+export { BackgroundOverlayCard } from "./components/cards/background-overlay-card"
+export type { BackgroundOverlayCardProps } from "./components/cards/background-overlay-card"
+export { AuthorCard } from "./components/cards/author-card"
+export type { AuthorCardProps } from "./components/cards/author-card"
+export {
+  AnimatedSkeletonCard,
+  CardSkeletonContainer,
+  ClaudeLogo,
+  OpenAILogo,
+  GeminiLogo,
+  MetaIconOutline,
+} from "./components/cards/animated-skeleton-card"
+export type { AnimatedSkeletonCardProps } from "./components/cards/animated-skeleton-card"
+export { FeatureGridGradient, GridPattern as FeatureGridPattern } from "./components/layout/feature-grid-gradient"
+export type { FeatureGridGradientProps, FeatureGridGradientItem } from "./components/layout/feature-grid-gradient"
+export { FeatureGridBorders } from "./components/layout/feature-grid-borders"
+export type { FeatureGridBordersProps, FeatureGridBordersItem } from "./components/layout/feature-grid-borders"
+export { BentoFeatures, SkeletonOne, SkeletonTwo, SkeletonThree, SkeletonFour, Globe as BentoGlobe } from "./components/layout/bento-features"
+export type { BentoFeaturesProps, BentoFeaturesItem } from "./components/layout/bento-features"
+
+// === Rad UI components ===
+export { VisuallyHidden } from "./components/display/visually-hidden"
+export type { VisuallyHiddenProps } from "./components/display/visually-hidden"
+export { Heading } from "./components/display/heading"
+export type { HeadingProps, HeadingTag } from "./components/display/heading"
+export { Text } from "./components/display/text"
+export type { TextProps, TextTag } from "./components/display/text"
+export { Link } from "./components/navigation/link"
+export type { LinkProps } from "./components/navigation/link"
