@@ -714,3 +714,41 @@ export { KpiCard } from "./components/display/kpi-card"
 export type { KpiCardProps } from "./components/display/kpi-card"
 export { CookieConsent } from "./components/overlays/cookie-consent"
 export type { CookieConsentProps } from "./components/overlays/cookie-consent"
+
+// === Tremor components (new) ===
+export { Flex } from "./components/layout/flex"
+export type {
+  FlexProps,
+  FlexDirection,
+  JustifyContent,
+  AlignItems,
+} from "./components/layout/flex"
+export { Grid } from "./components/layout/grid"
+export type { GridProps } from "./components/layout/grid"
+export { Title } from "./components/display/title"
+export type { TitleProps } from "./components/display/title"
+export { Subtitle } from "./components/display/subtitle"
+export type { SubtitleProps } from "./components/display/subtitle"
+export { Bold } from "./components/display/bold"
+export { Italic } from "./components/display/italic"
+export { Legend } from "./components/display/legend"
+export type { LegendProps, LegendItemProps } from "./components/display/legend"
+export { DeltaBar } from "./components/display/delta-bar"
+export type { DeltaBarProps, DeltaBarVariant } from "./components/display/delta-bar"
+export { MarkerBar } from "./components/display/marker-bar"
+export type { MarkerBarProps } from "./components/display/marker-bar"
+export { BadgeDelta } from "./components/display/badge-delta"
+export type { BadgeDeltaProps, DeltaType, BadgeDeltaSize } from "./components/display/badge-delta"
+export { Icon } from "./components/display/icon"
+export type { IconProps, IconVariant, IconSize } from "./components/display/icon"
+export { NumberInput } from "./components/forms/number-input"
+export type { NumberInputProps } from "./components/forms/number-input"
+export { TextInput } from "./components/forms/text-input"
+export type { TextInputProps } from "./components/forms/text-input"
+export { List, ListItem } from "./components/display/list"
+export { ScatterChart } from "./components/data-viz/scatter-chart"
+export type {
+  ScatterChartProps,
+  ScatterChartEventProps,
+  ScatterChartValueFormatter,
+} from "./components/data-viz/scatter-chart"
