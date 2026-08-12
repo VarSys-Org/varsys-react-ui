@@ -752,3 +752,27 @@ export type {
   ScatterChartEventProps,
   ScatterChartValueFormatter,
 } from "./components/data-viz/scatter-chart"
+
+// === HyperUI NeoBrutalism components ===
+export { NeoButton, neoButtonVariants } from "./components/buttons/neo-button"
+export type { NeoButtonProps } from "./components/buttons/neo-button"
+export { NeoBadge, neoBadgeVariants } from "./components/display/neo-badge"
+export type { NeoBadgeProps } from "./components/display/neo-badge"
+export { NeoAlert, neoAlertVariants } from "./components/display/neo-alert"
+export type { NeoAlertProps } from "./components/display/neo-alert"
+export { NeoProgress, neoProgressVariants } from "./components/display/neo-progress"
+export type { NeoProgressProps } from "./components/display/neo-progress"
+export { NeoCard, neoCardVariants, NeoCardWindow, neoCardWindowVariants } from "./components/cards/neo-card"
+export type { NeoCardProps, NeoCardWindowProps } from "./components/cards/neo-card"
+export { NeoInput } from "./components/forms/neo-input"
+export type { NeoInputProps } from "./components/forms/neo-input"
+export { NeoCheckbox } from "./components/forms/neo-checkbox"
+export type { NeoCheckboxProps } from "./components/forms/neo-checkbox"
+export { NeoSelect } from "./components/forms/neo-select"
+export type { NeoSelectProps } from "./components/forms/neo-select"
+export { NeoTextarea } from "./components/forms/neo-textarea"
+export type { NeoTextareaProps } from "./components/forms/neo-textarea"
+export { NeoAccordion } from "./components/navigation/neo-accordion"
+export type { NeoAccordionProps, NeoAccordionItem } from "./components/navigation/neo-accordion"
+export { NeoTabs } from "./components/navigation/neo-tabs"
+export type { NeoTabsProps, NeoTab } from "./components/navigation/neo-tabs"
