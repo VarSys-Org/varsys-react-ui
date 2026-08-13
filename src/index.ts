@@ -698,6 +698,59 @@ export { Text } from "./components/display/text"
 export type { TextProps, TextTag } from "./components/display/text"
 export { Link } from "./components/navigation/link"
 export type { LinkProps } from "./components/navigation/link"
+export {
+  DataList,
+  DataListItem,
+  DataListLabel,
+  DataListValue,
+} from "./components/display/data-list"
+export type {
+  DataListProps,
+  DataListItemProps,
+  DataListLabelProps,
+  DataListValueProps,
+} from "./components/display/data-list"
+export {
+  CheckboxCards,
+  CheckboxCardsContent,
+  CheckboxCardsIndicator,
+  CheckboxCardsItem,
+} from "./components/forms/checkbox-cards"
+export type {
+  CheckboxCardsProps,
+  CheckboxCardsContentProps,
+  CheckboxCardsIndicatorProps,
+  CheckboxCardsItemProps,
+} from "./components/forms/checkbox-cards"
+export {
+  RadioCards,
+  RadioCardsContent,
+  RadioCardsIndicator,
+  RadioCardsItem,
+} from "./components/forms/radio-cards"
+export type {
+  RadioCardsProps,
+  RadioCardsContentProps,
+  RadioCardsIndicatorProps,
+  RadioCardsItemProps,
+} from "./components/forms/radio-cards"
+export {
+  Minimap,
+  MinimapProvider,
+  MinimapTrack,
+  MinimapItem,
+  MinimapLine,
+  MinimapBubble,
+  useMinimap,
+} from "./components/scroll/minimap"
+export type {
+  MinimapProps,
+  MinimapProviderProps,
+  MinimapTrackProps,
+  MinimapItemProps,
+  MinimapLineProps,
+  MinimapBubbleProps,
+} from "./components/scroll/minimap"
 
 // === HyperUI components (new) ===
 export { TextDivider } from "./components/display/text-divider"
