@@ -829,3 +829,30 @@ export { NeoAccordion } from "./components/navigation/neo-accordion"
 export type { NeoAccordionProps, NeoAccordionItem } from "./components/navigation/neo-accordion"
 export { NeoTabs } from "./components/navigation/neo-tabs"
 export type { NeoTabsProps, NeoTab } from "./components/navigation/neo-tabs"
+
+// === Float UI components (new) ===
+export { VerticalTabs } from "./components/navigation/vertical-tabs"
+export type { VerticalTabsProps, VerticalTab } from "./components/navigation/vertical-tabs"
+export { TestimonialSlider } from "./components/display/testimonial-slider"
+export type { TestimonialSliderProps, TestimonialSliderItem } from "./components/display/testimonial-slider"
+export { FaqSearch } from "./components/layout/faq-search"
+export type { FaqSearchProps, FaqSearchItem } from "./components/layout/faq-search"
+export { PricingTable } from "./components/cards/pricing-table"
+export type {
+  PricingTableProps,
+  PricingTablePlan,
+  PricingTableRow,
+  PricingTableGroup,
+} from "./components/cards/pricing-table"
+export { NewsletterGradient } from "./components/layout/newsletter-gradient"
+export type { NewsletterGradientProps } from "./components/layout/newsletter-gradient"
+export { ShareLinkModal } from "./components/overlays/share-link-modal"
+export type { ShareLinkModalProps } from "./components/overlays/share-link-modal"
+export { StatsImage } from "./components/display/stats-image"
+export type { StatsImageProps, StatsImageItem } from "./components/display/stats-image"
+export { AuthSplit } from "./components/forms/auth-split"
+export type { AuthSplitProps, AuthSplitAvatar } from "./components/forms/auth-split"
+export { LessonsSidebar } from "./components/navigation/lessons-sidebar"
+export type { LessonsSidebarProps, Lesson, LessonGroup } from "./components/navigation/lessons-sidebar"
+export { TestimonialGrid } from "./components/display/testimonial-grid"
+export type { TestimonialGridProps, TestimonialGridItem } from "./components/display/testimonial-grid"
