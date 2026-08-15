@@ -856,3 +856,26 @@ export { LessonsSidebar } from "./components/navigation/lessons-sidebar"
 export type { LessonsSidebarProps, Lesson, LessonGroup } from "./components/navigation/lessons-sidebar"
 export { TestimonialGrid } from "./components/display/testimonial-grid"
 export type { TestimonialGridProps, TestimonialGridItem } from "./components/display/testimonial-grid"
+
+// === New components: Aceternity, Tremor, HyperUI, Preline, shadcn ===
+export { CloudShader } from "./components/effects/cloud-shader"
+export type { CloudShaderProps } from "./components/effects/cloud-shader"
+export { SearchSelect } from "./components/forms/search-select"
+export type { SearchSelectProps, SearchSelectItemData } from "./components/forms/search-select"
+export { SideMenu } from "./components/navigation/side-menu"
+export type {
+  SideMenuProps,
+  SideMenuItem,
+  SideMenuGroup,
+  SideMenuUser,
+} from "./components/navigation/side-menu"
+export { FileUploader } from "./components/forms/file-uploader"
+export type { FileUploaderProps } from "./components/forms/file-uploader"
+export { MarqueeStrip } from "./components/layout/marquee-strip"
+export type { MarqueeStripProps } from "./components/layout/marquee-strip"
+export { PrelineSpinner } from "./components/display/preline-spinner"
+export type { PrelineSpinnerProps, PrelineSpinnerVariant, PrelineSpinnerSize } from "./components/display/preline-spinner"
+export { TypingDots } from "./components/display/typing-dots"
+export type { TypingDotsProps } from "./components/display/typing-dots"
+export { ScrollFade } from "./components/effects/scroll-fade"
+export type { ScrollFadeProps } from "./components/effects/scroll-fade"
