@@ -22,3 +22,12 @@ All notable changes to this project will be documented in this file.
 ### Removed
 - Cleaned up story files (`Effects.stories.tsx`, `Misc.stories.tsx`, `TextAnimation.stories.tsx`) by removing stories for unimplemented components.
 - Deleted obsolete story files for unimplemented components (`EverlivingCard.stories.tsx`, `Navbar.stories.tsx`, `Pin3D.stories.tsx`, `Visual.stories.tsx`, `WobbleCard.stories.tsx`, `Beam.stories.tsx`, `Card.stories.tsx`).
+
+## [Unreleased] — 2026-08-16
+
+### Changed
+- Code-standard sweep task L (LT#2043): `git mv` `src/lib/utils.ts` -> `src/lib/cn.ts`;
+  updated all import paths to `@/lib/cn`. Renamed `hasOnlyOneValueForKey` ->
+  `onlyOneValueForKey` in `src/components/data-viz/chart-utils.ts` + 4 chart
+  consumers (area, combo, line, scatter). No behavior change. Third-party
+  (shadcn/magicui/motion) components untouched. Build passes; zero new TS errors.

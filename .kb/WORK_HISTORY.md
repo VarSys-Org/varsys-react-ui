@@ -120,3 +120,35 @@
 
 #### Outcome (pending)
 - Dokploy domains will work automatically without manual Traefik configs
+
+### [2026-08-16] — Code-standard sweep task L: project-owned renames (LT#2043)
+
+#### Change
+- `git mv src/lib/utils.ts` -> `src/lib/cn.ts`; updated all import paths
+  (`@/lib/utils` and relative `lib/utils`) to `@/lib/cn` across src (410 files).
+  Path change only — no component logic touched.
+- Renamed `hasOnlyOneValueForKey` -> `onlyOneValueForKey` in
+  `src/components/data-viz/chart-utils.ts` and its 4 importing chart components
+  (area-chart, combo-chart, line-chart, scatter-chart).
+- SKIPPED `Globe3DConfig`/`GlobeConfig`/`SearchResult` renames — exported as
+  public API from src/index.ts but are magicui/searchbox third-party internals
+  (no external consumers of the type names found in the workspace).
+
+#### Why
+- varsys-code-standard compliance report section 4.7 (project-owned only).
+- Third-party shadcn/magicui/motion components deliberately untouched.
+
+#### Verification
+- `tsc --noEmit`: 212 errors, identical to baseline (stash-compared) — zero new.
+- `vite build`: PASS (exit 0, 4m21s, needed `--max-old-space-size=8192` to avoid
+  a pre-existing JS heap OOM at the default ~4GB).
+- No dev servers started.
+
+#### Files
+- `src/lib/utils.ts` -> `src/lib/cn.ts` (rename, 100% similar)
+- `src/index.ts` + 408 component/story files (import path updates)
+- `src/components/data-viz/chart-utils.ts`, `area-chart.tsx`, `combo-chart.tsx`,
+  `line-chart.tsx`, `scatter-chart.tsx` (hasOnlyOneValueForKey rename)
+
+#### Commit
+- `752e3f7` refactor(standard): varsys-ui compliance LT#2043
