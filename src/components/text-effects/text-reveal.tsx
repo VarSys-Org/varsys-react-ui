@@ -1,4 +1,4 @@
-import {
+﻿import {
   useRef,
   type ComponentPropsWithoutRef,
   type FC,
@@ -6,7 +6,7 @@ import {
 } from "react"
 import { motion, MotionValue, useScroll, useTransform } from "motion/react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface TextRevealProps extends ComponentPropsWithoutRef<"div"> {
   children: string

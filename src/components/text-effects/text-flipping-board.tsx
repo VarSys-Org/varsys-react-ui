@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState, useMemo } from "react"
+﻿import React, { useEffect, useRef, useState, useMemo } from "react"
 import { motion } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 const FLAP_CHARS = " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$()-+&=;:'\"%,./?°"
 const BOARD_ROWS = 6

@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import {
   AnimatePresence,
@@ -7,7 +7,7 @@ import {
   motion,
   MotionProps,
 } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export type TransitionPanelProps = {
   children: React.ReactNode[]

@@ -1,10 +1,10 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { format } from "date-fns"
 import { CalendarIcon } from "lucide-react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { Button } from "@/components/buttons/button"
 import { Calendar } from "@/components/forms/calendar"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/overlays/popover"

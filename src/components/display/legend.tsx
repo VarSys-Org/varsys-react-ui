@@ -1,7 +1,7 @@
-"use client"
+﻿"use client"
 
 import React, { useEffect, useCallback, useState, useRef } from "react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface LegendItemProps {
   name: string

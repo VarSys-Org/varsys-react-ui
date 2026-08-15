@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import React, { useRef, useEffect } from "react"
 import Lenis from "lenis"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface SmoothScrollProps {
   children: React.ReactNode

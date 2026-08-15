@@ -1,6 +1,6 @@
-import { useState, useEffect, useRef } from "react"
+﻿import { useState, useEffect, useRef } from "react"
 import { motion } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 function MaskContainer({ children, revealText, size = 10, revealSize = 600, className }: { children?: string | React.ReactNode; revealText?: string | React.ReactNode; size?: number; revealSize?: number; className?: string }) {
   const [isHovered, setIsHovered] = useState(false)

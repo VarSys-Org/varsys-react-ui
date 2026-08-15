@@ -1,7 +1,7 @@
-"use client"
+﻿"use client"
 
 import React, { useRef } from "react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface NumberInputProps
   extends Omit<React.InputHTMLAttributes<HTMLInputElement>, "type" | "onSubmit"> {

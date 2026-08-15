@@ -1,9 +1,9 @@
-"use client"
+﻿"use client"
 
 import { useRef } from "react"
 import { motion, useScroll, useTransform } from "motion/react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface ParallaxScroll2Props extends React.HTMLAttributes<HTMLDivElement> {
   images: string[]

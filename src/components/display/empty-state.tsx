@@ -1,4 +1,4 @@
-import * as React from "react"
+﻿import * as React from "react"
 import {
   FilePlus2,
   Search,
@@ -7,7 +7,7 @@ import {
   type LucideIcon,
 } from "lucide-react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { Button } from "@/components/buttons/button"
 
 export interface EmptyStateAction {

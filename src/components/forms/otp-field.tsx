@@ -1,9 +1,9 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { OTPField as OTPFieldPrimitive } from "@base-ui/react/otp-field"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 function OTPField({
   className,

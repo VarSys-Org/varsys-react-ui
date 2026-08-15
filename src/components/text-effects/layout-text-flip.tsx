@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react"
+﻿import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 function LayoutTextFlip({ text = "Build Amazing", words = ["Landing Pages", "Component Blocks", "Page Sections", "3D Shaders"], duration = 3000 }: { text: string; words: string[]; duration?: number }) {
   const [currentIndex, setCurrentIndex] = useState(0)

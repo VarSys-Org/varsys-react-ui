@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
@@ -18,13 +18,13 @@ import {
 } from "recharts"
 import type { AxisDomain } from "recharts/types/util/types"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import {
   AvailableChartColors,
   type AvailableChartColorsKeys,
   constructCategoryColors,
   getYAxisDomain,
-  hasOnlyOneValueForKey,
+  onlyOneValueForKey,
   useOnWindowResize,
 } from "./chart-utils"
 

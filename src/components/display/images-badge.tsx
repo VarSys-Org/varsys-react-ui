@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import React, { useState } from "react"
 import { motion } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface ImagesBadgeProps {
   text: string

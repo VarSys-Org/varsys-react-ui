@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import React, {
   useCallback,
@@ -17,7 +17,7 @@ import {
   Variant,
 } from "motion/react";
 import { createPortal } from "react-dom";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/cn";
 import { XIcon } from "lucide-react";
 import useClickOutside from "@/hooks/use-click-outside";
 

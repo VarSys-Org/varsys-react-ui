@@ -1,7 +1,7 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import createGlobe from "cobe"
 import { motion } from "motion/react"
 import { IconBrandYoutubeFilled } from "@tabler/icons-react"

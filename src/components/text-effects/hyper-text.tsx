@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import {
   useEffect,
@@ -15,7 +15,7 @@ import {
   type MotionProps,
 } from "motion/react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 type CharacterSet = string[] | readonly string[]
 

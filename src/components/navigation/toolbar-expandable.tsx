@@ -1,9 +1,9 @@
-'use client';
+﻿'use client';
 
 import React, { useEffect, useRef, useState } from "react";
 import useMeasure from "react-use-measure";
 import { AnimatePresence, motion, MotionConfig } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/cn";
 import useClickOutside from "@/hooks/use-click-outside";
 import { Folder, MessageCircle, User, WalletCards } from "lucide-react";
 

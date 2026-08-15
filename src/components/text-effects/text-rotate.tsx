@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import {
   ElementType,
@@ -17,7 +17,7 @@ import {
   Transition,
 } from "motion/react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 // handy function to split text into characters with support for unicode and emojis
 const splitIntoCharacters = (text: string): string[] => {

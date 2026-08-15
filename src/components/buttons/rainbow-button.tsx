@@ -1,8 +1,8 @@
-import React from "react"
+﻿import React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cva, VariantProps } from "class-variance-authority"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 const rainbowButtonVariants = cva(
   cn(

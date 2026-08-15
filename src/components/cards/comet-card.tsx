@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React, { useRef } from "react"
 import {
@@ -8,7 +8,7 @@ import {
   useTransform,
   useMotionTemplate,
 } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface CometCardProps {
   rotateDepth?: number

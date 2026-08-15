@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { UploadCloud, X } from "lucide-react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface FileUploaderProps
   extends React.HTMLAttributes<HTMLDivElement> {

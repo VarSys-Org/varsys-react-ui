@@ -1,5 +1,5 @@
-"use client"
-import { cn } from "@/lib/utils"
+﻿"use client"
+import { cn } from "@/lib/cn"
 import React, { useRef, useState } from "react"
 import { motion } from "motion/react"
 import { IconUpload } from "@tabler/icons-react"

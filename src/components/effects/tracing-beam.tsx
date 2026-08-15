@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React, { useEffect, useRef, useState } from "react"
 import {
@@ -7,7 +7,7 @@ import {
   useScroll,
   useSpring,
 } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export const TracingBeam = ({
   children,

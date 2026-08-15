@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import {
   motion,
@@ -7,7 +7,7 @@ import {
   TargetAndTransition,
   Transition,
 } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export type TextRollProps = {
   children: string

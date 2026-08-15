@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React, {
   useEffect,
@@ -7,7 +7,7 @@ import React, {
   type ComponentPropsWithoutRef,
 } from "react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 interface MousePosition {
   x: number

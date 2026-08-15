@@ -1,4 +1,4 @@
-import {
+﻿import {
   useCallback,
   useEffect,
   useId,
@@ -8,7 +8,7 @@ import {
 } from "react"
 import { motion } from "motion/react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface AnimatedGridPatternProps extends ComponentPropsWithoutRef<"svg"> {
   width?: number

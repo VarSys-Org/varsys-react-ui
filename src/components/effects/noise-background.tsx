@@ -1,6 +1,6 @@
-"use client"
+﻿"use client"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { motion, useAnimationFrame, useMotionTemplate, useMotionValue, useSpring, useTransform, MotionValue } from "motion/react"
 import { useEffect, useRef } from "react"
 

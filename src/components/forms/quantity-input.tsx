@@ -1,5 +1,5 @@
-import { Minus, Plus } from "lucide-react"
-import { cn } from "@/lib/utils"
+﻿import { Minus, Plus } from "lucide-react"
+import { cn } from "@/lib/cn"
 
 export interface QuantityInputProps {
   value?: number

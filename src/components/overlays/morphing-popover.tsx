@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import {
   useState,
@@ -17,7 +17,7 @@ import {
   Variants,
 } from "motion/react";
 import useClickOutside from "@/hooks/use-click-outside";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/cn";
 
 const TRANSITION = {
   type: 'spring' as const,

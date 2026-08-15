@@ -1,4 +1,4 @@
-import * as React from "react"
+﻿import * as React from "react"
 import {
   MessageScroller as MessageScrollerPrimitive,
   useMessageScroller,
@@ -6,7 +6,7 @@ import {
   useMessageScrollerVisibility,
 } from "@shadcn/react/message-scroller"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { Button } from "@/components/buttons/button"
 import { ArrowDownIcon } from "lucide-react"
 

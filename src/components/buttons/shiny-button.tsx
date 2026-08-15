@@ -1,7 +1,7 @@
-import React from "react"
+﻿import React from "react"
 import { motion, type MotionProps } from "motion/react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 const animationProps: MotionProps = {
   initial: { "--x": "100%", scale: 0.8 },

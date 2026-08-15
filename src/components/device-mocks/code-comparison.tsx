@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { useEffect, useMemo, useState } from "react"
 import {
@@ -8,7 +8,7 @@ import {
 import { FileIcon } from "lucide-react"
 import { useTheme } from "next-themes"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 interface CodeComparisonProps {
   beforeCode: string

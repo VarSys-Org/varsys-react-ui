@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { useEffect, useRef, useState } from "react"
 import {
@@ -8,7 +8,7 @@ import {
   type HTMLMotionProps,
 } from "motion/react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 /**
  * A custom pointer component that displays an animated cursor.

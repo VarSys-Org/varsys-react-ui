@@ -1,6 +1,6 @@
-"use client";
+﻿"use client";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/cn";
 import { useState } from "react";
 import { motion, type Variants } from "motion/react";
 

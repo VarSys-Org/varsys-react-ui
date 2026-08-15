@@ -1,10 +1,10 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { AnimatePresence, motion } from "motion/react"
 import { IconMenu2, IconX } from "@tabler/icons-react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface AnimatedSidebarLink {
   label: string

@@ -1,4 +1,4 @@
-export { cn } from "./lib/utils"
+﻿export { cn } from "./lib/cn"
 
 // === shadcn/ui Components ===
 export { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./components/navigation/accordion"

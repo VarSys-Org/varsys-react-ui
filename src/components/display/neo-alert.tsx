@@ -1,7 +1,7 @@
-import * as React from "react"
+﻿import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 const neoAlertVariants = cva(
   "flex items-start gap-3 border-2 border-foreground p-4 shadow-[4px_4px_0_0_var(--foreground)]",

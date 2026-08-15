@@ -1,6 +1,6 @@
-import * as React from "react"
+﻿import * as React from "react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface NeoAccordionItem {
   /** Unique identifier for the item. */

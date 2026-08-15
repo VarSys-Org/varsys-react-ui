@@ -1,9 +1,9 @@
-"use client"
+﻿"use client"
 
 import React, { useEffect, useState } from "react"
 import { AnimatePresence, HTMLMotionProps, motion } from "motion/react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 interface AnimatedSubscribeButtonProps
   extends Omit<HTMLMotionProps<"button">, "ref"> {

@@ -1,9 +1,9 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { Autocomplete as AutocompletePrimitive } from "@base-ui/react/autocomplete"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { ChevronsUpDownIcon, XIcon } from "lucide-react"
 
 const AutocompleteRoot = AutocompletePrimitive.Root

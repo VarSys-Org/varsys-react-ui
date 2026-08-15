@@ -1,5 +1,5 @@
-import * as React from "react"
-import { cn } from "@/lib/utils"
+﻿import * as React from "react"
+import { cn } from "@/lib/cn"
 
 export interface NewsletterSignupProps extends React.HTMLAttributes<HTMLElement> {
   variant?: "primary" | "banner" | "gradient"

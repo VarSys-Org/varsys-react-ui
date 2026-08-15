@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { animate, motion } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { Bot } from "lucide-react"
 
 export interface AnimatedSkeletonCardProps

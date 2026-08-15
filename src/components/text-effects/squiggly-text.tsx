@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import React, { useId } from "react"
 import { motion, useTime, useTransform } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface SquigglyTextProps {
   children: React.ReactNode

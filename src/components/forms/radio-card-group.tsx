@@ -1,10 +1,10 @@
-"use client"
+﻿"use client"
 
 import React from "react"
 import { Radio as RadioPrimitive } from "@base-ui/react/radio"
 import { RadioGroup as RadioGroupPrimitive } from "@base-ui/react/radio-group"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 const RadioCardGroup = React.forwardRef<
   React.ElementRef<typeof RadioGroupPrimitive>,

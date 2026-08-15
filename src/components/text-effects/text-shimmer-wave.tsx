@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import { type JSX } from "react"
 import { motion, Transition } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export type TextShimmerWaveProps = {
   children: string

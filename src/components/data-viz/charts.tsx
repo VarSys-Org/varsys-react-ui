@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React from "react"
 import { ResponsiveCalendar, type CalendarTooltipProps } from "@nivo/calendar"
@@ -7,7 +7,7 @@ import { ResponsiveSankey, type SankeyLinkDatum } from "@nivo/sankey"
 import { ResponsiveTreeMap } from "@nivo/treemap"
 import { ResponsiveHeatMap } from "@nivo/heatmap"
 import { ResponsiveFunnel } from "@nivo/funnel"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 function useChartTheme() {
   const style = typeof window !== "undefined" ? getComputedStyle(document.documentElement) : null

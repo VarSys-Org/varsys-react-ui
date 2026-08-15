@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React, {
   memo,
@@ -13,7 +13,7 @@ import {
   type ValueAnimationTransition,
 } from "motion/react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 const HAS_SEGMENTER = typeof Intl !== "undefined" && "Segmenter" in Intl
 

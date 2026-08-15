@@ -1,6 +1,6 @@
-import { cva, type VariantProps } from "class-variance-authority"
+﻿import { cva, type VariantProps } from "class-variance-authority"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { Separator } from "@/components/display/separator"
 
 const buttonGroupVariants = cva(

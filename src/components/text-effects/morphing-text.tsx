@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import { useCallback, useEffect, useRef } from "react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 const morphTime = 1.5
 const cooldownTime = 0.5

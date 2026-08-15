@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import * as HoverCardPrimitive from "@radix-ui/react-hover-card"
 import { encode } from "qss"
@@ -9,7 +9,7 @@ import {
   useMotionValue,
   useSpring,
 } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 type LinkPreviewProps = {
   children: React.ReactNode

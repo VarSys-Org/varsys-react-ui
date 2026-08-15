@@ -1,11 +1,11 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { format } from "date-fns"
 import { CalendarRangeIcon } from "lucide-react"
 import { type DateRange } from "react-day-picker"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { Button } from "@/components/buttons/button"
 import { Calendar } from "@/components/forms/calendar"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/overlays/popover"

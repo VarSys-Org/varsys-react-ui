@@ -1,7 +1,7 @@
-"use client"
+﻿"use client"
 
 import React from "react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export const Italic = React.forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>(
   ({ children, className, ...props }, forwardedRef) => {

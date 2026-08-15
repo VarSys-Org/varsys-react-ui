@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
@@ -19,7 +19,7 @@ import {
 } from "recharts"
 import type { AxisDomain } from "recharts/types/util/types"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import {
   AvailableChartColors,
   type AvailableChartColorsKeys,
@@ -27,7 +27,7 @@ import {
   getColorClassName,
   useOnWindowResize,
   getYAxisDomain,
-  hasOnlyOneValueForKey,
+  onlyOneValueForKey,
 } from "./chart-utils"
 
 //#region Legend
@@ -580,7 +580,7 @@ const AreaChart = React.forwardRef<HTMLDivElement, AreaChartProps>(
       if (
         (itemData.index === activeDot?.index &&
           itemData.dataKey === activeDot?.dataKey) ||
-        (hasOnlyOneValueForKey(data, itemData.dataKey) &&
+        (onlyOneValueForKey(data, itemData.dataKey) &&
           activeLegend &&
           activeLegend === itemData.dataKey)
       ) {
@@ -605,7 +605,7 @@ const AreaChart = React.forwardRef<HTMLDivElement, AreaChartProps>(
       if (!hasOnValueChange) return
       if (
         (dataKey === activeLegend && !activeDot) ||
-        (hasOnlyOneValueForKey(data, dataKey) &&
+        (onlyOneValueForKey(data, dataKey) &&
           activeDot &&
           activeDot.dataKey === dataKey)
       ) {
@@ -881,7 +881,7 @@ const AreaChart = React.forwardRef<HTMLDivElement, AreaChartProps>(
                       } = props
 
                       if (
-                        (hasOnlyOneValueForKey(data, category) &&
+                        (onlyOneValueForKey(data, category) &&
                           !(
                             activeDot ||
                             (activeLegend && activeLegend !== category)

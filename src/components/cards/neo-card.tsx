@@ -1,7 +1,7 @@
-import * as React from "react"
+﻿import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 const neoCardVariants = cva(
   "block border-2 border-foreground bg-background text-foreground transition-all duration-150",

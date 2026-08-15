@@ -1,6 +1,6 @@
-import { useEffect, useId, useState, useRef } from "react"
+﻿import { useEffect, useId, useState, useRef } from "react"
 import { AnimatePresence, motion } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { SparklesCore } from "@/components/effects/sparkles"
 
 function Cover({ children, className }: { children?: React.ReactNode; className?: string }) {

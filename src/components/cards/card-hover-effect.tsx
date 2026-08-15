@@ -1,6 +1,6 @@
-"use client"
+﻿"use client"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { AnimatePresence, motion } from "motion/react"
 import { useState } from "react"
 

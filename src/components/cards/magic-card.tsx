@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useRef, useState } from "react"
+﻿import React, { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import {
   motion,
   useMotionTemplate,
@@ -7,7 +7,7 @@ import {
 } from "motion/react"
 import { useTheme } from "next-themes"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 interface MagicCardBaseProps {
   children?: React.ReactNode

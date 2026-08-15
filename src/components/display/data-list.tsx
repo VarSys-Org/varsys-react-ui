@@ -1,7 +1,7 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface DataListProps extends React.HTMLAttributes<HTMLDListElement> {
   layout?: "stack" | "grid" | "split"

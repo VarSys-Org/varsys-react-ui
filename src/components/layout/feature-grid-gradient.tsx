@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { useId } from "react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface FeatureGridGradientItem {
   title: string

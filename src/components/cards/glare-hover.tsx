@@ -1,7 +1,7 @@
-import type { ComponentProps, CSSProperties } from "react"
+﻿import type { ComponentProps, CSSProperties } from "react"
 import { useMemo } from "react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface GlareHoverProps extends ComponentProps<"div"> {
   /**

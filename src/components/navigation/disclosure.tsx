@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import * as React from "react";
 import {
   AnimatePresence,
@@ -9,7 +9,7 @@ import {
   Variants,
 } from "motion/react";
 import { createContext, useContext, useState, useId, useEffect } from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/cn";
 
 export type DisclosureContextType = {
   open: boolean;

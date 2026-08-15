@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React, { useRef, useState, useEffect } from "react"
 import {
@@ -10,7 +10,7 @@ import {
   useVelocity,
   useAnimationControls,
 } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface DraggableCardBodyProps {
   className?: string

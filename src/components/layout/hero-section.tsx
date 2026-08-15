@@ -1,6 +1,6 @@
-import * as React from "react"
+﻿import * as React from "react"
 import { Menu, X } from "lucide-react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface HeroNavItem {
   title: string

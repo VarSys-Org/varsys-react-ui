@@ -1,7 +1,7 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface DotsLoaderProps extends React.HTMLAttributes<HTMLDivElement> {
   /** Animation style of the dots. */

@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import React, { useState } from "react"
 import { motion, useScroll, useMotionValueEvent } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export const StickyNavbar = ({
   children,

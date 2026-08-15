@@ -1,4 +1,4 @@
-import * as React from "react"
+﻿import * as React from "react"
 import type { ElementType } from "react"
 import {
   AnimatePresence,
@@ -6,7 +6,7 @@ import {
   type MotionProps,
   type Variants,
 } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface FlipTextProps extends MotionProps {
   duration?: number

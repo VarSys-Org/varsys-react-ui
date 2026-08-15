@@ -1,9 +1,9 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { Fieldset as FieldsetPrimitive } from "@base-ui/react/fieldset"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 function Fieldset({
   className,

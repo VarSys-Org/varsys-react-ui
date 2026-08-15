@@ -1,7 +1,7 @@
-import React, { type ComponentPropsWithoutRef } from "react"
+﻿import React, { type ComponentPropsWithoutRef } from "react"
 import { motion, Transition, Variants } from "motion/react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 interface SpinningTextProps extends ComponentPropsWithoutRef<"div"> {
   children: string | string[]

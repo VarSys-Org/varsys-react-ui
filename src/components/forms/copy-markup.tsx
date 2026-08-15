@@ -1,5 +1,5 @@
-import * as React from "react"
-import { cn } from "@/lib/utils"
+﻿import * as React from "react"
+import { cn } from "@/lib/cn"
 
 export interface CopyMarkupProps extends React.HTMLAttributes<HTMLDivElement> {
   renderItem: (id: string) => React.ReactNode

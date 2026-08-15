@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React, {
   createContext,
@@ -9,7 +9,7 @@ import React, {
   useCallback,
 } from "react"
 import { motion, AnimatePresence } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import {
   IconBrightnessDown,
   IconBrightnessUp,

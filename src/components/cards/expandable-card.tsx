@@ -1,9 +1,9 @@
-"use client"
+﻿"use client"
 
 import React, { useEffect, useId, useRef, useState } from "react"
 import { AnimatePresence, motion } from "motion/react"
 import { useOutsideClick } from "@/hooks/use-outside-click"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface ExpandableCardItem {
   title: string

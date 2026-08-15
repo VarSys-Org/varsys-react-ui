@@ -1,4 +1,4 @@
-import {
+﻿import {
   CSSProperties,
   ReactElement,
   ReactNode,
@@ -7,7 +7,7 @@ import {
   useState,
 } from "react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 interface NeonColorsProps {
   firstColor: string

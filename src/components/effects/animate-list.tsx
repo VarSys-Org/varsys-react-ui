@@ -1,7 +1,7 @@
-"use client"
+﻿"use client"
 
 import { useAutoAnimate } from "@formkit/auto-animate/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface AnimateListProps {
   children: React.ReactNode

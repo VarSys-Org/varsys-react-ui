@@ -1,7 +1,7 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { Copy } from "lucide-react"
 
 export interface ButtonsCardProps extends React.HTMLAttributes<HTMLDivElement> {

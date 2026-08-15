@@ -1,5 +1,5 @@
-import React, { useRef, useEffect, useState, useCallback } from "react"
-import { cn } from "@/lib/utils"
+﻿import React, { useRef, useEffect, useState, useCallback } from "react"
+import { cn } from "@/lib/cn"
 
 type WebcamPixelGridProps = {
   gridCols?: number

@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { Copy, X } from "lucide-react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface ShareLinkModalProps
   extends React.HTMLAttributes<HTMLDivElement> {

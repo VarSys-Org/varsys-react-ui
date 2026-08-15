@@ -1,4 +1,4 @@
-import { memo } from "react"
+﻿import { memo } from "react"
 import {
   AnimatePresence,
   motion,
@@ -7,7 +7,7 @@ import {
   type MotionProps,
 } from "motion/react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 type AnimationType = "text" | "word" | "character" | "line"
 type AnimationVariant =

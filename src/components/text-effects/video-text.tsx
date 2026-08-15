@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import React, { ReactNode, useEffect, useState } from "react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface VideoTextProps {
   src: string

@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import React, { useEffect, useState, useRef } from "react"
 import { motion, AnimatePresence } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export const FollowingPointer = ({
   children,

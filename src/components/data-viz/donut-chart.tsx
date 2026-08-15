@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
@@ -11,7 +11,7 @@ import {
   Tooltip,
 } from "recharts"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import {
   AvailableChartColors,
   type AvailableChartColorsKeys,

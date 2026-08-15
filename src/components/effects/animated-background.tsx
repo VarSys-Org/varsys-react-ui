@@ -1,6 +1,6 @@
-"use client"
+﻿"use client"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { useState, useEffect, Children, cloneElement, useId } from "react"
 import { AnimatePresence, Transition, motion } from "motion/react"
 import type { ReactElement } from "react"

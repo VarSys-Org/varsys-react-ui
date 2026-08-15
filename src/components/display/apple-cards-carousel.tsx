@@ -1,6 +1,6 @@
-import { useEffect, useRef, useState, createContext, useContext } from "react"
+﻿import { useEffect, useRef, useState, createContext, useContext } from "react"
 import { IconArrowNarrowLeft, IconArrowNarrowRight, IconX } from "@tabler/icons-react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { AnimatePresence, motion } from "motion/react"
 import useClickOutside from "@/hooks/use-click-outside"
 

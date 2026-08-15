@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React, { PropsWithChildren, useRef } from "react"
 import { cva, type VariantProps } from "class-variance-authority"
@@ -11,7 +11,7 @@ import {
 } from "motion/react"
 import type { MotionProps } from "motion/react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface DockProps extends VariantProps<typeof dockVariants> {
   className?: string

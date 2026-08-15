@@ -1,7 +1,7 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 const CLOUD_VERTEX_SHADER = `
 attribute vec2 a_position;

@@ -1,7 +1,7 @@
-import * as React from "react"
+﻿import * as React from "react"
 import { Meter as MeterPrimitive } from "@base-ui/react/meter"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 type MeterProps = React.ComponentPropsWithoutRef<"div"> & {
   value: number

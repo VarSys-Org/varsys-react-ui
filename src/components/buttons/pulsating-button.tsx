@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import React, { useImperativeHandle, useLayoutEffect, useRef } from "react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 interface PulsatingButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   pulseColor?: string

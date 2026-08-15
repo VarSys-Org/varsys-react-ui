@@ -1,9 +1,9 @@
-"use client";
+﻿"use client";
 
 import * as React from "react";
 import { useState, useEffect, useRef } from "react";
 import { ArrowRight, Link, Zap } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/cn";
 import { Badge } from "@/components/display/badge";
 import { Button } from "@/components/buttons/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/display/card";

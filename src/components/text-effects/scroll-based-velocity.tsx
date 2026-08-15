@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React, { useContext, useEffect, useRef, useState } from "react"
 import {
@@ -12,7 +12,7 @@ import {
 } from "motion/react"
 import type { MotionValue } from "motion/react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 const wrap = (min: number, max: number, v: number) => {
   const rangeSize = max - min

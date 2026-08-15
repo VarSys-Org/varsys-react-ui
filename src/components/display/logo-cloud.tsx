@@ -1,6 +1,6 @@
-import * as React from "react"
+﻿import * as React from "react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 interface LogoCloudProps extends React.ComponentProps<"section"> {
   title?: string

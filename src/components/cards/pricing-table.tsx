@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { BarChart3, Check, ChevronDown, LifeBuoy, Minus, Zap } from "lucide-react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface PricingTablePlan {
   name: string

@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React, { useRef } from "react"
 import {
@@ -10,7 +10,7 @@ import {
   MotionStyle,
   SpringOptions,
 } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export type TiltProps = {
   children: React.ReactNode

@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { type CSSProperties, type HTMLAttributes } from "react"
 import {
@@ -7,7 +7,7 @@ import {
   type MotionProps,
 } from "motion/react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 const motionElements = {
   article: motion.article,

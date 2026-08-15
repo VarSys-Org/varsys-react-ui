@@ -1,5 +1,5 @@
-import { Linkedin, Twitter } from "lucide-react"
-import { cn } from "@/lib/utils"
+﻿import { Linkedin, Twitter } from "lucide-react"
+import { cn } from "@/lib/cn"
 
 export interface TeamMember {
   name: string

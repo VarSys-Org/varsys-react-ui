@@ -1,6 +1,6 @@
-"use client"
+﻿"use client"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { useRef } from "react"
 
 export const GlareCard = ({

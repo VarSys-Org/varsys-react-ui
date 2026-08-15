@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import React, { useEffect, useRef, useState } from "react"
 import { motion, useInView } from "motion/react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface EncryptedTextProps {
   text: string

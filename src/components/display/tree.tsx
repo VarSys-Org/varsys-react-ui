@@ -1,8 +1,8 @@
-import type { ItemInstance } from "@headless-tree/core"
+﻿import type { ItemInstance } from "@headless-tree/core"
 import { ChevronDownIcon } from "lucide-react"
 import { Slot } from "@radix-ui/react-slot"
 import * as React from "react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 interface TreeContextValue<T = unknown> {
   indent: number

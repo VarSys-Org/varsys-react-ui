@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import {
@@ -6,7 +6,7 @@ import {
   Panel as ResizablePanel,
   PanelResizeHandle,
 } from "react-resizable-panels"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface LayoutSplitterProps
   extends Omit<React.HTMLAttributes<HTMLDivElement>, "children"> {

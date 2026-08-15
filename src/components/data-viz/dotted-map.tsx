@@ -1,9 +1,9 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { createMap } from "svg-dotted-map"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface Marker {
   lat: number

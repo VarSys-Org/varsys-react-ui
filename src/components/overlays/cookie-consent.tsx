@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { XIcon } from "lucide-react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface CookieConsentProps
   extends Omit<React.HTMLAttributes<HTMLDivElement>, "onAccept"> {

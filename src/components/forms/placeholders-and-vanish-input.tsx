@@ -1,7 +1,7 @@
-"use client"
+﻿"use client"
 import { AnimatePresence, motion } from "motion/react"
 import { useCallback, useEffect, useRef, useState } from "react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export function PlaceholdersAndVanishInput({
   placeholders,

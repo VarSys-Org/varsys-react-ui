@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React from "react"
 import {
@@ -12,7 +12,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 const sparklineColors = [
   "var(--chart-1, #3b82f6)",

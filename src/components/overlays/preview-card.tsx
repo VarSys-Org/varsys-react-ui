@@ -1,9 +1,9 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { PreviewCard as PreviewCardPrimitive } from "@base-ui/react/preview-card"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 function PreviewCard(props: React.ComponentPropsWithoutRef<typeof PreviewCardPrimitive.Root>) {
   return (

@@ -1,10 +1,10 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { Questionnaire as QuestionnairePrimitive } from "@shadcn/react/questionnaire"
 import { Check } from "lucide-react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { buttonVariants, type Button } from "@/components/buttons/button"
 
 function Questionnaire({

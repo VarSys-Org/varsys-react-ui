@@ -1,7 +1,7 @@
-"use client"
+﻿"use client"
 
 import React from "react"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 
 export interface MarkerBarProps extends React.HTMLAttributes<HTMLDivElement> {
   /** Marker position in percent (0-100). */

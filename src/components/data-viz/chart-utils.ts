@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 
@@ -107,8 +107,8 @@ export const getYAxisDomain = (
   return [minDomain, maxDomain]
 }
 
-// Tremor hasOnlyOneValueForKey [v0.1.0]
-export function hasOnlyOneValueForKey(
+// Tremor onlyOneValueForKey [v0.1.0]
+export function onlyOneValueForKey(
   array: any[],
   keyToCheck: string,
 ): boolean {

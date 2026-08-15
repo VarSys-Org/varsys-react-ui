@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
@@ -19,7 +19,7 @@ import {
 } from "recharts"
 import type { AxisDomain } from "recharts/types/util/types"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import {
   AvailableChartColors,
   type AvailableChartColorsKeys,
@@ -27,7 +27,7 @@ import {
   getColorClassName,
   useOnWindowResize,
   getYAxisDomain,
-  hasOnlyOneValueForKey,
+  onlyOneValueForKey,
 } from "./chart-utils"
 
 //#region Shape
@@ -706,7 +706,7 @@ const ComboChart = React.forwardRef<HTMLDivElement, ComboChartProps>(
       if (
         (itemData.index === activeDot?.index &&
           itemData.dataKey === activeDot?.dataKey) ||
-        (hasOnlyOneValueForKey(data, itemData.dataKey) &&
+        (onlyOneValueForKey(data, itemData.dataKey) &&
           activeLegend &&
           activeLegend === itemData.dataKey)
       ) {
@@ -1091,7 +1091,7 @@ const ComboChart = React.forwardRef<HTMLDivElement, ComboChartProps>(
                   } = props
 
                   if (
-                    (hasOnlyOneValueForKey(data, category) &&
+                    (onlyOneValueForKey(data, category) &&
                       !(
                         activeDot ||
                         (activeLegend && activeLegend !== category)

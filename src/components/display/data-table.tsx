@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React from "react"
 import {
@@ -15,7 +15,7 @@ import {
   getSortedRowModel,
   useReactTable,
 } from "@tanstack/react-table"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/cn"
 import { Button } from "@/components/buttons/button"
 import { Input } from "@/components/forms/input"
 import {
