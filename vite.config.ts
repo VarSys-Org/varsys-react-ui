@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     dts({
       include: ['src'],
+      exclude: ['src/stories', 'src/**/*.stories.tsx'],
       outDir: 'dist',
     }),
   ],
