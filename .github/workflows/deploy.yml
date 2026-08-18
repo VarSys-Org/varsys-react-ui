@@ -32,3 +32,9 @@ jobs:
           file: docker/Dockerfile
           push: true
           tags: ghcr.io/varsys-org/varsys-react-ui:latest
+      # NOTE: No Coolify app for varsys-ui yet. Add one in Coolify UI first,
+      # then uncomment and set the UUID:
+      # - name: Deploy (Coolify)
+      #   run: |
+      #     curl --fail --request GET 'https://coolify.varsys.co.in/api/v1/deploy?uuid=<UUID>&force=false' \
+      #       --header "Authorization: Bearer ${{ secrets.COOLIFY_TOKEN }}"
