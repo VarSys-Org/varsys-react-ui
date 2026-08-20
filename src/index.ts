@@ -915,3 +915,24 @@ export { VideoPlayer } from "./components/display/video-player"
 export type { VideoPlayerProps } from "./components/display/video-player"
 export { FeatureSplit } from "./components/layout/feature-split"
 export type { FeatureSplitProps, FeatureSplitAction } from "./components/layout/feature-split"
+
+// === New components: MagicUI, Rad UI ===
+export { ScriptCopyBtn } from "./components/buttons/script-copy-btn"
+export type { ScriptCopyBtnProps } from "./components/buttons/script-copy-btn"
+export { ConfettiButton } from "./components/buttons/confetti-button"
+export type { ConfettiButtonProps } from "./components/buttons/confetti-button"
+export { Iphone15Pro } from "./components/device-mocks/iphone-15-pro"
+export type { Iphone15ProProps } from "./components/device-mocks/iphone-15-pro"
+export { LinearMask } from "./components/effects/linear-mask"
+export type { LinearMaskProps } from "./components/effects/linear-mask"
+export { GridBeams } from "./components/effects/grid-beams"
+export type { GridBeamsProps } from "./components/effects/grid-beams"
+export { ArcTimeline } from "./components/data-viz/arc-timeline"
+export type {
+  ArcTimelineProps,
+  ArcTimelineItem,
+} from "./components/data-viz/arc-timeline"
+export { Quote } from "./components/display/quote"
+export type { QuoteProps } from "./components/display/quote"
+export { InlineCode } from "./components/display/inline-code"
+export type { InlineCodeProps } from "./components/display/inline-code"
