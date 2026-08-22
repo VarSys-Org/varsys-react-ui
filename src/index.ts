@@ -954,3 +954,27 @@ export { CopyButton } from "./components/buttons/copy-button"
 export type { CopyButtonProps } from "./components/buttons/copy-button"
 export { LoadingOverlay } from "./components/overlays/loading-overlay"
 export type { LoadingOverlayProps } from "./components/overlays/loading-overlay"
+
+// === New components: Origin UI, Aceternity, Preline ===
+export { LoaderButton } from "./components/buttons/loader-button"
+export type { LoaderButtonProps } from "./components/buttons/loader-button"
+export { AnimatedInput } from "./components/forms/animated-input"
+export type { AnimatedInputProps } from "./components/forms/animated-input"
+export { CurrencyInput } from "./components/forms/currency-input"
+export type { CurrencyInputProps } from "./components/forms/currency-input"
+export { CursorGlow } from "./components/effects/cursor-glow"
+export type { CursorGlowProps } from "./components/effects/cursor-glow"
+export { EllipsisText } from "./components/display/ellipsis-text"
+export type { EllipsisTextProps } from "./components/display/ellipsis-text"
+export { BentoTilt, BentoTiltCard } from "./components/cards/bento-tilt"
+export type {
+  BentoTiltProps,
+  BentoTiltCardProps,
+} from "./components/cards/bento-tilt"
+export { Gallery } from "./components/display/gallery"
+export type { GalleryProps, GalleryItem } from "./components/display/gallery"
+export { Notifications } from "./components/overlays/notifications"
+export type {
+  NotificationsProps,
+  NotificationItem,
+} from "./components/overlays/notifications"
