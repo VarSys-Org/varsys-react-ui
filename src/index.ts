@@ -978,3 +978,40 @@ export type {
   NotificationsProps,
   NotificationItem,
 } from "./components/overlays/notifications"
+
+// === New components: Aceternity, 21st.dev, Rad UI ===
+export { StickyTimeline } from "./components/display/sticky-timeline"
+export type {
+  StickyTimelineProps,
+  StickyTimelineEntry,
+} from "./components/display/sticky-timeline"
+export { SpotlightCard } from "./components/cards/spotlight-card"
+export type { SpotlightCardProps } from "./components/cards/spotlight-card"
+export { GlowButton } from "./components/buttons/glow-button"
+export type {
+  GlowButtonProps,
+  GlowButtonMode,
+  GlowButtonBlur,
+} from "./components/buttons/glow-button"
+export { SpotlightButton } from "./components/buttons/spotlight-button"
+export type { SpotlightButtonProps } from "./components/buttons/spotlight-button"
+export { PricingSwitch } from "./components/cards/pricing-switch"
+export type {
+  PricingSwitchProps,
+  PricingSwitchPlan,
+} from "./components/cards/pricing-switch"
+export { StatsTicker } from "./components/display/stats-ticker"
+export type {
+  StatsTickerProps,
+  StatsTickerItem,
+} from "./components/display/stats-ticker"
+export { FaqDashed } from "./components/layout/faq-dashed"
+export type {
+  FaqDashedProps,
+  FaqDashedItem,
+} from "./components/layout/faq-dashed"
+export { NavbarUnderline } from "./components/navigation/navbar-underline"
+export type {
+  NavbarUnderlineProps,
+  NavbarUnderlineItem,
+} from "./components/navigation/navbar-underline"
