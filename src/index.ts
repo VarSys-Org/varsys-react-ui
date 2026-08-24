@@ -1015,3 +1015,37 @@ export type {
   NavbarUnderlineProps,
   NavbarUnderlineItem,
 } from "./components/navigation/navbar-underline"
+
+// === New components: Tremor, Aceternity, Float UI ===
+export { RangeSlider } from "./components/forms/range-slider"
+export type { RangeSliderProps } from "./components/forms/range-slider"
+export { SliderBins } from "./components/forms/slider-bins"
+export type { SliderBin, SliderBinsProps } from "./components/forms/slider-bins"
+export { GithubGlobe } from "./components/data-viz/globe-github"
+export type {
+  GithubGlobeProps,
+  GithubGlobeConfig,
+  GlobePoint,
+  GlobeArc,
+} from "./components/data-viz/globe-github"
+export { ProgressChart } from "./components/data-viz/progress-chart"
+export type {
+  ProgressChartProps,
+  ProgressChartSeries,
+  ProgressChartVariant,
+} from "./components/data-viz/progress-chart"
+export { SkeletonCard } from "./components/display/skeleton-card"
+export type { SkeletonCardProps } from "./components/display/skeleton-card"
+export { NotificationCard } from "./components/display/notification-card"
+export type {
+  NotificationCardProps,
+  NotificationCardItem,
+  NotificationCardType,
+} from "./components/display/notification-card"
+export { NewsletterCard } from "./components/forms/newsletter-card"
+export type { NewsletterCardProps } from "./components/forms/newsletter-card"
+export { SegmentedProgress } from "./components/display/segmented-progress"
+export type {
+  SegmentedProgressProps,
+  SegmentedProgressSegment,
+} from "./components/display/segmented-progress"
