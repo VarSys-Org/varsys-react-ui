@@ -1049,3 +1049,30 @@ export type {
   SegmentedProgressProps,
   SegmentedProgressSegment,
 } from "./components/display/segmented-progress"
+
+// === New components: 21st.dev, Aceternity, Rad UI ===
+export { TiltedCard } from "./components/cards/tilted-card"
+export type { TiltedCardProps } from "./components/cards/tilted-card"
+export { WavyBanner } from "./components/display/wavy-banner"
+export type { WavyBannerProps } from "./components/display/wavy-banner"
+export { CircularGallery } from "./components/display/circular-gallery"
+export type {
+  CircularGalleryItem,
+  CircularGalleryProps,
+} from "./components/display/circular-gallery"
+export { NotificationFeed } from "./components/display/notification-feed"
+export type {
+  NotificationFeedItem,
+  NotificationFeedProps,
+} from "./components/display/notification-feed"
+export { GradientInput } from "./components/forms/gradient-input"
+export type { GradientInputProps } from "./components/forms/gradient-input"
+export { PasswordInput } from "./components/forms/password-input"
+export type { PasswordInputProps } from "./components/forms/password-input"
+export { ParallaxGridScroll } from "./components/effects/parallax-grid-scroll"
+export type {
+  ParallaxGridItem,
+  ParallaxGridScrollProps,
+} from "./components/effects/parallax-grid-scroll"
+export { TabNav } from "./components/navigation/tab-nav"
+export type { TabNavItem, TabNavProps } from "./components/navigation/tab-nav"
