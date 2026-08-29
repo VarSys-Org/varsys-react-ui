@@ -3,3 +3,6 @@ dist/
 storybook-static/
 debug-storybook.log
 *.log
+
+# KB centralized
+/.kb/
