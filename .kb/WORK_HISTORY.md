@@ -152,3 +152,29 @@
 
 #### Commit
 - `752e3f7` refactor(standard): varsys-ui compliance LT#2043
+
+### [2026-08-29] — Add 8 new components from Spell UI / 21st.dev (LT#22)
+
+#### Change
+- Added 8 copy-paste React components sourced from the Spell UI registry
+  (github.com/xxtomm/spell-ui, published on 21st.dev):
+  - text-effects: BlurReveal, SpecialText, ShimmerText, HighlightedText,
+    TextMarquee, WordsStagger, RandomizedText
+  - forms: LabelInput (floating label + password visibility toggle)
+- Created matching Storybook stories in `src/stories/`.
+- Exported all from `src/index.ts`.
+- Fixed one TS error in `special-text.tsx` (`startTimeoutRef` typed as `number`).
+
+#### Verification
+- `npm run build`: PASS (exit 0), declaration files generated.
+- No new dependencies required (motion, lucide-react already present).
+
+#### Files
+- `src/components/text-effects/{blur-reveal,special-text,shimmer-text,highlighted-text,text-marquee,words-stagger,randomized-text}.tsx`
+- `src/components/forms/label-input.tsx`
+- `src/stories/text-effects/{BlurReveal,SpecialText,ShimmerText,HighlightedText,TextMarquee,WordsStagger,RandomizedText}.stories.tsx`
+- `src/stories/forms/LabelInput.stories.tsx`
+- `src/index.ts`
+
+#### Commit
+- Pending (this session)
