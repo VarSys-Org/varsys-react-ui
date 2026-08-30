@@ -178,3 +178,39 @@
 
 #### Commit
 - Pending (this session)
+
+### [2026-08-30] — Add 8 new components from ReactBits registry (LT#22)
+
+#### Change
+- Added 8 copy-paste React components sourced from the ReactBits registry
+  (reactbits.dev, shadcn-compatible registry configured in `components.json`):
+  - text-effects: SplitFlapText (split-flap character tiles), FuzzyText
+    (canvas-based glitch/fuzz text), VariableProximity (font-variation weight
+    response to pointer)
+  - effects: ClickSpark (particle burst on click)
+  - forms: CurvedInput (arc-bent SVG input with caret + submit button),
+    ElasticSlider (springy pointer-overflow slider)
+  - navigation: GooeyNav (gooey pill + particle nav)
+  - buttons: StarBorder (animated star-burst border)
+- Created matching Storybook stories in `src/stories/`.
+- Exported all from `src/index.ts`.
+- Added `star-movement-bottom` / `star-movement-top` keyframes to
+  `tailwind.config.js` for StarBorder.
+- Fixed TS errors found in the ports: `star-border.tsx` polymorphic `as`
+  spread (`rest as any`), `split-flap-text.tsx` timeout ref typed as `number`.
+
+#### Verification
+- `npm run build`: PASS (exit 0), declaration files generated.
+- No new dependencies required (motion, lucide-react already present).
+
+#### Files
+- `src/components/text-effects/{split-flap-text,fuzzy-text,variable-proximity}.tsx`
+- `src/components/effects/click-spark.tsx`
+- `src/components/forms/{curved-input,elastic-slider}.tsx`
+- `src/components/navigation/gooey-nav.tsx`
+- `src/components/buttons/star-border.tsx`
+- `src/stories/{text-effects,effects,forms,navigation,buttons}/*.stories.tsx` (8 stories)
+- `src/index.ts`, `tailwind.config.js`
+
+#### Commit
+- Pending (this session)
