@@ -1164,3 +1164,57 @@ export type { GooeyNavProps } from "./components/navigation/gooey-nav"
 export { StarBorder } from "./components/buttons/star-border"
 export { VariableProximity } from "./components/text-effects/variable-proximity"
 export type { VariableProximityProps } from "./components/text-effects/variable-proximity"
+
+// === New components: Rad UI, Origin UI, HyperUI, Float UI, 21st.dev ===
+export { Strong } from "./components/display/strong"
+export type { StrongProps } from "./components/display/strong"
+export { Em } from "./components/display/em"
+export type { EmProps } from "./components/display/em"
+export { Theme, useTheme } from "./components/layout/theme"
+export type {
+  ThemeProps,
+  ThemeAppearance,
+  ThemeRadius,
+  ThemeScale,
+  ThemeAccentColor,
+  ThemeContextValue,
+} from "./components/layout/theme"
+export { InputCharacterLimit } from "./components/forms/input-character-limit"
+export type { InputCharacterLimitProps } from "./components/forms/input-character-limit"
+export { TextareaCharacterCount } from "./components/forms/textarea-character-count"
+export type { TextareaCharacterCountProps } from "./components/forms/textarea-character-count"
+export { ImageUpload } from "./components/forms/image-upload"
+export type { ImageUploadProps } from "./components/forms/image-upload"
+export { SliderWithInput } from "./components/forms/slider-with-input"
+export type { SliderWithInputProps } from "./components/forms/slider-with-input"
+export { SmartPagination } from "./components/navigation/smart-pagination"
+export type { SmartPaginationProps } from "./components/navigation/smart-pagination"
+export { Navbar } from "./components/navigation/navbar"
+export type { NavbarProps, NavbarLink } from "./components/navigation/navbar"
+export { StepsCheckProgress } from "./components/display/steps-check-progress"
+export type { StepsCheckProgressProps, StepsCheckProgressStep } from "./components/display/steps-check-progress"
+export { BadgeDismissible } from "./components/display/badge-dismissible"
+export type { BadgeDismissibleProps } from "./components/display/badge-dismissible"
+export { AvatarStatus } from "./components/display/avatar-status"
+export type { AvatarStatusProps } from "./components/display/avatar-status"
+export { SectionHeaderActions } from "./components/layout/section-header-actions"
+export type { SectionHeaderActionsProps } from "./components/layout/section-header-actions"
+export { StepsLine } from "./components/display/steps-line"
+export type { StepsLineProps } from "./components/display/steps-line"
+export { HandwritingSvg } from "./components/text-effects/handwriting-svg"
+export type { HandwritingSvgProps, HandwritingEase } from "./components/text-effects/handwriting-svg"
+export { CircularTestimonials } from "./components/display/circular-testimonials"
+export type { CircularTestimonialsProps, CircularTestimonialItem } from "./components/display/circular-testimonials"
+export { SiriWave } from "./components/effects/siri-wave"
+export type { SiriWaveProps } from "./components/effects/siri-wave"
+export { WaterRippleImage } from "./components/effects/water-ripple-image"
+export type { WaterRippleImageProps } from "./components/effects/water-ripple-image"
+export { QuantumCloudLoader } from "./components/effects/quantum-cloud-loader"
+export type { QuantumCloudLoaderProps } from "./components/effects/quantum-cloud-loader"
+export { FeatureComparisonTable } from "./components/data-viz/feature-comparison-table"
+export type {
+  FeatureComparisonTableProps,
+  ComparisonPlan,
+  ComparisonRow,
+  ComparisonGroup,
+} from "./components/data-viz/feature-comparison-table"
