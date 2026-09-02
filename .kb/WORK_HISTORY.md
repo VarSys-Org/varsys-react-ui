@@ -214,3 +214,42 @@
 
 #### Commit
 - Pending (this session)
+
+### [2026-09-02] — Add new components from Dice UI (radi-ui), Tremor, Origin UI (LT#22)
+
+#### Change
+- Added 10 new copy-paste React components sourced from the listed component
+  catalogs (scanned ui.shadcn.com, magicui.design, ui.aceternity.com, originui.com,
+  21st.dev, radi-ui.com, tremor.so, hyperui.dev, floatui.com, preline.co):
+  - Dice UI (radi-ui): display/color-swatch (ColorSwatch), display/fps (Fps),
+    display/gauge (Gauge family), display/status (Status family),
+    display/relative-time-card (RelativeTimeCard), layout/stack (Stack family),
+    navigation/speed-dial (SpeedDial family)
+  - Tremor: navigation/tab-list (TabList/Tab) + navigation/tab-panels
+    (TabPanels/TabPanel) — theme-safe port of Tremor's underline/solid tabs
+  - Origin UI: data-viz/pinnable-table (PinnableTable) — TanStack table with
+    column pinning/resizing (comp-480 port, local data)
+- Created matching Storybook stories in `src/stories/`.
+- Exported all from `src/index.ts`.
+- Fixed pre-existing TS error in `pie-chart-interactive.tsx` (recharts 2.x no
+  longer exports `PieSectorShapeProps`; removed the unused import/re-export).
+- Ported Dice UI hooks inline (useComposedRefs, useAsRef, useIsomorphicLayoutEffect,
+  useLazyRef); replaced the `radix-ui` unified package import with `@radix-ui/react-slot`
+  and Base UI `render`-prop triggers (repo convention); fixed Base UI `BaseUIEvent`
+  handler types.
+
+#### Verification
+- `npm install --legacy-peer-deps`: PASS.
+- `npm run build`: PASS (exit 0), declaration files generated.
+- No new dependencies required (@radix-ui/react-slot, cva, lucide-react, tanstack already present).
+
+#### Files
+- `src/components/display/{color-swatch,fps,gauge,status,relative-time-card}.tsx`
+- `src/components/layout/stack.tsx`
+- `src/components/navigation/{speed-dial,tab-list,tab-panels}.tsx`
+- `src/components/data-viz/pinnable-table.tsx`
+- `src/stories/{display,layout,navigation,data-viz}/*.stories.tsx` (9 stories)
+- `src/components/data-viz/pie-chart-interactive.tsx`, `src/index.ts`
+
+#### Commit
+- Pending (this session)

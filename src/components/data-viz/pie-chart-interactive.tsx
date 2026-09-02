@@ -4,7 +4,6 @@ import * as React from "react"
 import { Label, Pie, PieChart, Sector } from "recharts"
 import type {
   PieSectorDataItem,
-  PieSectorShapeProps,
 } from "recharts/types/polar/Pie"
 
 import {
@@ -209,4 +208,4 @@ export function PieChartInteractive() {
   )
 }
 
-export type { PieSectorDataItem, PieSectorShapeProps }
+export type { PieSectorDataItem }

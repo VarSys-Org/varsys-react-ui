@@ -364,7 +364,7 @@ export type { StepperItem, StepperProps } from "./components/navigation/stepper"
 export { ChartPieSimple } from "./components/data-viz/chart-pie-simple"
 export { PieChartStacked } from "./components/data-viz/pie-chart-stacked"
 export { PieChartInteractive } from "./components/data-viz/pie-chart-interactive"
-export type { PieSectorDataItem, PieSectorShapeProps } from "./components/data-viz/pie-chart-interactive"
+export type { PieSectorDataItem } from "./components/data-viz/pie-chart-interactive"
 export { BarChartStacked } from "./components/data-viz/bar-chart-stacked"
 export { BarChartInteractive } from "./components/data-viz/bar-chart-interactive"
 export { ChartTooltipAdvanced } from "./components/data-viz/chart-tooltip-advanced"
@@ -1226,3 +1226,39 @@ export type {
   ComparisonRow,
   ComparisonGroup,
 } from "./components/data-viz/feature-comparison-table"
+
+// === Dice UI (radi-ui) & tremor & originui additions ===
+export { ColorSwatch, colorSwatchVariants } from "./components/display/color-swatch"
+export type { ColorSwatchProps } from "./components/display/color-swatch"
+export { Fps } from "./components/display/fps"
+export type { FpsProps } from "./components/display/fps"
+export {
+  Gauge,
+  GaugeCombined,
+  GaugeIndicator,
+  GaugeLabel,
+  GaugeRange,
+  GaugeTrack,
+  GaugeValueText,
+} from "./components/display/gauge"
+export type { GaugeProps } from "./components/display/gauge"
+export { Status, StatusIndicator, StatusLabel, statusVariants } from "./components/display/status"
+export type { StatusProps } from "./components/display/status"
+export { RelativeTimeCard } from "./components/display/relative-time-card"
+export type { RelativeTimeCardProps } from "./components/display/relative-time-card"
+export { Stack, StackItem } from "./components/layout/stack"
+export type { StackProps } from "./components/layout/stack"
+export {
+  SpeedDial,
+  SpeedDialAction,
+  SpeedDialContent,
+  SpeedDialItem,
+  SpeedDialLabel,
+  SpeedDialTrigger,
+} from "./components/navigation/speed-dial"
+export type { SpeedDialProps } from "./components/navigation/speed-dial"
+export { Tab, TabList } from "./components/navigation/tab-list"
+export type { TabListProps, TabProps } from "./components/navigation/tab-list"
+export { TabPanels, TabPanel } from "./components/navigation/tab-panels"
+export type { TabPanelsProps, TabPanelProps, TabVariant } from "./components/navigation/tab-panels"
+export { PinnableTable } from "./components/data-viz/pinnable-table"
