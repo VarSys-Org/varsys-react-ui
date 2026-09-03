@@ -215,6 +215,49 @@
 #### Commit
 - Pending (this session)
 
+### [2026-09-03] — Add new chart variants + Dice UI + Origin UI components (LT#22)
+
+#### Change
+- Scanned the component catalogs (ui.shadcn.com, magicui.design, ui.aceternity.com,
+  originui.com, 21st.dev, radi-ui.com, tremor.so, hyperui.dev, floatui.com, preline.co)
+  and added 10 NEW copy-paste components not already present in the library:
+  - shadcn charts: data-viz/area-chart-gradient (AreaChartGradient),
+    data-viz/bar-chart-mixed (BarChartMixed), data-viz/line-chart-multiple
+    (LineChartMultiple), data-viz/radar-chart-grid-circle (RadarChartGridCircle),
+    data-viz/radial-chart-grid (RadialChartGrid) — all built on the existing
+    `ChartContainer`/`ChartTooltip` primitives + recharts, wrapped in the
+    library's Card.
+  - Dice UI (radi-ui): display/badge-overflow (BadgeOverflow — measured wrapping
+    badges with overflow count), display/swap (Swap family — click/hover swap
+    with fade/rotate/flip/scale animations), display/masonry (Masonry/MasonryItem
+    — virtualized interval-tree masonry layout), forms/mask-input (MaskInput —
+    phone/SSN/date/credit-card/currency/percentage/IPv4/MAC masks + validation).
+  - Origin UI: layout/countdown-banner (CountdownBanner — dismissible sale
+    countdown banner, parameterized endDate/title/CTA).
+- Created matching Storybook stories in `src/stories/`.
+- Exported all from `src/index.ts`.
+- Added shared helpers: `src/lib/compose-refs.ts` and
+  `src/lib/use-isomorphic-layout-effect.ts`; ported Dice UI inline hooks
+  (useAsRef/useLazyRef) and switched imports to the repo's `@/lib/cn` convention.
+
+#### Verification
+- `npm install --legacy-peer-deps`: PASS.
+- `npm run build`: PASS (exit 0), declaration files generated.
+- `npm run build-storybook`: PASS — all 10 new stories compile and render.
+- No new dependencies required (@base-ui/react, recharts, lucide-react already present).
+
+#### Files
+- `src/components/data-viz/{area-chart-gradient,bar-chart-mixed,line-chart-multiple,radar-chart-grid-circle,radial-chart-grid}.tsx`
+- `src/components/display/{badge-overflow,swap,masonry}.tsx`
+- `src/components/forms/mask-input.tsx`
+- `src/components/layout/countdown-banner.tsx`
+- `src/lib/{compose-refs,use-isomorphic-layout-effect}.ts`
+- `src/stories/{data-viz,display,forms,layout}/*.stories.tsx` (10 stories)
+- `src/index.ts`
+
+#### Commit
+- Pending (this session)
+
 ### [2026-09-02] — Add new components from Dice UI (radi-ui), Tremor, Origin UI (LT#22)
 
 #### Change

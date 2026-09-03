@@ -1262,3 +1262,37 @@ export type { TabListProps, TabProps } from "./components/navigation/tab-list"
 export { TabPanels, TabPanel } from "./components/navigation/tab-panels"
 export type { TabPanelsProps, TabPanelProps, TabVariant } from "./components/navigation/tab-panels"
 export { PinnableTable } from "./components/data-viz/pinnable-table"
+
+// === shadcn chart additions (gradient / mixed / multiple / grid variants) ===
+export { AreaChartGradient } from "./components/data-viz/area-chart-gradient"
+export { BarChartMixed } from "./components/data-viz/bar-chart-mixed"
+export { LineChartMultiple } from "./components/data-viz/line-chart-multiple"
+export { RadarChartGridCircle } from "./components/data-viz/radar-chart-grid-circle"
+export { RadialChartGrid } from "./components/data-viz/radial-chart-grid"
+
+// === Dice UI additions ===
+export { BadgeOverflow } from "./components/display/badge-overflow"
+export type { BadgeOverflowProps } from "./components/display/badge-overflow"
+export { Swap, SwapOff, SwapOn, useSwap } from "./components/display/swap"
+export type { SwapProps } from "./components/display/swap"
+export { Masonry, MasonryItem } from "./components/display/masonry"
+export type { MasonryProps } from "./components/display/masonry"
+export {
+  MaskInput,
+  applyCurrencyMask,
+  applyMask,
+  applyPercentageMask,
+  fromUnmaskedIndex,
+  getUnmaskedValue,
+  MASK_PATTERNS,
+  toUnmaskedIndex,
+} from "./components/forms/mask-input"
+export type {
+  MaskInputProps,
+  MaskPattern,
+  MaskPatternKey,
+} from "./components/forms/mask-input"
+
+// === Origin UI additions ===
+export { CountdownBanner } from "./components/layout/countdown-banner"
+export type { CountdownBannerProps } from "./components/layout/countdown-banner"
