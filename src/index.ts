@@ -1296,3 +1296,76 @@ export type {
 // === Origin UI additions ===
 export { CountdownBanner } from "./components/layout/countdown-banner"
 export type { CountdownBannerProps } from "./components/layout/countdown-banner"
+
+// === Dice UI (radi-ui) additions ===
+export {
+  AngleSlider,
+  AngleSliderRange,
+  AngleSliderThumb,
+  AngleSliderTrack,
+  AngleSliderValue,
+  useAngleSlider,
+} from "./components/forms/angle-slider"
+export type { AngleSliderProps } from "./components/forms/angle-slider"
+export {
+  Editable,
+  EditableArea,
+  EditableCancel,
+  EditableInput,
+  EditableLabel,
+  EditablePreview,
+  EditableSubmit,
+  EditableToolbar,
+  EditableTrigger,
+  useEditable,
+} from "./components/forms/editable"
+export type { EditableProps } from "./components/forms/editable"
+export {
+  SegmentedInput,
+  SegmentedInputItem,
+} from "./components/forms/segmented-input"
+export type { SegmentedInputProps } from "./components/forms/segmented-input"
+export {
+  KeyValue,
+  KeyValueAdd,
+  KeyValueError,
+  KeyValueItem,
+  KeyValueKeyInput,
+  KeyValueList,
+  KeyValueRemove,
+  KeyValueValueInput,
+  useKeyValueStore,
+} from "./components/display/key-value"
+export type {
+  KeyValueProps,
+  KeyValueItemData,
+} from "./components/display/key-value"
+export {
+  ActionBar,
+  ActionBarClose,
+  ActionBarGroup,
+  ActionBarItem,
+  ActionBarSelection,
+  ActionBarSeparator,
+} from "./components/overlays/action-bar"
+export type { ActionBarProps } from "./components/overlays/action-bar"
+export {
+  ResponsiveDialog,
+  ResponsiveDialogClose,
+  ResponsiveDialogContent,
+  ResponsiveDialogDescription,
+  ResponsiveDialogFooter,
+  ResponsiveDialogHeader,
+  ResponsiveDialogOverlay,
+  ResponsiveDialogPortal,
+  ResponsiveDialogTitle,
+  ResponsiveDialogTrigger,
+} from "./components/overlays/responsive-dialog"
+export type { ResponsiveDialogProps } from "./components/overlays/responsive-dialog"
+export { Scroller } from "./components/scroll/scroller"
+export type { ScrollerProps } from "./components/scroll/scroller"
+export { VisuallyHiddenInput } from "./components/forms/visually-hidden-input"
+export type { VisuallyHiddenInputProps } from "./components/forms/visually-hidden-input"
+export { useAsRef } from "./lib/use-as-ref"
+export { useLazyRef } from "./lib/use-lazy-ref"
+export { useIsMobile } from "./hooks/use-mobile"

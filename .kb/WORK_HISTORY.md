@@ -1,5 +1,43 @@
 # Work History — varsys-ui
 
+### [2026-09-04] — Add new Dice UI (radi-ui) components: AngleSlider, Editable, KeyValue, SegmentedInput, ActionBar, ResponsiveDialog, Scroller (LT#22)
+
+#### Change
+- Scanned the listed catalogs (ui.shadcn.com, magicui.design, ui.aceternity.com,
+  originui.com, 21st.dev, radi-ui.com, tremor.so, hyperui.dev, floatui.com,
+  preline.co); the newest additions were Dice UI (radi-ui) advanced composables.
+- Added 7 new copy-paste React components (ported from diceui.com registry, radix
+  variant, adapted to the repo's individual `@radix-ui/*` imports):
+  - forms/angle-slider (AngleSlider family)
+  - forms/editable (Editable family)
+  - forms/segmented-input (SegmentedInput family)
+  - display/key-value (KeyValue family)
+  - overlays/action-bar (ActionBar family)
+  - overlays/responsive-dialog (ResponsiveDialog family — dialog on desktop,
+    vaul drawer on mobile)
+  - scroll/scroller (Scroller with scroll-shadow masks + nav buttons)
+- Added shared helpers: `src/lib/use-as-ref.ts`, `src/lib/use-lazy-ref.ts`,
+  `src/hooks/use-mobile.ts`, `src/components/forms/visually-hidden-input.tsx`.
+- Declared `@radix-ui/react-direction` as a direct dependency (was transitive).
+- Created matching Storybook stories in `src/stories/` (7 stories).
+- Exported all from `src/index.ts`.
+
+#### Verification
+- `npm install --legacy-peer-deps`: PASS.
+- `npm run build`: PASS (exit 0), declaration files generated, 0 TS errors.
+- `npm run build-storybook`: PASS — all 7 new stories compile and render.
+
+#### Files
+- `src/components/{forms,display,overlays,scroll}/{angle-slider,editable,segmented-input,key-value,action-bar,responsive-dialog,scroller}.tsx`
+- `src/lib/{use-as-ref,use-lazy-ref}.ts`
+- `src/hooks/use-mobile.ts`
+- `src/components/forms/visually-hidden-input.tsx`
+- `src/stories/{forms,display,overlays,scroll}/*.stories.tsx` (7 stories)
+- `src/index.ts`, `package.json`
+
+#### Commit
+- This session
+
 ### [2026-06-15] — Storybook Compilation & Component Fixes (local)
 
 #### Before
