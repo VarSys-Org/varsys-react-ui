@@ -1,5 +1,53 @@
 # Work History — varsys-ui
 
+### [2026-09-05] — Add new components from Dice UI, Magic UI, Origin UI (LT#22)
+
+#### Change
+- Scanned the listed catalogs (ui.shadcn.com, magicui.design, ui.aceternity.com,
+  originui.com, 21st.dev, radi-ui.com, tremor.so, hyperui.dev, floatui.com,
+  preline.co). shadcn and Aceternity catalogs are already fully covered; added
+  9 NEW components not present in the library:
+  - Dice UI (diceui.com/radi-ui, radix variant): display/kanban (Kanban family —
+    dnd-kit kanban board), display/sortable (Sortable family — dnd-kit sortable
+    list, vertical/horizontal), display/compare-slider (CompareSlider family —
+    before/after comparison slider)
+  - Magic UI: effects/floating-3d-particles (Floating3DParticles — canvas 3D
+    particle field with depth/drift, reduced-motion aware)
+  - Origin UI: forms/payment-form (PaymentForm — card payment dialog with
+    plan picker + coupon), buttons/social-login-buttons (SocialLoginButtons —
+    Google/Facebook/X/GitHub, inline brand SVGs), display/settings-accordion
+    (SettingsAccordion — accordion settings panel), overlays/rating-dialog
+    (RatingDialog — CSAT-style rating dialog), overlays/onboarding-tips
+    (OnboardingTips — tooltip tour with prev/next nav)
+- Created matching Storybook stories in `src/stories/` (9 stories).
+- Exported all from `src/index.ts`.
+- Added dependencies: `@dnd-kit/{core,sortable,utilities,modifiers}`
+  (kanban/sortable), `react-payment-inputs` + `styled-components` (payment form).
+- Adapted Dice UI sources to repo conventions: `@radix-ui/react-slot` namespace
+  import, `@/lib/cn`, existing lib hooks (use-as-ref, use-lazy-ref,
+  use-isomorphic-layout-effect, compose-refs); Origin UI comps use library
+  primitives (Button/Dialog/Accordion/RadioGroup/Popover) with Base UI
+  `render` props.
+- Added `src/types/react-payment-inputs.d.ts` ambient types (package ships none).
+
+#### Verification
+- `npm install --legacy-peer-deps`: PASS (new deps resolved).
+- `npm run build`: PASS (exit 0), declaration files generated, 0 dts errors.
+- `npm run build-storybook`: PASS — all 9 new stories compile.
+
+#### Files
+- `src/components/display/{kanban,sortable,compare-slider,settings-accordion}.tsx`
+- `src/components/effects/floating-3d-particles.tsx`
+- `src/components/forms/payment-form.tsx`
+- `src/components/buttons/social-login-buttons.tsx`
+- `src/components/overlays/{rating-dialog,onboarding-tips}.tsx`
+- `src/stories/{display,effects,forms,buttons,overlays}/*.stories.tsx` (9 stories)
+- `src/types/react-payment-inputs.d.ts`
+- `src/index.ts`, `package.json`
+
+#### Commit
+- This session
+
 ### [2026-09-04] — Add new Dice UI (radi-ui) components: AngleSlider, Editable, KeyValue, SegmentedInput, ActionBar, ResponsiveDialog, Scroller (LT#22)
 
 #### Change

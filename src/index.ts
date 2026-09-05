@@ -1369,3 +1369,56 @@ export type { VisuallyHiddenInputProps } from "./components/forms/visually-hidde
 export { useAsRef } from "./lib/use-as-ref"
 export { useLazyRef } from "./lib/use-lazy-ref"
 export { useIsMobile } from "./hooks/use-mobile"
+
+// === New components: Dice UI (kanban, sortable, compare-slider) ===
+export {
+  Kanban,
+  KanbanBoard,
+  KanbanColumn,
+  KanbanColumnHandle,
+  KanbanItem,
+  KanbanItemHandle,
+  KanbanOverlay,
+} from "./components/display/kanban"
+export type { KanbanProps } from "./components/display/kanban"
+export {
+  Sortable,
+  SortableContent,
+  SortableItem,
+  SortableItemHandle,
+  SortableOverlay,
+} from "./components/display/sortable"
+export type { SortableProps } from "./components/display/sortable"
+export {
+  CompareSlider,
+  CompareSliderAfter,
+  CompareSliderBefore,
+  CompareSliderHandle,
+  CompareSliderLabel,
+} from "./components/display/compare-slider"
+export type { CompareSliderProps } from "./components/display/compare-slider"
+
+// === New components: Magic UI (floating-3d-particles) ===
+export { Floating3DParticles } from "./components/effects/floating-3d-particles"
+export type { Floating3DParticlesProps } from "./components/effects/floating-3d-particles"
+
+// === New components: Origin UI (forms / buttons / display / overlays) ===
+export { PaymentForm } from "./components/forms/payment-form"
+export type { PaymentFormProps, PaymentPlan } from "./components/forms/payment-form"
+export { SocialLoginButtons } from "./components/buttons/social-login-buttons"
+export type {
+  SocialLoginButtonsProps,
+  SocialProvider,
+} from "./components/buttons/social-login-buttons"
+export { SettingsAccordion } from "./components/display/settings-accordion"
+export type {
+  SettingsAccordionItem,
+  SettingsAccordionProps,
+} from "./components/display/settings-accordion"
+export { RatingDialog } from "./components/overlays/rating-dialog"
+export type { RatingDialogProps } from "./components/overlays/rating-dialog"
+export { OnboardingTips } from "./components/overlays/onboarding-tips"
+export type {
+  OnboardingTip,
+  OnboardingTipsProps,
+} from "./components/overlays/onboarding-tips"
