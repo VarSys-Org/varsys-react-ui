@@ -1422,3 +1422,36 @@ export type {
   OnboardingTip,
   OnboardingTipsProps,
 } from "./components/overlays/onboarding-tips"
+
+// === New components: ReactBits & HyperUI ports ===
+export { SplashCursor } from "./components/effects/splash-cursor"
+export type { SplashCursorProps } from "./components/effects/splash-cursor"
+export { MagnetLines } from "./components/effects/magnet-lines"
+export type { MagnetLinesProps } from "./components/effects/magnet-lines"
+export { PixelTrail } from "./components/effects/pixel-trail"
+export type { PixelTrailProps } from "./components/effects/pixel-trail"
+export { Ribbons } from "./components/effects/ribbons"
+export type { RibbonsProps } from "./components/effects/ribbons"
+export { DecryptedText } from "./components/text-effects/decrypted-text"
+export type { DecryptedTextProps } from "./components/text-effects/decrypted-text"
+export { ShinyText } from "./components/text-effects/shiny-text"
+export type { ShinyTextProps } from "./components/text-effects/shiny-text"
+export { SupportInbox } from "./components/layout/support-inbox"
+export type {
+  SupportInboxProps,
+  SupportQueue,
+  SupportTag,
+  SupportTicket,
+  TicketStatus,
+  TicketPriority,
+} from "./components/layout/support-inbox"
+export { ContactForm } from "./components/forms/contact-form"
+export type { ContactFormProps } from "./components/forms/contact-form"
+export { AnnouncementBar } from "./components/layout/announcement-bar"
+export type { AnnouncementBarProps } from "./components/layout/announcement-bar"
+export { ToastStack } from "./components/overlays/toast-stack"
+export type {
+  ToastStackItem,
+  ToastStackProps,
+  ToastStackVariant,
+} from "./components/overlays/toast-stack"

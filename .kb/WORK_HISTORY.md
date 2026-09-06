@@ -1,5 +1,47 @@
 # Work History — varsys-ui
 
+### [2026-09-06] — Add new components from ReactBits & HyperUI (LT#22)
+
+#### Change
+- Scanned the listed catalogs (ui.shadcn.com, magicui.design, ui.aceternity.com,
+  originui.com, 21st.dev, radi-ui.com, tremor.so, hyperui.dev, floatui.com,
+  preline.co). shadcn, Magic UI, Aceternity, Tremor, Origin UI and most of
+  Dice/radi-ui, FloatUI and Preline are already fully covered; added 10 NEW
+  components not present in the library:
+  - ReactBits (reactbits.dev): effects/splash-cursor (SplashCursor — WebGL
+    fluid/cursor splash), effects/magnet-lines (MagnetLines — pointer-driven
+    magnet field), effects/pixel-trail (PixelTrail — R3F pixel trail with
+    gooey filter), effects/ribbons (Ribbons — ogl WebGL ribbon lines),
+    text-effects/decrypted-text (DecryptedText — char scramble reveal),
+    text-effects/shiny-text (ShinyText — animated gradient shine)
+  - HyperUI: layout/support-inbox (SupportInbox — ticket inbox with queues,
+    status filters, search), forms/contact-form (ContactForm — contact form
+    with success state), layout/announcement-bar (AnnouncementBar — dismissible
+    announcement strip), overlays/toast-stack (ToastStack — variant toast
+    stack with auto-dismiss)
+- Created matching Storybook stories in `src/stories/`.
+- Exported all from `src/index.ts`.
+- Added `ogl` dependency for the Ribbons WebGL component.
+
+#### Verification
+- `npm install --legacy-peer-deps`: PASS (added `ogl`).
+- `npm run build`: PASS (exit 0), declaration files generated.
+- `npm run build-storybook`: PASS, all 10 new stories compiled.
+- Pre-existing `tsc --noEmit` crash ("Map maximum size exceeded") confirmed to
+  exist on baseline HEAD — unrelated to this batch.
+
+#### Files
+- `src/components/effects/{splash-cursor,magnet-lines,pixel-trail,ribbons}.tsx`
+- `src/components/text-effects/{decrypted-text,shiny-text}.tsx`
+- `src/components/layout/{support-inbox,announcement-bar}.tsx`
+- `src/components/forms/contact-form.tsx`
+- `src/components/overlays/toast-stack.tsx`
+- `src/stories/{effects,text-effects,layout,forms,overlays}/*.stories.tsx` (10 stories)
+- `src/index.ts`, `package.json`
+
+#### Commit
+- Pending (this session)
+
 ### [2026-09-05] — Add new components from Dice UI, Magic UI, Origin UI (LT#22)
 
 #### Change
