@@ -1,5 +1,54 @@
 # Work History — varsys-ui
 
+### [2026-09-07] — Add 10 new components from ReactBits, 21st.dev (spell-ui), zyeon (LT#22)
+
+#### Change
+- Scanned the listed catalogs (ui.shadcn.com, magicui.design, ui.aceternity.com,
+  originui.com, 21st.dev, radi-ui.com, tremor.so, hyperui.dev, floatui.com,
+  preline.co). shadcn, Magic UI, Aceternity, Tremor, Origin UI (rebranded coss
+  UI), Dice/radi-ui, FloatUI and Preline are fully covered; the remaining NEW
+  components came from ReactBits (reactbits.dev), 21st.dev (spell-ui) and the
+  zyeon registry. Added 10 new components not present in the library:
+  - ReactBits (reactbits.dev): text-effects/text-pressure (TextPressure —
+    variable-font canvas text reacting to pointer pressure),
+    text-effects/glitch-text (GlitchText — CSS clip-path glitch),
+    text-effects/blur-text (BlurText — per-word/letter blur reveal on scroll),
+    text-effects/warp-text (WarpText — ogl WebGL2 GPU text warp/refraction),
+    display/counter (Counter — springy rolling-digit count-up),
+    cards/reflective-card (ReflectiveCard — webcam metallic displacement card)
+  - 21st.dev / spell-ui: text-effects/slide-up-text (SlideUpText — words/char/
+    lines slide-up with stagger + imperative ref), cards/spotify-card
+    (SpotifyCard — vinyl spin music card, adapted to theme tokens + props data)
+  - zyeon: effects/galaxy (Galaxy — canvas spiral galaxy, theme-token painted,
+    deterministic, reduced-motion aware), buttons/effect-button (EffectButton —
+    one button, seven cva effects: shimmer/shine/spotlight/glow/gradient/glass/
+    ripple, keyframes shipped via React 19 hoisted <style>)
+- Created matching Storybook stories in `src/stories/` (10 stories).
+- Exported all from `src/index.ts`.
+- Added `glitch` keyframes + `glitch-after`/`glitch-before` animations to
+  `tailwind.config.js` for GlitchText.
+- Adapted sources to repo conventions: `@/lib/cn` import, named exports,
+  theme-safe tokens (`--foreground`, `--primary`, `--muted-foreground`,
+  `--chart-1`) instead of hardcoded colors, props-driven data (no backend
+  fetch), graceful webcam/canvas fallbacks.
+
+#### Verification
+- `npm install --legacy-peer-deps`: PASS (no new dependencies required).
+- `npm run build`: PASS (exit 0), declaration files generated.
+- `npm run build-storybook`: PASS — all 10 new stories compile.
+
+#### Files
+- `src/components/text-effects/{text-pressure,glitch-text,blur-text,warp-text,slide-up-text}.tsx`
+- `src/components/display/counter.tsx`
+- `src/components/cards/{reflective-card,spotify-card}.tsx`
+- `src/components/effects/galaxy.tsx`
+- `src/components/buttons/effect-button.tsx`
+- `src/stories/{text-effects,display,cards,effects,buttons}/*.stories.tsx` (10 stories)
+- `src/index.ts`, `tailwind.config.js`
+
+#### Commit
+- This session
+
 ### [2026-09-06] — Add new components from ReactBits & HyperUI (LT#22)
 
 #### Change

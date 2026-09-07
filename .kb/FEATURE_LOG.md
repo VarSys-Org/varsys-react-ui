@@ -2,6 +2,7 @@
 
 | Date | Project | Feature | Files | Issue # | Status | Notes |
 |---|---|---|---|---|---|---|
+| 2026-09-07 | varsys-ui | ReactBits (TextPressure, GlitchText, BlurText, WarpText, Counter, ReflectiveCard) + 21st.dev/spell-ui (SlideUpText, SpotifyCard) + zyeon (Galaxy, EffectButton) | 10 components + 10 stories + index.ts + tailwind.config.js | LT#22 | ✅ Done | Build + Storybook pass; no new deps. |
 | 2026-09-06 | varsys-ui | ReactBits (SplashCursor, MagnetLines, PixelTrail, Ribbons, DecryptedText, ShinyText) + HyperUI (SupportInbox, ContactForm, AnnouncementBar, ToastStack) | 10 components + 10 stories + index.ts + package.json | LT#22 | ✅ Done | Build + Storybook pass; added ogl dep. |
 | 2026-09-05 | varsys-ui | Dice UI (Kanban, Sortable, CompareSlider) + Magic UI (Floating3DParticles) + Origin UI (PaymentForm, SocialLoginButtons, SettingsAccordion, RatingDialog, OnboardingTips) | 9 components + 9 stories + react-payment-inputs.d.ts + index.ts + package.json | LT#22 | ✅ Done | Build + Storybook pass; added @dnd-kit/*, react-payment-inputs, styled-components. |
 | 2026-09-04 | varsys-ui | Dice UI (radi-ui) advanced composables (AngleSlider, Editable, KeyValue, SegmentedInput, ActionBar, ResponsiveDialog, Scroller) | 7 components + 7 stories + lib helpers (use-as-ref, use-lazy-ref, use-mobile, visually-hidden-input) + index.ts + package.json | LT#22 | ✅ Done | Build + Storybook pass; declared @radix-ui/react-direction. |

@@ -1455,3 +1455,25 @@ export type {
   ToastStackProps,
   ToastStackVariant,
 } from "./components/overlays/toast-stack"
+
+// === New components: ReactBits (text/display/cards) & 21st.dev/zyeon ===
+export { TextPressure } from "./components/text-effects/text-pressure"
+export type { TextPressureProps } from "./components/text-effects/text-pressure"
+export { GlitchText } from "./components/text-effects/glitch-text"
+export type { GlitchTextProps } from "./components/text-effects/glitch-text"
+export { BlurText } from "./components/text-effects/blur-text"
+export type { BlurTextProps } from "./components/text-effects/blur-text"
+export { WarpText } from "./components/text-effects/warp-text"
+export type { WarpTextProps } from "./components/text-effects/warp-text"
+export { SlideUpText } from "./components/text-effects/slide-up-text"
+export type { SlideUpTextProps, SlideUpTextRef } from "./components/text-effects/slide-up-text"
+export { Counter } from "./components/display/counter"
+export type { CounterProps, PlaceValue } from "./components/display/counter"
+export { ReflectiveCard } from "./components/cards/reflective-card"
+export type { ReflectiveCardProps } from "./components/cards/reflective-card"
+export { SpotifyCard } from "./components/cards/spotify-card"
+export type { SpotifyCardProps, SpotifyTrack } from "./components/cards/spotify-card"
+export { Galaxy } from "./components/effects/galaxy"
+export type { GalaxyProps, GalaxyTone } from "./components/effects/galaxy"
+export { EffectButton, effectButtonVariants } from "./components/buttons/effect-button"
+export type { EffectButtonProps } from "./components/buttons/effect-button"
