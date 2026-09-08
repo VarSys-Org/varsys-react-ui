@@ -2,6 +2,7 @@
 
 | Date | Project | Feature | Files | Issue # | Status | Notes |
 |---|---|---|---|---|---|---|
+| 2026-09-08 | varsys-ui | ReactBits: text-effects (TrueFocus, CircularText, EchoText, DepthText) + effects (GradualBlur, ElectricBorder, ScrollExpand, LiquidChrome, GradientWaves, Threads) | 10 components + 10 stories + lib/color.ts + index.ts | LT#22 | ✅ Done | Build, Storybook + tsc pass; no new deps. |
 | 2026-09-07 | varsys-ui | ReactBits (TextPressure, GlitchText, BlurText, WarpText, Counter, ReflectiveCard) + 21st.dev/spell-ui (SlideUpText, SpotifyCard) + zyeon (Galaxy, EffectButton) | 10 components + 10 stories + index.ts + tailwind.config.js | LT#22 | ✅ Done | Build + Storybook pass; no new deps. |
 | 2026-09-06 | varsys-ui | ReactBits (SplashCursor, MagnetLines, PixelTrail, Ribbons, DecryptedText, ShinyText) + HyperUI (SupportInbox, ContactForm, AnnouncementBar, ToastStack) | 10 components + 10 stories + index.ts + package.json | LT#22 | ✅ Done | Build + Storybook pass; added ogl dep. |
 | 2026-09-05 | varsys-ui | Dice UI (Kanban, Sortable, CompareSlider) + Magic UI (Floating3DParticles) + Origin UI (PaymentForm, SocialLoginButtons, SettingsAccordion, RatingDialog, OnboardingTips) | 9 components + 9 stories + react-payment-inputs.d.ts + index.ts + package.json | LT#22 | ✅ Done | Build + Storybook pass; added @dnd-kit/*, react-payment-inputs, styled-components. |

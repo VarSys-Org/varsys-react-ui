@@ -1,5 +1,60 @@
 # Work History — varsys-ui
 
+### [2026-09-08] — Add 10 new ReactBits components: text effects + canvas/WebGL backgrounds (LT#22)
+
+#### Change
+- Scanned the listed catalogs (ui.shadcn.com, magicui.design, ui.aceternity.com,
+  originui.com, 21st.dev, radi-ui.com, tremor.so, hyperui.dev, floatui.com,
+  preline.co). shadcn, Magic UI, Aceternity, Tremor, Origin UI, Dice/radi-ui,
+  FloatUI, Preline and HyperUI remain fully covered; added 10 NEW ReactBits
+  (reactbits.dev) components not present in the library, using only existing
+  deps (motion, ogl, react) — no new dependencies required:
+  - text-effects/true-focus (TrueFocus — pointer/interval word focus with an
+    animated corner-bracket focus box)
+  - text-effects/circular-text (CircularText — rotating circular label with
+    hover speed modes)
+  - text-effects/echo-text (EchoText — canvas-free motion-echo trail behind a
+    headline, pointer/entrance modes, reduced-motion aware)
+  - text-effects/depth-text (DepthText — layered 3D depth/stack text with
+    pointer tracking + auto orbit)
+  - effects/gradual-blur (GradualBlur — stacked backdrop-filter blur mask with
+    position/preset/curve/scroll-animate options)
+  - effects/electric-border (ElectricBorder — canvas noise-displaced electric
+    border, theme-accent by default)
+  - effects/scroll-expand (ScrollExpand — media that expands from a small
+    rounded window as you scroll)
+  - effects/liquid-chrome (LiquidChrome — ogl WebGL liquid chrome surface)
+  - effects/gradient-waves (GradientWaves — ogl raymarched gradient wave field,
+    mouse parallax + grain)
+  - effects/threads (Threads — ogl Perlin thread field background, resolution
+    capped for perf)
+- Created matching Storybook stories in `src/stories/` (10 stories).
+- Exported all from `src/index.ts`.
+- Added `src/lib/color.ts` helpers (`resolveColor`, `colorToRgba`) so canvas
+  effects can consume theme CSS variables (`var(--primary)` etc.) instead of
+  hardcoded colors.
+- Adapted sources to repo conventions: named exports, `@/lib/color`/theme-safe
+  defaults (`--foreground`, `--primary`) instead of hardcoded colors, no
+  comments, reduced-motion/visibility guards retained.
+
+#### Verification
+- `npm install --legacy-peer-deps`: PASS (no new dependencies required).
+- `npm run build`: PASS (exit 0), declaration files generated.
+- `npm run build-storybook`: PASS — all 10 new stories compile.
+- `tsc --noEmit`: PASS (exit 0) — fixed two type errors during the batch
+  (RefObject nullability in GradualBlur, `color` prop collision with
+  HTMLAttributes in Threads).
+
+#### Files
+- `src/components/text-effects/{true-focus,circular-text,echo-text,depth-text}.tsx`
+- `src/components/effects/{gradual-blur,electric-border,scroll-expand,liquid-chrome,gradient-waves,threads}.tsx`
+- `src/lib/color.ts`
+- `src/stories/{text-effects,effects}/*.stories.tsx` (10 stories)
+- `src/index.ts`
+
+#### Commit
+- This session
+
 ### [2026-09-07] — Add 10 new components from ReactBits, 21st.dev (spell-ui), zyeon (LT#22)
 
 #### Change

@@ -1423,6 +1423,29 @@ export type {
   OnboardingTipsProps,
 } from "./components/overlays/onboarding-tips"
 
+// === New components: ReactBits (text & background effects) ===
+export { TrueFocus } from "./components/text-effects/true-focus"
+export type { TrueFocusProps } from "./components/text-effects/true-focus"
+export { CircularText } from "./components/text-effects/circular-text"
+export type { CircularTextProps } from "./components/text-effects/circular-text"
+export { EchoText } from "./components/text-effects/echo-text"
+export type { EchoTextProps } from "./components/text-effects/echo-text"
+export { DepthText } from "./components/text-effects/depth-text"
+export type { DepthTextProps } from "./components/text-effects/depth-text"
+export { GradualBlur, GRADUAL_BLUR_PRESETS } from "./components/effects/gradual-blur"
+export type { GradualBlurProps } from "./components/effects/gradual-blur"
+export { ElectricBorder } from "./components/effects/electric-border"
+export type { ElectricBorderProps } from "./components/effects/electric-border"
+export { ScrollExpand } from "./components/effects/scroll-expand"
+export type { ScrollExpandProps } from "./components/effects/scroll-expand"
+export { LiquidChrome } from "./components/effects/liquid-chrome"
+export type { LiquidChromeProps } from "./components/effects/liquid-chrome"
+export { GradientWaves } from "./components/effects/gradient-waves"
+export type { GradientWavesProps, GradientWavesDetail } from "./components/effects/gradient-waves"
+export { Threads } from "./components/effects/threads"
+export type { ThreadsProps } from "./components/effects/threads"
+export { resolveColor, colorToRgba } from "./lib/color"
+
 // === New components: ReactBits & HyperUI ports ===
 export { SplashCursor } from "./components/effects/splash-cursor"
 export type { SplashCursorProps } from "./components/effects/splash-cursor"
