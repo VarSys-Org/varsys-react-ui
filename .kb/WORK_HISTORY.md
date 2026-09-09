@@ -1,5 +1,57 @@
 # Work History — varsys-ui
 
+### [2026-09-09] — Add 10 new ReactBits components: text effects, canvas/WebGL backgrounds, cards, forms (LT#22)
+
+#### Change
+- Scanned the listed catalogs (ui.shadcn.com, magicui.design, ui.aceternity.com,
+  originui.com, 21st.dev, radi-ui.com, tremor.so, hyperui.dev, floatui.com,
+  preline.co). shadcn, Magic UI, Aceternity, Tremor, Origin UI, Dice/radi-ui,
+  FloatUI, Preline and HyperUI remain fully covered; added 10 NEW ReactBits
+  (reactbits.dev) components not present in the library, using only existing
+  deps (ogl, motion, lenis, react) — no new dependencies required:
+  - text-effects/rotating-text (RotatingText — char/word/line rotating text
+    with imperative ref: next/previous/jumpTo/reset)
+  - text-effects/curved-loop (CurvedLoop — SVG textPath marquee along a curve,
+    pointer-drag direction control)
+  - effects/letter-glitch (LetterGlitch — canvas glitchy letter matrix with
+    smooth color transitions + vignettes)
+  - effects/dot-field (DotField — cursor-reactive dot field with bulge/sparkle/
+    wave modes, theme-token painted)
+  - effects/grainient (Grainient — ogl WebGL animated gradient + grain, theme
+    colors via resolveColor)
+  - effects/topography (Topography — ogl WebGL morphing contour bands,
+    mouse interaction + grain)
+  - effects/waves (Waves — canvas perlin wave lines reacting to pointer)
+  - effects/plasma-wave (PlasmaWave — ogl raymarched plasma ribbon field)
+  - cards/pixel-card (PixelCard — hover/focus pixel ignition card, 4 variants)
+  - forms/option-wheel (OptionWheel — curved wheel/scroll picker, drag/keys/
+    wheel input, theme tokens)
+- Created matching Storybook stories in `src/stories/` (10 stories).
+- Exported all from `src/index.ts`.
+- Adapted sources to repo conventions: named exports, `@/lib/cn`, theme-safe
+  tokens (`--primary`, `--foreground`, `--muted-foreground`, `--chart-1..5`)
+  via `@/lib/color` (`resolveColor`/`colorToRgba`) instead of hardcoded colors,
+  no comments, reduced-motion/visibility guards retained.
+
+#### Verification
+- `npm install --legacy-peer-deps`: PASS (no new dependencies required).
+- `npm run build`: PASS (exit 0), declaration files generated — fixed one TS
+  error in pixel-card (`doAnimate` fnName typed as method-only union).
+- `npm run build-storybook`: PASS — all 10 new stories compile.
+- `tsc --noEmit`: pre-existing baseline crash ("Map maximum size exceeded"),
+  unchanged — verified via vite:dts pass instead.
+
+#### Files
+- `src/components/text-effects/{rotating-text,curved-loop}.tsx`
+- `src/components/effects/{letter-glitch,dot-field,grainient,topography,waves,plasma-wave}.tsx`
+- `src/components/cards/pixel-card.tsx`
+- `src/components/forms/option-wheel.tsx`
+- `src/stories/{text-effects,effects,cards,forms}/*.stories.tsx` (10 stories)
+- `src/index.ts`
+
+#### Commit
+- This session
+
 ### [2026-09-08] — Add 10 new ReactBits components: text effects + canvas/WebGL backgrounds (LT#22)
 
 #### Change
