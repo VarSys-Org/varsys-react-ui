@@ -1,5 +1,47 @@
 # Work History — varsys-ui
 
+### [2026-09-10] — Add 10 new ReactBits components: text effects, scroll/GSAP animations, interactive backgrounds, cards (LT#22)
+
+#### Change
+- Scanned the listed catalogs (ui.shadcn.com, magicui.design, ui.aceternity.com,
+  originui.com, 21st.dev, radi-ui.com, tremor.so, hyperui.dev, floatui.com,
+  preline.co). shadcn, Magic UI, Aceternity, Origin UI, Dice/radi-ui, Tremor,
+  FloatUI, Preline and HyperUI remain fully covered; added 10 NEW ReactBits
+  (reactbits.dev) components not present in the library. New deps added:
+  `gsap` (+ `@gsap/react`), `matter-js` (+ `@types/matter-js`):
+  - text-effects/split-text (SplitText — GSAP SplitText chars/words/lines
+    scroll-triggered reveal, fonts.ready gating)
+  - text-effects/count-up (CountUp — motion spring count up/down with
+    in-view trigger, separators and decimals)
+  - text-effects/scroll-float (ScrollFloat — scrub-driven per-char float)
+  - text-effects/falling-text (FallingText — matter-js physics word scatter,
+    auto/scroll/click/hover triggers)
+  - effects/magnet (Magnet — cursor magnet wrapper with strength/padding)
+  - effects/fade-content (FadeContent — GSAP ScrollTrigger fade/blur in)
+  - effects/animated-content (AnimatedContent — scroll slide/fade/scale in)
+  - effects/dot-grid (DotGrid — gsap InertiaPlugin interactive dot grid)
+  - effects/beams (Beams — three.js shader-animated light beams)
+  - cards/bounce-cards (BounceCards — gsap elastic card fan-in + hover push)
+- Created matching Storybook stories in `src/stories/` (10 stories).
+- Exported all from `src/index.ts`.
+- Fixed `@types/matter-js` placement into devDependencies.
+
+#### Verification
+- `npm install --legacy-peer-deps`: PASS (added gsap@3.15.0, @gsap/react@2.1.2,
+  matter-js@0.20.0).
+- `npm run build`: PASS (exit 0), declaration files generated.
+- `npm run build-storybook`: PASS.
+
+#### Files
+- `src/components/text-effects/{split-text,count-up,scroll-float,falling-text}.tsx`
+- `src/components/effects/{magnet,fade-content,animated-content,dot-grid,beams}.tsx`
+- `src/components/cards/bounce-cards.tsx`
+- `src/stories/{text-effects,effects,cards}/*.stories.tsx` (10 stories)
+- `src/index.ts`, `package.json`, `package-lock.json`
+
+#### Commit
+- Pending (this session)
+
 ### [2026-09-09] — Add 10 new ReactBits components: text effects, canvas/WebGL backgrounds, cards, forms (LT#22)
 
 #### Change
