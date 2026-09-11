@@ -2,6 +2,7 @@
 
 | Date | Project | Feature | Files | Issue # | Status | Notes |
 |---|---|---|---|---|---|---|
+| 2026-09-11 | varsys-ui | ReactBits: text-effects (FoldText, TextType, MaskedHeading) + effects (ParticleText, Lightning, HalftoneReveal, Ferrofluid, Orb) + buttons (SpecularButton) + scroll (ScrollStack) | 10 components + 10 stories + index.ts | LT#22 | ✅ Done | Build + Storybook pass; no new deps (gsap, ogl, lenis already present). |
 | 2026-09-10 | varsys-ui | ReactBits: text-effects (SplitText, CountUp, ScrollFloat, FallingText) + effects (Magnet, FadeContent, AnimatedContent, DotGrid, Beams) + cards (BounceCards) | 10 components + 10 stories + index.ts + package.json | LT#22 | ✅ Done | Build + Storybook pass; added gsap, @gsap/react, matter-js. |
 | 2026-09-09 | varsys-ui | ReactBits: text-effects (RotatingText, CurvedLoop) + effects (LetterGlitch, DotField, Grainient, Topography, Waves, PlasmaWave) + cards (PixelCard) + forms (OptionWheel) | 10 components + 10 stories + index.ts | LT#22 | ✅ Done | Build + Storybook pass; no new deps. |
 | 2026-09-08 | varsys-ui | ReactBits: text-effects (TrueFocus, CircularText, EchoText, DepthText) + effects (GradualBlur, ElectricBorder, ScrollExpand, LiquidChrome, GradientWaves, Threads) | 10 components + 10 stories + lib/color.ts + index.ts | LT#22 | ✅ Done | Build, Storybook + tsc pass; no new deps. |

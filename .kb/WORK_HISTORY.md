@@ -1,5 +1,54 @@
 # Work History — varsys-ui
 
+### [2026-09-11] — Add 10 new ReactBits components: text effects, canvas/WebGL effects, specular button, scroll stack (LT#22)
+
+#### Change
+- Scanned the listed catalogs (ui.shadcn.com, magicui.design, ui.aceternity.com,
+  originui.com, 21st.dev, radi-ui.com, tremor.so, hyperui.dev, floatui.com,
+  preline.co). shadcn, Magic UI, Aceternity, Origin UI, Dice/radi-ui, Tremor,
+  FloatUI, Preline and HyperUI remain fully covered; added 10 NEW ReactBits
+  (reactbits.dev) components not present in the library, using only existing
+  deps (gsap, ogl, lenis) — no new dependencies required:
+  - text-effects/fold-text (FoldText — GSAP 3D hinge-fold char/word/line reveal,
+    mount/hover/scroll/loop triggers, reduced-motion aware)
+  - text-effects/text-type (TextType — gsap-blinking typing effect with loop,
+    colors, variable speed, reverse mode, start-on-visible)
+  - text-effects/masked-heading (MaskedHeading — media-masked heading with
+    SVG clip-path glyphs, rise/wipe/fade reveal + pointer parallax/drift)
+  - effects/particle-text (ParticleText — canvas text sampled into particles
+    with scatter/gather, pointer repel, glow, idle drift)
+  - effects/lightning (Lightning — raw-WebGL lightning bolts, hue/speed/
+    intensity/size controls)
+  - effects/halftone-reveal (HalftoneReveal — ogl halftone image with hover
+    reveal loupe, mono/duotone/color modes, 4 shapes)
+  - effects/ferrofluid (Ferrofluid — ogl ferrofluid blob field with mouse
+    interaction, flow direction, palette up to 8 colors)
+  - effects/orb (Orb — ogl ray-traced orb, hue/hover/rotate controls)
+  - buttons/specular-button (SpecularButton — ogl SDF specular-shine button)
+  - scroll/scroll-stack (ScrollStack + ScrollStackItem — lenis-driven stacked
+    card pinning/scale/blur/rotation on scroll)
+- Created matching Storybook stories in `src/stories/` (10 stories).
+- Exported all from `src/index.ts`.
+- Adapted sources to repo conventions: named exports, `@/lib/cn`, theme-safe
+  CSS-variable color defaults where supported, no comments,
+  reduced-motion/visibility guards retained.
+
+#### Verification
+- `npm install --legacy-peer-deps`: PASS (no new dependencies required).
+- `npm run build`: PASS (exit 0), declaration files generated.
+- `npm run build-storybook`: PASS — all 10 new stories compile.
+
+#### Files
+- `src/components/text-effects/{fold-text,text-type,masked-heading}.tsx`
+- `src/components/effects/{particle-text,lightning,halftone-reveal,ferrofluid,orb}.tsx`
+- `src/components/buttons/specular-button.tsx`
+- `src/components/scroll/scroll-stack.tsx`
+- `src/stories/{text-effects,effects,buttons,scroll}/*.stories.tsx` (10 stories)
+- `src/index.ts`, `.kb/FEATURE_LOG.md`, `.kb/WORK_HISTORY.md`
+
+#### Commit
+- This session
+
 ### [2026-09-10] — Add 10 new ReactBits components: text effects, scroll/GSAP animations, interactive backgrounds, cards (LT#22)
 
 #### Change
