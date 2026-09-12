@@ -1566,3 +1566,45 @@ export { SpecularButton } from "./components/buttons/specular-button"
 export type { SpecularButtonProps } from "./components/buttons/specular-button"
 export { ScrollStack, ScrollStackItem } from "./components/scroll/scroll-stack"
 export type { ScrollStackProps, ScrollStackItemProps } from "./components/scroll/scroll-stack"
+
+// === New components: shadcn/ui browser mockups ===
+export { ChromeMockup, SafariMockup, FirefoxMockup } from "./components/device-mocks/browser-mockup"
+export type { ChromeMockupProps, SafariMockupProps, FirefoxMockupProps } from "./components/device-mocks/browser-mockup"
+
+// === New components: 21st.dev / Spell UI ===
+export { Chunk } from "./components/effects/chunk"
+export type { ChunkProps, ChunkDifficulty } from "./components/effects/chunk"
+export { SpinningLogo } from "./components/effects/spinning-logo"
+export type { SpinningLogoProps } from "./components/effects/spinning-logo"
+
+// === New components: Aceternity / Magic UI ===
+export { FeatureSectionStickyScroll } from "./components/layout/feature-section-sticky-scroll"
+export type { FeatureSectionStickyScrollProps, FeatureSectionStickyScrollItem } from "./components/layout/feature-section-sticky-scroll"
+export { ChatConversation } from "./components/display/chat-conversation"
+export type { ChatConversationProps, ChatConversationMessage } from "./components/display/chat-conversation"
+export { DynamicIsland } from "./components/device-mocks/dynamic-island"
+export type { DynamicIslandProps, DynamicIslandState } from "./components/device-mocks/dynamic-island"
+
+// === New components: Dice UI / radi-ui ===
+export { Tour, TourArrow, TourClose, TourDescription, TourFooter, TourHeader, TourNext, TourPortal, TourPrev, TourSkip, TourSpotlight, TourSpotlightRing, TourStep, TourStepCounter, TourTitle } from "./components/overlays/tour"
+export type { TourProps } from "./components/overlays/tour"
+export { SelectionToolbar, SelectionToolbarItem, SelectionToolbarSeparator, useSelectionToolbar } from "./components/overlays/selection-toolbar"
+export type { SelectionToolbarProps } from "./components/overlays/selection-toolbar"
+export { Hitbox, hitboxVariants } from "./components/buttons/hitbox"
+export type { HitboxProps } from "./components/buttons/hitbox"
+
+// === New components: HyperUI cards ===
+export { PodcastCard } from "./components/cards/podcast-card"
+export type { PodcastCardProps } from "./components/cards/podcast-card"
+export { ForumPostCard } from "./components/cards/forum-post-card"
+export type { ForumPostCardProps } from "./components/cards/forum-post-card"
+export { PropertyListingCard } from "./components/cards/property-listing-card"
+export type { PropertyListingCardProps, PropertyAmenity } from "./components/cards/property-listing-card"
+
+// === New components: Float UI ===
+export { AlertBanner } from "./components/display/alert-banner"
+export type { AlertBannerProps, AlertBannerVariant, AlertBannerAppearance, AlertBannerAction } from "./components/display/alert-banner"
+export { ChevronSteps } from "./components/navigation/chevron-steps"
+export type { ChevronStepsProps, ChevronStep } from "./components/navigation/chevron-steps"
+export { TabbedTable } from "./components/data-viz/tabbed-table"
+export type { TabbedTableProps, TabbedTableTab, TabbedTableItem, TabbedTableStatusTone } from "./components/data-viz/tabbed-table"
