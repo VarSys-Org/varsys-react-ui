@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Toggle, toggleVariants } from "../../components/forms/toggle"
 
 const meta: Meta<typeof Toggle> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Orb } from "../../components/effects/orb"
 
 const meta: Meta<typeof Orb> = {

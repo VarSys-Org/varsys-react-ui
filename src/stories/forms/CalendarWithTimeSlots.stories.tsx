@@ -1,5 +1,5 @@
 import * as React from "react"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CalendarWithTimeSlots } from "../../components/forms/calendar-with-time-slots"
 
 const meta: Meta<typeof CalendarWithTimeSlots> = {

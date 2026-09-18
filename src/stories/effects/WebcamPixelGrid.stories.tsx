@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { WebcamPixelGrid } from "../../components/effects/webcam-pixel-grid"
 
 const meta: Meta<typeof WebcamPixelGrid> = {

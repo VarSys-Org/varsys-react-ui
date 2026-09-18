@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CircularText } from "../../components/text-effects/circular-text"
 
 const meta: Meta<typeof CircularText> = {

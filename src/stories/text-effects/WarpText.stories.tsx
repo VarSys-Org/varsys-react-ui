@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { WarpText } from "../../components/text-effects/warp-text"
 
 const meta: Meta<typeof WarpText> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { GoogleGeminiEffect } from "../../components/effects/google-gemini-effect"
 import { useScroll, useTransform } from "motion/react"
 

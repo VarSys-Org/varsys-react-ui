@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { DotGrid } from "../../components/effects/dot-grid"
 
 const meta: Meta<typeof DotGrid> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { InView } from "../../components/effects/in-view"
 
 const meta: Meta<typeof InView> = {

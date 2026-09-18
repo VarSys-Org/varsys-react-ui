@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ParallaxGridScroll } from "../../components/effects/parallax-grid-scroll"
 
 const meta: Meta<typeof ParallaxGridScroll> = {

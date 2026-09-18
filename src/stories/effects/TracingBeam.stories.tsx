@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { TracingBeam } from "../../components/effects/tracing-beam"
 
 const meta: Meta<typeof TracingBeam> = {

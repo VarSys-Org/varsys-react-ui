@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CloudDownload } from "lucide-react"
 import { SpotlightButton } from "../../components/buttons/spotlight-button"
 

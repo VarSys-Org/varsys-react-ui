@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Bell, Home, Settings, User } from "lucide-react"
 import { TabNav } from "../../components/navigation/tab-nav"
 

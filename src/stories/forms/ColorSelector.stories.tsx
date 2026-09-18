@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ColorSelector } from "../../components/forms/color-selector"
 
 const meta: Meta<typeof ColorSelector> = {

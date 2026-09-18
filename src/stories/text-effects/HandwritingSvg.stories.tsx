@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { HandwritingSvg } from "../../components/text-effects/handwriting-svg"
 
 const meta: Meta<typeof HandwritingSvg> = {

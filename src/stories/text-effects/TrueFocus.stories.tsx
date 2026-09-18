@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { TrueFocus } from "../../components/text-effects/true-focus"
 
 const meta: Meta<typeof TrueFocus> = {

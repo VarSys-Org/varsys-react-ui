@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { BadgeCheck, Zap } from "lucide-react"
 import { FeatureSplit } from "../../components/layout/feature-split"
 

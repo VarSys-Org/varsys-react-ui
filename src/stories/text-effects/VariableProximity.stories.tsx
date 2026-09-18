@@ -1,5 +1,5 @@
 import { useRef } from "react"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { VariableProximity } from "../../components/text-effects/variable-proximity"
 
 const meta: Meta<typeof VariableProximity> = {

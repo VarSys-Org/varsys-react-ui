@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Star } from "lucide-react"
 import { ExplodingInput } from "../../components/forms/exploding-input"
 

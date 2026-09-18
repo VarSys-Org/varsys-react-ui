@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ChartPieSimple } from "../../components/data-viz/chart-pie-simple"
 
 const meta: Meta<typeof ChartPieSimple> = {

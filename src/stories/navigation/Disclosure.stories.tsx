@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Disclosure, DisclosureTrigger, DisclosureContent } from "../../components/navigation/disclosure"
 
 const meta: Meta<typeof Disclosure> = {

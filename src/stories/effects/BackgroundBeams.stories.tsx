@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { BackgroundBeams } from "../../components/effects/background-beams"
 
 const meta: Meta<typeof BackgroundBeams> = {

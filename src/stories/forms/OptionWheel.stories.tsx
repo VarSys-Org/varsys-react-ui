@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { OptionWheel } from "../../components/forms/option-wheel"
 
 const meta: Meta<typeof OptionWheel> = {

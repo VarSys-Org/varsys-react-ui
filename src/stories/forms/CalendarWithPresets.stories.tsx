@@ -1,5 +1,5 @@
 import * as React from "react"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CalendarWithPresets } from "../../components/forms/calendar-with-presets"
 
 const meta: Meta<typeof CalendarWithPresets> = {

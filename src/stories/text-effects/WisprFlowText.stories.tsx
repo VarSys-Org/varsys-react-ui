@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { WisprFlowText } from "../../components/text-effects/wispr-flow-text-animation"
 
 const meta: Meta<typeof WisprFlowText> = {

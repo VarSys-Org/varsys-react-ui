@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { LoadingOverlay } from "../../components/overlays/loading-overlay"
 
 const meta: Meta<typeof LoadingOverlay> = {

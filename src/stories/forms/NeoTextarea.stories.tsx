@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { NeoTextarea } from "../../components/forms/neo-textarea"
 
 const meta: Meta<typeof NeoTextarea> = {

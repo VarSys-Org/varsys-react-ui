@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { FlickeringGrid } from "../../components/effects/flickering-grid"
 import { RetroGrid } from "../../components/effects/retro-grid"
 import { DotPattern } from "../../components/effects/dot-pattern"

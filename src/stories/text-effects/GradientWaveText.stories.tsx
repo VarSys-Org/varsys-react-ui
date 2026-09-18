@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { GradientWaveText } from "../../components/text-effects/gradient-wave-text"
 
 const meta: Meta<typeof GradientWaveText> = {

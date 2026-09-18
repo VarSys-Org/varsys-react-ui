@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Mail } from "lucide-react"
 
 import { AnimatedInput } from "../../components/forms/animated-input"

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { QuantumCloudLoader } from "../../components/effects/quantum-cloud-loader"
 
 const meta: Meta<typeof QuantumCloudLoader> = {

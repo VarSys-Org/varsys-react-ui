@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Terminal, AnimatedSpan, TypingAnimation } from "../../components/effects/terminal"
 
 const meta: Meta<typeof Terminal> = {

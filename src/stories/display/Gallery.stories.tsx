@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 
 import { Gallery } from "../../components/display/gallery"
 import accessibilityImg from "../assets/accessibility.png"

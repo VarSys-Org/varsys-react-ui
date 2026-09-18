@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Bold, Copy, Italic, Link, Share2 } from "lucide-react"
 import { useCallback, useRef } from "react"
 import {

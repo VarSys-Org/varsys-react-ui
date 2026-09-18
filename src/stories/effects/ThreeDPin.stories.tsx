@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { PinContainer } from "../../components/effects/3d-pin"
 
 const meta: Meta<typeof PinContainer> = {

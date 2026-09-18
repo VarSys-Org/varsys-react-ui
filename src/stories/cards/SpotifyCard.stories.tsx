@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { SpotifyCard } from "../../components/cards/spotify-card"
 
 const meta: Meta<typeof SpotifyCard> = {

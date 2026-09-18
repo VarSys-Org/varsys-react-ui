@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Title } from "../../components/display/title"
 import { Subtitle } from "../../components/display/subtitle"
 import { Bold } from "../../components/display/bold"

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { InputCharacterLimit } from "../../components/forms/input-character-limit"
 
 const meta: Meta<typeof InputCharacterLimit> = {

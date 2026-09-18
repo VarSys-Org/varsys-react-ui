@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { FilterGroup } from "../../components/forms/filter-group"
 
 const meta: Meta<typeof FilterGroup> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CurvedLoop } from "../../components/text-effects/curved-loop"
 
 const meta: Meta<typeof CurvedLoop> = {

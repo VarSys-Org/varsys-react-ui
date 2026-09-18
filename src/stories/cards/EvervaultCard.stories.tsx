@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { EvervaultCard } from "../../components/cards/evervault-card"
 
 const meta: Meta<typeof EvervaultCard> = {

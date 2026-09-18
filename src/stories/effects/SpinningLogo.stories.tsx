@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { SpinningLogo } from "../../components/effects/spinning-logo"
 import { Hexagon } from "lucide-react"
 

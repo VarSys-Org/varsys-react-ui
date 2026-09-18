@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { GlyphMatrix } from "../../components/effects/glyph-matrix"
 
 const meta: Meta<typeof GlyphMatrix> = {

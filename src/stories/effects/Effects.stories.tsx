@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { AnimatedList } from "../../components/effects/animated-list"
 import { AnimatedBeam } from "../../components/effects/animated-beam"
 import { BorderBeam } from "../../components/effects/border-beam"

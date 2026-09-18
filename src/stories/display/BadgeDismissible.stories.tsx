@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Euro } from "lucide-react"
 import { BadgeDismissible } from "../../components/display/badge-dismissible"
 

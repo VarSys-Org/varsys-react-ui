@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { FadeContent } from "../../components/effects/fade-content"
 
 const meta: Meta<typeof FadeContent> = {

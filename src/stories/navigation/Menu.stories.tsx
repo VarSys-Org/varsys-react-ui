@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { PopupMenu, PopupMenuTrigger, PopupMenuPopup, PopupMenuItem, PopupMenuLabel, PopupMenuSeparator, PopupMenuCheckboxItem, PopupMenuRadioGroup, PopupMenuRadioItem, PopupMenuSub, PopupMenuSubTrigger, PopupMenuSubPopup, PopupMenuLinkItem } from "../../components/navigation/menu"
 import { Button } from "../../components/buttons/button"
 

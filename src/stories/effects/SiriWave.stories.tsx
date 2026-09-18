@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { SiriWave } from "../../components/effects/siri-wave"
 
 const meta: Meta<typeof SiriWave> = {

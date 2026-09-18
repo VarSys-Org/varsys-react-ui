@@ -1,6 +1,6 @@
 import { useTree } from "@headless-tree/react"
 import type { ItemInstance } from "@headless-tree/core"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Tree, TreeItem, TreeItemLabel } from "../../components/display/tree"
 
 interface NodeData {

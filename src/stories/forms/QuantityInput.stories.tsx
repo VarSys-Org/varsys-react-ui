@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { QuantityInput } from "../../components/forms/quantity-input"
 
 const meta: Meta<typeof QuantityInput> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { BoldIcon, ItalicIcon, UnderlineIcon, AlignLeftIcon, AlignCenterIcon, AlignRightIcon } from "lucide-react"
 
 import { Toolbar, ToolbarButton, ToolbarSeparator, ToolbarGroup, ToolbarLink } from "../../components/navigation/toolbar"

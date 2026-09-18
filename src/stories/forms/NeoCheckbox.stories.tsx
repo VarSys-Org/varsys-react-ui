@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { NeoCheckbox } from "../../components/forms/neo-checkbox"
 
 const meta: Meta<typeof NeoCheckbox> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { AnimatedSubscribeButton } from "../../components/buttons/animated-subscribe-button"
 
 const meta: Meta<typeof AnimatedSubscribeButton> = {

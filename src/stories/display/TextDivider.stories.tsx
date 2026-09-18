@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { TextDivider } from "../../components/display/text-divider"
 
 const meta: Meta<typeof TextDivider> = {

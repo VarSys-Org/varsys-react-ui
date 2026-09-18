@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CountUp } from "../../components/text-effects/count-up"
 
 const meta: Meta<typeof CountUp> = {

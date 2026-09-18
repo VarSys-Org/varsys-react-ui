@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { SearchIcon, MailIcon } from "lucide-react"
 
 import { InputGroup, InputGroupAddon, InputGroupText } from "../../components/forms/input-group"

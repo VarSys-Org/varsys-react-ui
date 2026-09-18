@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CopyButton } from "../../components/buttons/copy-button"
 
 const meta: Meta<typeof CopyButton> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { SignupForm } from "../../components/forms/signup-form"
 
 const meta: Meta<typeof SignupForm> = { title: "Forms/SignupForm", component: SignupForm, tags: ["autodocs"] }

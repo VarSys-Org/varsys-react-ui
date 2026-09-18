@@ -3,14 +3,22 @@ import react from '@vitejs/plugin-react'
 import dts from 'vite-plugin-dts'
 import { resolve } from 'path'
 
+const isStorybookBuild =
+  process.env.STORYBOOK === 'true' ||
+  process.argv.some((argument) => argument.toLowerCase().includes('storybook'))
+
 export default defineConfig({
   plugins: [
     react(),
-    dts({
-      include: ['src'],
-      exclude: ['src/stories', 'src/**/*.stories.tsx'],
-      outDir: 'dist',
-    }),
+    ...(isStorybookBuild
+      ? []
+      : [
+          dts({
+            include: ['src'],
+            exclude: ['src/stories', 'src/**/*.stories.tsx'],
+            outDir: 'dist',
+          }),
+        ]),
   ],
   resolve: {
     alias: {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { PricingSection } from "../../components/cards/pricing-section"
 
 const meta: Meta<typeof PricingSection> = {

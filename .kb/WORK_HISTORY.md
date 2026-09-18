@@ -1,5 +1,13 @@
 # Work History — varsys-ui
 
+### [2026-09-19] — Repair library and Storybook build (LT#22)
+
+- Fixed Storybook’s library-wide declaration-generation stall by isolating
+  `vite-plugin-dts` to non-Storybook builds.
+- Fixed Base UI event typing in `TourPrev`, `TourNext`, and `TourSkip`.
+- Verification: `npm run build` and `npm run build-storybook -- --quiet` pass.
+- Details: `.kb/sessions/2026/varsys-ui/09-19-repair-build-and-tour.md`
+
 ### [2026-09-11] — Add 10 new ReactBits components: text effects, canvas/WebGL effects, specular button, scroll stack (LT#22)
 
 #### Change

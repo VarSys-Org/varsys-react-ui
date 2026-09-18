@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { FaqSearch } from "../../components/layout/faq-search"
 
 const meta: Meta<typeof FaqSearch> = {

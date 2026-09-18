@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { RadarChartGridCircle } from "../../components/data-viz/radar-chart-grid-circle"
 
 const meta: Meta<typeof RadarChartGridCircle> = {

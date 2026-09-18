@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { PlaceholdersAndVanishInput } from "../../components/forms/placeholders-and-vanish-input"
 
 const meta: Meta<typeof PlaceholdersAndVanishInput> = {

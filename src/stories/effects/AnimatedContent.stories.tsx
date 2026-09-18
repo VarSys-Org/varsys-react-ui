@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { AnimatedContent } from "../../components/effects/animated-content"
 
 const meta: Meta<typeof AnimatedContent> = {

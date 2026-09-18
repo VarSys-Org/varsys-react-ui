@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { StickyBanner } from "../../components/display/sticky-banner"
 
 const meta: Meta<typeof StickyBanner> = {

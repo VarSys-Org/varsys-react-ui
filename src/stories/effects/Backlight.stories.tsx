@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Backlight } from "../../components/effects/backlight"
 
 const meta: Meta<typeof Backlight> = {

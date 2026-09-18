@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { PopButton } from "../../components/buttons/pop-button"
 
 const meta: Meta<typeof PopButton> = {

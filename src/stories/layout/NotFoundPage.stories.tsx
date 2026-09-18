@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { NotFoundPage } from "../../components/layout/not-found-page"
 
 const meta: Meta<typeof NotFoundPage> = {

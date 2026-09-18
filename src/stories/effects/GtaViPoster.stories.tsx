@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { GtaViPoster } from "../../components/effects/gta-vi-poster"
 
 const meta: Meta<typeof GtaViPoster> = {

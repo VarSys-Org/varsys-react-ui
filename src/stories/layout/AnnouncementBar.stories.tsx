@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { AnnouncementBar } from "../../components/layout/announcement-bar"
 
 const meta: Meta<typeof AnnouncementBar> = {

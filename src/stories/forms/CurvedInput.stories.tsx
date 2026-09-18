@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CurvedInput } from "../../components/forms/curved-input"
 
 const meta: Meta<typeof CurvedInput> = {

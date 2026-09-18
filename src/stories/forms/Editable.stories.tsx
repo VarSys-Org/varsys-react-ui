@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CheckIcon, PencilIcon, XIcon } from "lucide-react"
 import {
   Editable,

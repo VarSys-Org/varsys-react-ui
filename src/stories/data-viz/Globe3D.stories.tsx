@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Globe3D } from "../../components/data-viz/globe-3d"
 
 const meta: Meta<typeof Globe3D> = { title: "DataViz/Globe3D", component: Globe3D, tags: ["autodocs"] }

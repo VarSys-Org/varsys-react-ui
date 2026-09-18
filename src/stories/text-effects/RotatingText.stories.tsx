@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { RotatingText } from "../../components/text-effects/rotating-text"
 
 const meta: Meta<typeof RotatingText> = {

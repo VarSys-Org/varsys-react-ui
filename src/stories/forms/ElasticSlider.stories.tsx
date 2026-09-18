@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ElasticSlider } from "../../components/forms/elastic-slider"
 
 const meta: Meta<typeof ElasticSlider> = {

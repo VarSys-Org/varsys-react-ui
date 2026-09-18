@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { StripedPattern } from "../../components/effects/striped-pattern"
 
 const meta: Meta<typeof StripedPattern> = {

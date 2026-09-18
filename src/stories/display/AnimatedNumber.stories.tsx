@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { AnimatedNumber } from "../../components/display/animated-number"
 
 const meta: Meta<typeof AnimatedNumber> = {

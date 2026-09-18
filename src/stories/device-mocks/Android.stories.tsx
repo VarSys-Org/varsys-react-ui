@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Android } from "../../components/device-mocks/android"
 
 const meta: Meta<typeof Android> = {

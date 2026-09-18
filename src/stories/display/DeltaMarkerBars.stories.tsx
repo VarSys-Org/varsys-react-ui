@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { DeltaBar } from "../../components/display/delta-bar"
 import { MarkerBar } from "../../components/display/marker-bar"
 

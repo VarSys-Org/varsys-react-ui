@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { AvatarGroup } from "../../components/display/avatar-group"
 
 const meta: Meta<typeof AvatarGroup> = {

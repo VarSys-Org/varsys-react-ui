@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { LetterGlitch } from "../../components/effects/letter-glitch"
 
 const meta: Meta<typeof LetterGlitch> = {

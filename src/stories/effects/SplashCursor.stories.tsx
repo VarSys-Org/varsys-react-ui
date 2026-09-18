@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { SplashCursor } from "../../components/effects/splash-cursor"
 
 const meta: Meta<typeof SplashCursor> = {

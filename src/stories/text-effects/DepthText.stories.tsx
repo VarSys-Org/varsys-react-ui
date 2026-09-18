@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { DepthText } from "../../components/text-effects/depth-text"
 
 const meta: Meta<typeof DepthText> = {

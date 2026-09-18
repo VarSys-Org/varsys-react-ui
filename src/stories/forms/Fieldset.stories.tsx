@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Fieldset, FieldsetLegend } from "../../components/forms/fieldset"
 import { Input } from "../../components/forms/input"
 import { Label } from "../../components/forms/label"

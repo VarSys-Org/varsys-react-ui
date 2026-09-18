@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ToggleCount } from "../../components/forms/toggle-count"
 
 const meta: Meta<typeof ToggleCount> = {

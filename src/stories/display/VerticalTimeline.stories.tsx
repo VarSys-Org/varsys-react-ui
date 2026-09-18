@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { VerticalTimeline } from "../../components/display/vertical-timeline"
 import type { TimelineEntry } from "../../components/display/vertical-timeline"
 

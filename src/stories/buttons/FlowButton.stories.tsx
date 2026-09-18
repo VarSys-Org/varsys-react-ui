@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ArrowRight } from "lucide-react"
 import { FlowButton } from "../../components/buttons/flow-button"
 

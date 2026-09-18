@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { DynamicIsland } from "../../components/device-mocks/dynamic-island"
 import type { DynamicIslandState } from "../../components/device-mocks/dynamic-island"
 import { Check, LoaderCircle, Music2, Mic } from "lucide-react"

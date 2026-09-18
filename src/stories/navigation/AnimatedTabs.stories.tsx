@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { AnimatedTabs } from "../../components/navigation/animated-tabs"
 
 const meta: Meta<typeof AnimatedTabs> = {

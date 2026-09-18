@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ArrowRight } from "lucide-react"
 import { RichButton } from "../../components/buttons/rich-button"
 

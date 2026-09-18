@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { VideoText } from "../../components/text-effects/video-text"
 
 const meta: Meta<typeof VideoText> = {

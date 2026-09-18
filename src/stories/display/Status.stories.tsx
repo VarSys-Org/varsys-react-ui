@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Status, StatusIndicator, StatusLabel } from "../../components/display/status"
 
 const meta: Meta<typeof Status> = {

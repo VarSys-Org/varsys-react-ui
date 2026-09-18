@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { PreviewCard, PreviewCardTrigger, PreviewCardContent } from "../../components/overlays/preview-card"
 import { Button } from "../../components/buttons/button"
 

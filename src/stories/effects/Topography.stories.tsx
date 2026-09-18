@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Topography } from "../../components/effects/topography"
 
 const meta: Meta<typeof Topography> = {

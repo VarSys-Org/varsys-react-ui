@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { TextFlippingBoard } from "../../components/text-effects/text-flipping-board"
 
 const meta: Meta<typeof TextFlippingBoard> = {

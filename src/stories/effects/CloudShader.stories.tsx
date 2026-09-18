@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CloudShader } from "../../components/effects/cloud-shader"
 
 const meta: Meta<typeof CloudShader> = {

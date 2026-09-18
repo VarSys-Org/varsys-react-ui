@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { MovingLine } from "../../components/effects/moving-line"
 
 const meta: Meta<typeof MovingLine> = {

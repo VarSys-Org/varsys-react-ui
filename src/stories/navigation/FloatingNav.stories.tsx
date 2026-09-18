@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { FloatingNav } from "../../components/navigation/floating-nav"
 
 const meta: Meta<typeof FloatingNav> = {

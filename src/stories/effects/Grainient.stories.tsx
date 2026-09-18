@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Grainient } from "../../components/effects/grainient"
 
 const meta: Meta<typeof Grainient> = {

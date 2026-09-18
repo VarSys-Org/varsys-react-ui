@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Highlighter } from "../../components/text-effects/highlighter"
 
 const meta: Meta<typeof Highlighter> = {

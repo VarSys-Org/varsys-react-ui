@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Ferrofluid } from "../../components/effects/ferrofluid"
 
 const meta: Meta<typeof Ferrofluid> = {

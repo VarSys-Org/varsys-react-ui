@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { GithubGlobe } from "../../components/data-viz/globe-github"
 
 const meta: Meta<typeof GithubGlobe> = {

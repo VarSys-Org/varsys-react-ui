@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { GradientInput } from "../../components/forms/gradient-input"
 
 const meta: Meta<typeof GradientInput> = {

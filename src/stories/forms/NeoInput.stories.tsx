@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { NeoInput } from "../../components/forms/neo-input"
 
 const meta: Meta<typeof NeoInput> = {

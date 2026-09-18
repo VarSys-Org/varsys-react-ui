@@ -1,5 +1,5 @@
 import * as React from "react"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { DateInputPicker } from "../../components/forms/date-input-picker"
 
 const meta: Meta<typeof DateInputPicker> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ResponsiveGrid } from "../../components/layout/responsive-grid"
 
 const meta: Meta<typeof ResponsiveGrid> = {

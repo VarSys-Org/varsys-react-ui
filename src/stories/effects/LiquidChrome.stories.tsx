@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { LiquidChrome } from "../../components/effects/liquid-chrome"
 
 const meta: Meta<typeof LiquidChrome> = {

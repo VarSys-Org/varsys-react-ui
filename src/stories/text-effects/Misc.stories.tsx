@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { SparklesText } from "../../components/text-effects/sparkles-text"
 import { ShimmerButton } from "../../components/buttons/shimmer-button"
 

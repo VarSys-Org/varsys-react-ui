@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Dock, DockIcon } from "../../components/layout/dock"
 import { Home, Settings, User, Mail } from "lucide-react"
 

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { FoldText } from "../../components/text-effects/fold-text"
 
 const meta: Meta<typeof FoldText> = {

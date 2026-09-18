@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Scroller } from "../../components/scroll/scroller"
 
 const meta: Meta<typeof Scroller> = {

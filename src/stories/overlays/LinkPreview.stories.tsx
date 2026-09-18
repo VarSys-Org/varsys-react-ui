@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { LinkPreview } from "../../components/overlays/link-preview"
 
 const meta: Meta<typeof LinkPreview> = { title: "Overlays/LinkPreview", component: LinkPreview, tags: ["autodocs"] }

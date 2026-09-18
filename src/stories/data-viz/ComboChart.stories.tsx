@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ComboChart } from "../../components/data-viz/combo-chart"
 
 const meta: Meta<typeof ComboChart> = {

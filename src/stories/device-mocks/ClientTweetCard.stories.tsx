@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ClientTweetCard } from "../../components/device-mocks/client-tweet-card"
 
 const meta: Meta<typeof ClientTweetCard> = {

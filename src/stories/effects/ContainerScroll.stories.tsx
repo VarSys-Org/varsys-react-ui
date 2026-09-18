@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ContainerScroll } from "../../components/effects/container-scroll"
 
 const meta: Meta<typeof ContainerScroll> = {

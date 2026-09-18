@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { RadialChartGrid } from "../../components/data-viz/radial-chart-grid"
 
 const meta: Meta<typeof RadialChartGrid> = {

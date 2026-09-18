@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { MagnetLines } from "../../components/effects/magnet-lines"
 
 const meta: Meta<typeof MagnetLines> = {

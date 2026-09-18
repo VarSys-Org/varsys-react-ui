@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { StatusDot } from "../../components/display/status-dot"
 
 const meta: Meta<typeof StatusDot> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CookieConsent } from "../../components/overlays/cookie-consent"
 
 const meta: Meta<typeof CookieConsent> = {

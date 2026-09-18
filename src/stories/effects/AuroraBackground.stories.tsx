@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { AuroraBackground } from "../../components/effects/aurora-background"
 
 const meta: Meta<typeof AuroraBackground> = {

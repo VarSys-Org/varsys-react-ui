@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { NeoBadge } from "../../components/display/neo-badge"
 
 const meta: Meta<typeof NeoBadge> = {

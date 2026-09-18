@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { UploadFileCard } from "../../components/forms/upload-file-card"
 
 const meta: Meta<typeof UploadFileCard> = {

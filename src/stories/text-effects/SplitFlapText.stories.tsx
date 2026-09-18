@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { SplitFlapText } from "../../components/text-effects/split-flap-text"
 
 const meta: Meta<typeof SplitFlapText> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { AnimatedCircularProgressBar } from "../../components/display/animated-circular-progress-bar"
 
 const meta: Meta<typeof AnimatedCircularProgressBar> = {

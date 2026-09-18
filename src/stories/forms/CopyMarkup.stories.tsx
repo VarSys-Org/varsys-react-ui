@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CopyMarkup } from "../../components/forms/copy-markup"
 
 const meta: Meta<typeof CopyMarkup> = {

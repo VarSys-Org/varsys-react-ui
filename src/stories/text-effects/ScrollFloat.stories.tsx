@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ScrollFloat } from "../../components/text-effects/scroll-float"
 
 const meta: Meta<typeof ScrollFloat> = {

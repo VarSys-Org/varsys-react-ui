@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { GooeyNav } from "../../components/navigation/gooey-nav"
 
 const meta: Meta<typeof GooeyNav> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { BackgroundGradient } from "../../components/effects/background-gradient"
 
 const meta: Meta<typeof BackgroundGradient> = {

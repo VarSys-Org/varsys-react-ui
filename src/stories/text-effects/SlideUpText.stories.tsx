@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { SlideUpText } from "../../components/text-effects/slide-up-text"
 
 const meta: Meta<typeof SlideUpText> = {

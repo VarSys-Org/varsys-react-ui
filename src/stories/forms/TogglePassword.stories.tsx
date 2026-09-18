@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { TogglePassword } from "../../components/forms/toggle-password"
 
 const meta: Meta<typeof TogglePassword> = {

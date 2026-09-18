@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { StrongPassword } from "../../components/forms/strong-password"
 
 const meta: Meta<typeof StrongPassword> = {

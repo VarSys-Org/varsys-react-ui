@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Check, Copy, Moon, Sun } from "lucide-react"
 
 import { Swap, SwapOff, SwapOn } from "../../components/display/swap"

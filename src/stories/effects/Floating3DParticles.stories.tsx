@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Floating3DParticles } from "../../components/effects/floating-3d-particles"
 
 const meta: Meta<typeof Floating3DParticles> = {

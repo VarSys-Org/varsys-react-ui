@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { FeatureGridGradient } from "../../components/layout/feature-grid-gradient"
 
 const meta: Meta<typeof FeatureGridGradient> = {

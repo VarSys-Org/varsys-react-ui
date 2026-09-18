@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { AnimatedThemeToggler } from "../../components/effects/animated-theme-toggler"
 
 const meta: Meta<typeof AnimatedThemeToggler> = {

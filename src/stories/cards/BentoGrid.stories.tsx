@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { BentoGrid, BentoCard } from "../../components/cards/bento-grid"
 import { Sparkles, Globe, Zap, Shield, Cpu, Layers } from "lucide-react"
 

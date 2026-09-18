@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { TypewriterEffect, TypewriterEffectSmooth } from "../../components/text-effects/typewriter-effect"
 
 const meta: Meta<typeof TypewriterEffect> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { DecryptedText } from "../../components/text-effects/decrypted-text"
 
 const meta: Meta<typeof DecryptedText> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Tab, TabList } from "../../components/navigation/tab-list"
 import { TabPanel, TabPanels } from "../../components/navigation/tab-panels"
 

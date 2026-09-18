@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { FloatingDock } from "../../components/navigation/floating-dock"
 import { IconHome, IconSettings, IconUser, IconBell } from "@tabler/icons-react"
 

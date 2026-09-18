@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { LogosCarousel } from "../../components/layout/logos-carousel"
 
 const meta: Meta<typeof LogosCarousel> = {

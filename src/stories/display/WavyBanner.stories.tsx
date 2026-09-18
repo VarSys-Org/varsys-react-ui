@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { WavyBanner } from "../../components/display/wavy-banner"
 
 const meta: Meta<typeof WavyBanner> = {

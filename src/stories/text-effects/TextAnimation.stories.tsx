@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { HyperText } from "../../components/text-effects/hyper-text"
 import { NumberTicker } from "../../components/text-effects/number-ticker"
 

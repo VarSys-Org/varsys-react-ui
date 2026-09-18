@@ -1,5 +1,5 @@
 import { Settings, Users, CreditCard, FileText, User } from "lucide-react"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { VerticalMenu } from "../../components/navigation/vertical-menu"
 
 const meta: Meta<typeof VerticalMenu> = {

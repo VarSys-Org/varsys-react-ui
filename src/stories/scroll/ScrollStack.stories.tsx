@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ScrollStack, ScrollStackItem } from "../../components/scroll/scroll-stack"
 
 const meta: Meta<typeof ScrollStack> = {

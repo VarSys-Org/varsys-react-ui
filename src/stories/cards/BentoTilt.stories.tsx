@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ChartArea, Database, Gauge, Layers } from "lucide-react"
 
 import { BentoTilt, BentoTiltCard } from "../../components/cards/bento-tilt"

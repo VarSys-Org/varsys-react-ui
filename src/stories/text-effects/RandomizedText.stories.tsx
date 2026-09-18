@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { RandomizedText } from "../../components/text-effects/randomized-text"
 
 const meta: Meta<typeof RandomizedText> = {

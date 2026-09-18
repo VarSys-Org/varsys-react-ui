@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Menu, MenuItem, HoveredLink, NavbarMenu } from "../../components/navigation/navbar-menu"
 import { useState } from "react"
 

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ShimmerButton } from "../../components/buttons/shimmer-button"
 import { RainbowButton } from "../../components/buttons/rainbow-button"
 import { PulsatingButton } from "../../components/buttons/pulsating-button"

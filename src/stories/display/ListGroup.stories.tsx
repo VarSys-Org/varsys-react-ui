@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Settings, User } from "lucide-react"
 import { ListGroup } from "../../components/display/list-group"
 

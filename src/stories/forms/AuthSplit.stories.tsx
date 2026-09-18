@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { AuthSplit } from "../../components/forms/auth-split"
 
 const meta: Meta<typeof AuthSplit> = {

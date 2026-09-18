@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Vortex } from "../../components/effects/vortex"
 
 const meta: Meta<typeof Vortex> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { BackgroundOverlayCard } from "../../components/cards/background-overlay-card"
 
 const meta: Meta<typeof BackgroundOverlayCard> = {

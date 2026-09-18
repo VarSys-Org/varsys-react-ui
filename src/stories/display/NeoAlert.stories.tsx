@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { NeoAlert } from "../../components/display/neo-alert"
 
 const meta: Meta<typeof NeoAlert> = {

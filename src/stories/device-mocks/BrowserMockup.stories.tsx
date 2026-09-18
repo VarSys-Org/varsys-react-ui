@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ChromeMockup, SafariMockup, FirefoxMockup } from "../../components/device-mocks/browser-mockup"
 
 const meta: Meta<typeof ChromeMockup> = {

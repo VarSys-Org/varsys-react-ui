@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { DirectionAwareHover } from "../../components/effects/direction-aware-hover"
 
 const meta: Meta<typeof DirectionAwareHover> = {

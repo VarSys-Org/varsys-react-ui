@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { GitPullRequest, MessageCircle, Package } from "lucide-react"
 
 import { Notifications } from "../../components/overlays/notifications"

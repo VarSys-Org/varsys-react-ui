@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { FeatureSectionStickyScroll } from "../../components/layout/feature-section-sticky-scroll"
 import type { FeatureSectionStickyScrollItem } from "../../components/layout/feature-section-sticky-scroll"
 import { Sparkles, Zap, Globe, ShieldCheck } from "lucide-react"

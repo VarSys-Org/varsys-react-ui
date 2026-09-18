@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { SliderWithInput } from "../../components/forms/slider-with-input"
 
 const meta: Meta<typeof SliderWithInput> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Link2 } from "lucide-react"
 import { FaqDashed } from "../../components/layout/faq-dashed"
 

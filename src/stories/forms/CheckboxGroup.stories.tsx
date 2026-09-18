@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CheckboxGroup } from "../../components/forms/checkbox-group"
 import { Checkbox } from "../../components/forms/checkbox"
 import { Label } from "../../components/forms/label"

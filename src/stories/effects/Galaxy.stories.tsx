@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Galaxy } from "../../components/effects/galaxy"
 
 const meta: Meta<typeof Galaxy> = {

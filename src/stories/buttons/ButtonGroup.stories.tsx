@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Archive, MoreHorizontal, Bell } from "lucide-react"
 
 import { ButtonGroup, ButtonGroupSeparator } from "../../components/buttons/button-group"

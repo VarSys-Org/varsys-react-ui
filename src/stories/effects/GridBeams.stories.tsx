@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { GridBeams } from "../../components/effects/grid-beams"
 
 const meta: Meta<typeof GridBeams> = {

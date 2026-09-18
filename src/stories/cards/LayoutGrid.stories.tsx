@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { LayoutGrid } from "../../components/cards/layout-grid"
 
 const meta: Meta<typeof LayoutGrid> = {

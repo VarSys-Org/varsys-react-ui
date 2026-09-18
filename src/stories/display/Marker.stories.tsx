@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Marker, MarkerContent, MarkerIcon } from "../../components/display/marker"
 import { GitBranchIcon, SearchIcon, CheckIcon } from "lucide-react"
 

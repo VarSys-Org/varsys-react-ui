@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { TabbedTable } from "../../components/data-viz/tabbed-table"
 
 const meta: Meta<typeof TabbedTable> = {

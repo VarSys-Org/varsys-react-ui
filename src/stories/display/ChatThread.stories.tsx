@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ChatThread } from "../../components/display/chat-thread"
 import type { ChatMessage } from "../../components/display/chat-thread"
 

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { WordsStagger } from "../../components/text-effects/words-stagger"
 
 const meta: Meta<typeof WordsStagger> = {

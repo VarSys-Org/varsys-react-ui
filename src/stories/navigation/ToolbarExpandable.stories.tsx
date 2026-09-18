@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import ToolbarExpandable from "../../components/navigation/toolbar-expandable"
 
 const meta: Meta<typeof ToolbarExpandable> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { NeoSelect } from "../../components/forms/neo-select"
 
 const meta: Meta<typeof NeoSelect> = {

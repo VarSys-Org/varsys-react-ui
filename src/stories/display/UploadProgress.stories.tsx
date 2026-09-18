@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { UploadProgress } from "../../components/display/upload-progress"
 import type { UploadFile } from "../../components/display/upload-progress"
 

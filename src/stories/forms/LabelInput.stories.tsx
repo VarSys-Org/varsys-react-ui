@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { LabelInput } from "../../components/forms/label-input"
 
 const meta: Meta<typeof LabelInput> = {

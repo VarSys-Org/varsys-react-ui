@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ChevronSteps } from "../../components/navigation/chevron-steps"
 
 const meta: Meta<typeof ChevronSteps> = {

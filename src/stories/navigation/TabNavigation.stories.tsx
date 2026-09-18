@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { TabNavigation } from "../../components/navigation/tab-navigation"
 
 const meta: Meta<typeof TabNavigation> = {

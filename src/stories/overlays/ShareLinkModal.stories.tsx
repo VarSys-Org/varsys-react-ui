@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ShareLinkModal } from "../../components/overlays/share-link-modal"
 
 const meta: Meta<typeof ShareLinkModal> = {

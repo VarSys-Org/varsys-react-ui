@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { PieChartStacked } from "../../components/data-viz/pie-chart-stacked"
 
 const meta: Meta<typeof PieChartStacked> = {

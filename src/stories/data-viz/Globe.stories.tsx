@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Globe } from "../../components/data-viz/globe"
 import { Modal, ModalTrigger, ModalBody, ModalContent, ModalFooter } from "../../components/overlays/animated-modal"
 import { Button } from "../../components/buttons/button"

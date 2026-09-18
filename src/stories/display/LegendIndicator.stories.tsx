@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { LegendIndicator } from "../../components/display/legend-indicator"
 
 const meta: Meta<typeof LegendIndicator> = {

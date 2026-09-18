@@ -74,6 +74,9 @@ type PrevElement = React.ComponentRef<typeof TourPrev>
 type NextElement = React.ComponentRef<typeof TourNext>
 type SkipElement = React.ComponentRef<typeof TourSkip>
 type FooterElement = React.ComponentRef<typeof TourFooter>
+type TourButtonClickEvent = Parameters<
+  NonNullable<React.ComponentProps<typeof Button>["onClick"]>
+>[0]
 
 const OPPOSITE_SIDE: Record<Side, Side> = {
   top: "bottom",
@@ -1523,7 +1526,7 @@ function TourPrev(props: React.ComponentProps<typeof Button>) {
   const value = useStore((state) => state.value)
 
   const onClick = React.useCallback(
-    (event: React.MouseEvent<PrevElement>) => {
+    (event: TourButtonClickEvent) => {
       onClickProp?.(event)
       if (event.defaultPrevented) return
 
@@ -1563,7 +1566,7 @@ function TourNext(props: React.ComponentProps<typeof Button>) {
   const isLastStep = value === steps.length - 1
 
   const onClick = React.useCallback(
-    (event: React.MouseEvent<NextElement>) => {
+    (event: TourButtonClickEvent) => {
       onClickProp?.(event)
       if (event.defaultPrevented) return
 
@@ -1596,7 +1599,7 @@ function TourSkip(props: React.ComponentProps<typeof Button>) {
   const store = useStoreContext(SKIP_NAME)
 
   const onClick = React.useCallback(
-    (event: React.MouseEvent<SkipElement>) => {
+    (event: TourButtonClickEvent) => {
       onClickProp?.(event)
       if (event.defaultPrevented) return
 

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { NewsletterGradient } from "../../components/layout/newsletter-gradient"
 
 const meta: Meta<typeof NewsletterGradient> = {

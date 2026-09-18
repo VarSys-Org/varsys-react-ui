@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { BarChartInteractive } from "../../components/data-viz/bar-chart-interactive"
 
 const meta: Meta<typeof BarChartInteractive> = {

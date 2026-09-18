@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { TextAnimate } from "../../components/text-effects/text-animate"
 import { HyperText } from "../../components/text-effects/hyper-text"
 import { TypingAnimation } from "../../components/text-effects/typing-animation"

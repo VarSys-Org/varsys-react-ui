@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { MaskContainer } from "../../components/effects/svg-mask-effect"
 
 const meta: Meta<typeof MaskContainer> = {

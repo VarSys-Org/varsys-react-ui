@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { AreaChartGradient } from "../../components/data-viz/area-chart-gradient"
 
 const meta: Meta<typeof AreaChartGradient> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ChartTooltipAdvanced } from "../../components/data-viz/chart-tooltip-advanced"
 
 const meta: Meta<typeof ChartTooltipAdvanced> = {

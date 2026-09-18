@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { FileUpload } from "../../components/forms/file-upload"
 
 const meta: Meta<typeof FileUpload> = {

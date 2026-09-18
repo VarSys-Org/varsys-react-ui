@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Searchbox } from "../../components/overlays/searchbox"
 
 const meta: Meta<typeof Searchbox> = {

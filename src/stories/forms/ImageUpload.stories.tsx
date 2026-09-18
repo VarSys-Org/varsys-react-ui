@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ImageUpload } from "../../components/forms/image-upload"
 
 const meta: Meta<typeof ImageUpload> = {

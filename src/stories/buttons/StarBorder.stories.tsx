@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { StarBorder } from "../../components/buttons/star-border"
 
 const meta: Meta<typeof StarBorder> = {

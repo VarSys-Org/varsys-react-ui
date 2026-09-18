@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Safari } from "../../components/device-mocks/safari"
 import { Iphone } from "../../components/device-mocks/iphone"
 

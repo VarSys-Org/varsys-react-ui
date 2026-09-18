@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Compare } from "../../components/display/compare"
 
 const meta: Meta<typeof Compare> = {

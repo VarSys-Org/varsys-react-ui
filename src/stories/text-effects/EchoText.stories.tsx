@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { EchoText } from "../../components/text-effects/echo-text"
 
 const meta: Meta<typeof EchoText> = {

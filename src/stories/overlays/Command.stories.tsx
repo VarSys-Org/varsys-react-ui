@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Command, CommandInput, CommandList, CommandEmpty, CommandGroup, CommandItem } from "../../components/overlays/command"
 import { CalendarIcon, SearchIcon, SettingsIcon, UserIcon } from "lucide-react"
 

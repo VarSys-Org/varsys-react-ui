@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { GlowingEffect } from "../../components/effects/glowing-effect"
 
 const meta: Meta<typeof GlowingEffect> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import Text3DFlip from "../../components/text-effects/text-3d-flip"
 
 const meta: Meta<typeof Text3DFlip> = {

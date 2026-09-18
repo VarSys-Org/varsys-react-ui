@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Bolt, ShieldCheck, Zap } from "lucide-react"
 import { SpotlightCard } from "../../components/cards/spotlight-card"
 

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CloudDownload, Heart } from "lucide-react"
 
 import { LoaderButton } from "../../components/buttons/loader-button"

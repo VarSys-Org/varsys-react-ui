@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ChatBubbles } from "../../components/display/chat-bubbles"
 
 const meta: Meta<typeof ChatBubbles> = {

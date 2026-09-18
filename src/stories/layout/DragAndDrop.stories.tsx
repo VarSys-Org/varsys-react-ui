@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { useState } from "react"
 import { BellIcon, DownloadIcon, UserIcon } from "lucide-react"
 import { DragAndDrop } from "../../components/layout/drag-and-drop"

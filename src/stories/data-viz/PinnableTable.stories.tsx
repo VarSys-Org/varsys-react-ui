@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { PinnableTable } from "../../components/data-viz/pinnable-table"
 
 const meta: Meta<typeof PinnableTable> = {

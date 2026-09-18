@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { LightRays } from "../../components/effects/light-rays"
 
 const meta: Meta<typeof LightRays> = {

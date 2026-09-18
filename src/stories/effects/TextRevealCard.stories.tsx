@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { TextRevealCard, TextRevealCardTitle, TextRevealCardDescription } from "../../components/effects/text-reveal-card"
 
 const meta: Meta<typeof TextRevealCard> = { title: "Effects/TextRevealCard", component: TextRevealCard, tags: ["autodocs"] }

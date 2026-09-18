@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { HoverEffect } from "../../components/cards/card-hover-effect"
 
 const meta: Meta<typeof HoverEffect> = { title: "Cards/HoverEffect", component: HoverEffect, tags: ["autodocs"] }

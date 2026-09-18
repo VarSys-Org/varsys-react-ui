@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { BackgroundLines } from "../../components/effects/background-lines"
 
 const meta: Meta<typeof BackgroundLines> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { RangeInput } from "../../components/forms/range-input"
 
 const meta: Meta<typeof RangeInput> = {

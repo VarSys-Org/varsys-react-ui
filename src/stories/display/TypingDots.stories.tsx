@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { TypingDots } from "../../components/display/typing-dots"
 
 const meta: Meta<typeof TypingDots> = {

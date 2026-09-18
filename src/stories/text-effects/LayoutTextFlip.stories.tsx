@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { LayoutTextFlip } from "../../components/text-effects/layout-text-flip"
 
 const meta: Meta<typeof LayoutTextFlip> = {

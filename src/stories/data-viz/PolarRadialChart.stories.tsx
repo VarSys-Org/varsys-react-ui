@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { PolarRadialChart } from "../../components/data-viz/radial-chart"
 
 const meta: Meta<typeof PolarRadialChart> = {

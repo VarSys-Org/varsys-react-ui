@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { MorphingPopover, MorphingPopoverTrigger, MorphingPopoverContent } from "../../components/overlays/morphing-popover"
 
 const meta: Meta<typeof MorphingPopover> = {

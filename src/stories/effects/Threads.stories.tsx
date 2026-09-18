@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Threads } from "../../components/effects/threads"
 
 const meta: Meta<typeof Threads> = {

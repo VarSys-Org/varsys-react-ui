@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { GooDropdown } from "../../components/navigation/gooey-dropdown"
 
 const meta: Meta<typeof GooDropdown> = {

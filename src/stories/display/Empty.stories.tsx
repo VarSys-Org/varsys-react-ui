@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { InboxIcon, SearchXIcon } from "lucide-react"
 
 import { Empty, EmptyHeader, EmptyTitle, EmptyDescription, EmptyContent } from "../../components/display/empty"

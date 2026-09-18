@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { DotField } from "../../components/effects/dot-field"
 
 const meta: Meta<typeof DotField> = {

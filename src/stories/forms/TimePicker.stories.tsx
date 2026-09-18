@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { TimePicker } from "../../components/forms/time-picker"
 
 const meta: Meta<typeof TimePicker> = {

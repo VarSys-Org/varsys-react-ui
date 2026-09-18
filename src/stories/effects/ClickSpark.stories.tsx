@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ClickSpark } from "../../components/effects/click-spark"
 
 const meta: Meta<typeof ClickSpark> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Badge } from "../../components/display/badge"
 import { PerspectiveBook, BookHeader, BookTitle, BookDescription } from "../../components/cards/perspective-book"
 

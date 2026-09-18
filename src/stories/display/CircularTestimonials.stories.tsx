@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CircularTestimonials } from "../../components/display/circular-testimonials"
 
 const testimonials = [

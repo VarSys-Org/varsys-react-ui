@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { FuzzyText } from "../../components/text-effects/fuzzy-text"
 
 const meta: Meta<typeof FuzzyText> = {

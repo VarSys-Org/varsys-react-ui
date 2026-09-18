@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CardContainer, CardBody, CardItem } from "../../components/cards/3d-card"
 import { TextGenerateEffect } from "../../components/text-effects/text-generate-effect"
 

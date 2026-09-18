@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { SpotlightNew } from "../../components/effects/spotlight-new"
 
 const meta: Meta<typeof SpotlightNew> = {

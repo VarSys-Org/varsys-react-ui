@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { SvgPathMorphing } from "../../components/buttons/svg-path-morphing"
 
 const meta: Meta<typeof SvgPathMorphing> = {

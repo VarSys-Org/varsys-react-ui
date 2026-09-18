@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CalendarWithBookedDays } from "../../components/forms/calendar-with-booked-days"
 
 const meta: Meta<typeof CalendarWithBookedDays> = {

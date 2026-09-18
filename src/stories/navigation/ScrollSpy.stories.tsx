@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ScrollSpy } from "../../components/navigation/scroll-spy"
 
 const meta: Meta<typeof ScrollSpy> = {

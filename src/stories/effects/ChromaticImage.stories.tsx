@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ChromaticImage } from "../../components/effects/chromatic-image"
 
 const meta: Meta<typeof ChromaticImage> = {

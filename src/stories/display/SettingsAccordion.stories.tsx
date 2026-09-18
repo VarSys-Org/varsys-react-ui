@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { SettingsAccordion } from "../../components/display/settings-accordion"
 
 const meta: Meta<typeof SettingsAccordion> = {

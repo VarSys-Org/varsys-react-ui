@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ProgressChart } from "../../components/data-viz/progress-chart"
 
 const meta: Meta<typeof ProgressChart> = {

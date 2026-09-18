@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { AlertBanner } from "../../components/display/alert-banner"
 
 const meta: Meta<typeof AlertBanner> = {

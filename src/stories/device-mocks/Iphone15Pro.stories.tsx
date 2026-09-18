@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Iphone15Pro } from "../../components/device-mocks/iphone-15-pro"
 
 const meta: Meta<typeof Iphone15Pro> = {

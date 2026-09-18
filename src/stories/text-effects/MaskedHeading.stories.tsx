@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { MaskedHeading } from "../../components/text-effects/masked-heading"
 
 const meta: Meta<typeof MaskedHeading> = {

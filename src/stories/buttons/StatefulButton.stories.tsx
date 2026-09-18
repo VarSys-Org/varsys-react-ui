@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { StatefulButton } from "../../components/buttons/stateful-button"
 
 const meta: Meta<typeof StatefulButton> = {

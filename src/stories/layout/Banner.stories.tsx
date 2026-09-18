@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Bell, Rocket } from "lucide-react"
 import { Banner } from "../../components/layout/banner"
 

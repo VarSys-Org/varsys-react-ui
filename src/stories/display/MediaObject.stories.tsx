@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { MediaObject } from "../../components/display/media-object"
 
 const meta: Meta<typeof MediaObject> = {

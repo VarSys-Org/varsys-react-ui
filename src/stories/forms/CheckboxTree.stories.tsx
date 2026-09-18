@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { CheckboxTree, type TreeNode } from "../../components/forms/checkbox-tree"
 
 const meta: Meta<typeof CheckboxTree> = {
