@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
+import { Bot, UserRound } from "lucide-react"
 import { ChatConversation } from "../../components/display/chat-conversation"
 import type { ChatConversationMessage } from "../../components/display/chat-conversation"
 
@@ -52,7 +53,7 @@ export const WithAvatars: Story = {
         <ChatConversation
           messages={messages.map((m, i) => ({
             ...m,
-            avatar: <span className="text-sm leading-none">{i % 2 === 0 ? "🧑" : "🤖"}</span>,
+            avatar: i % 2 === 0 ? <UserRound aria-hidden="true" size={16} /> : <Bot aria-hidden="true" size={16} />,
           }))}
           userLabel="You"
           assistantLabel="Copilot"

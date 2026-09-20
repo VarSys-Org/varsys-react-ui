@@ -38,7 +38,7 @@ type Item = {
   name: string
   email: string
   location: string
-  flag: string
+  countryCode: string
   status: "Active" | "Inactive" | "Pending"
   balance: number
   department: string
@@ -54,7 +54,7 @@ const initialData: Item[] = [
     name: "Hannah Kandell",
     email: "hannah@acme.dev",
     location: "San Francisco",
-    flag: "🇺🇸",
+    countryCode: "US",
     status: "Active",
     balance: 1284.5,
     department: "Engineering",
@@ -68,7 +68,7 @@ const initialData: Item[] = [
     name: "Chris Tompson",
     email: "chris@acme.dev",
     location: "London",
-    flag: "🇬🇧",
+    countryCode: "GB",
     status: "Active",
     balance: 834.25,
     department: "Design",
@@ -82,7 +82,7 @@ const initialData: Item[] = [
     name: "Emma Davis",
     email: "emma@acme.dev",
     location: "Berlin",
-    flag: "🇩🇪",
+    countryCode: "DE",
     status: "Pending",
     balance: 240.75,
     department: "Engineering",
@@ -96,7 +96,7 @@ const initialData: Item[] = [
     name: "Liam Nguyen",
     email: "liam@acme.dev",
     location: "Singapore",
-    flag: "🇸🇬",
+    countryCode: "SG",
     status: "Active",
     balance: 4521.0,
     department: "Product",
@@ -110,7 +110,7 @@ const initialData: Item[] = [
     name: "Sofia Rossi",
     email: "sofia@acme.dev",
     location: "Milan",
-    flag: "🇮🇹",
+    countryCode: "IT",
     status: "Inactive",
     balance: 0,
     department: "Marketing",
@@ -124,7 +124,7 @@ const initialData: Item[] = [
     name: "Noah Patel",
     email: "noah@acme.dev",
     location: "Toronto",
-    flag: "🇨🇦",
+    countryCode: "CA",
     status: "Active",
     balance: 1920.4,
     department: "Engineering",
@@ -163,7 +163,12 @@ const columns: ColumnDef<Item>[] = [
     accessorKey: "location",
     cell: ({ row }) => (
       <div className="truncate">
-        <span className="text-lg leading-none">{row.original.flag}</span>{" "}
+        <span
+          aria-label={`Country code ${row.original.countryCode}`}
+          className="font-mono text-xs font-semibold uppercase text-muted-foreground"
+        >
+          {row.original.countryCode}
+        </span>{" "}
         {row.getValue("location")}
       </div>
     ),

@@ -40,11 +40,11 @@ export const CustomDuration: Story = {
   ),
 }
 
-export const WithEmoji: Story = {
+export const WithLabels: Story = {
   render: () => (
     <div className="p-8">
       <MarqueeStrip
-        items={["🚀 New launches weekly", "✨ Curated by experts", "🔥 Limited time offers"]}
+        items={["New launches weekly", "Curated by experts", "Limited time offers"]}
       />
     </div>
   ),

@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
+import { Palette, Rocket, Settings, Sparkles } from "lucide-react"
 import RadialOrbitalTimeline, {
   type TimelineItem,
 } from "../../components/data-viz/radial-orbital-timeline"
@@ -19,7 +20,7 @@ const timelineData: TimelineItem[] = [
     content:
       "Project kickoff meeting with stakeholders to align on goals and timeline.",
     category: "Planning",
-    icon: () => <span>🚀</span>,
+    icon: Rocket,
     relatedIds: [2, 3],
     status: "completed",
     energy: 90,
@@ -31,7 +32,7 @@ const timelineData: TimelineItem[] = [
     content:
       "Wireframes and high-fidelity designs delivered for the core screens.",
     category: "Design",
-    icon: () => <span>🎨</span>,
+    icon: Palette,
     relatedIds: [1, 3],
     status: "in-progress",
     energy: 70,
@@ -42,7 +43,7 @@ const timelineData: TimelineItem[] = [
     date: "Mar 2026",
     content: "Frontend and backend implementation across the main feature set.",
     category: "Engineering",
-    icon: () => <span>⚙️</span>,
+    icon: Settings,
     relatedIds: [2, 4],
     status: "pending",
     energy: 45,
@@ -53,7 +54,7 @@ const timelineData: TimelineItem[] = [
     date: "Apr 2026",
     content: "Public launch, marketing push, and ongoing support rotation.",
     category: "Release",
-    icon: () => <span>🎉</span>,
+    icon: Sparkles,
     relatedIds: [3],
     status: "pending",
     energy: 20,

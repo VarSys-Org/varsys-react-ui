@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
+import { Flame, ThumbsUp } from "lucide-react"
 import { Bubble, BubbleContent, BubbleGroup, BubbleReactions } from "../../components/display/bubble"
 
 const meta: Meta<typeof Bubble> = {
@@ -43,8 +44,8 @@ export const WithReactions: Story = {
     <Bubble>
       <BubbleContent>I don't need tests, I know my code works.</BubbleContent>
       <BubbleReactions role="img" aria-label="Reactions: thumbs up, fire">
-        <span>👍</span>
-        <span>🔥</span>
+        <ThumbsUp aria-hidden="true" size={16} />
+        <Flame aria-hidden="true" size={16} />
       </BubbleReactions>
     </Bubble>
   ),
