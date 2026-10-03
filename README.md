@@ -56,6 +56,11 @@ configuration.
 | `pnpm storybook` | Run Storybook on port 6006 |
 | `pnpm build-storybook` | Build the static Storybook site |
 
+The Vite entrypoint is a searchable live component browser backed by Storybook.
+For the complete demo, run `pnpm dev` and `pnpm storybook` in separate
+terminals. Every public component export has at least one Storybook example;
+examples for previously undocumented exports are grouped under `Coverage/`.
+
 The equivalent npm commands are `npm run dev`, `npm run build`,
 `npm run preview`, `npm run storybook`, and `npm run build-storybook`.
 
