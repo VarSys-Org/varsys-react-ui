@@ -34,9 +34,9 @@ This file adds ONLY the VarSys UI-specific layer.
 
 ## Operational Mandates
 
-- Track work in Leantime project `VarSys UI` (LT id 22).
+- Track substantial work in the `VarSys Workspace Portfolio` GitHub Project using issues in `VarSys-Org/varsys-react-ui`.
 - Store full details in `.kb/sessions/YYYY/varsys-ui/`; keep `.kb/INDEX.md` and
-  `.kb/WORK_HISTORY.md` as concise pointers with the LT reference.
+  `.kb/WORK_HISTORY.md` as concise pointers with the issue URL; preserve old LT references only as history.
 
 ## References
 
