@@ -19,7 +19,7 @@ const items = [
   {
     question: "Can I switch plans at any time?",
     answer:
-      "Absolutely. Upgrade or downgrade whenever you like — changes are prorated automatically.",
+      "Absolutely. Upgrade or downgrade whenever you like; changes are prorated automatically.",
   },
   {
     question: "Do you offer custom domains?",

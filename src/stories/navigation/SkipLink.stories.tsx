@@ -14,7 +14,7 @@ export const Default: Story = {
     <div className="relative h-48 p-8">
       <SkipLink />
       <p className="text-sm text-muted-foreground">
-        Focus the link by tabbing or clicking it — it slides into view.
+        Tab to the link or click it to move it into view.
       </p>
     </div>
   ),

@@ -35,7 +35,7 @@ function getEndDate(endDate?: Date | number | string): Date {
 export function CountdownBanner({
   endDate,
   title = "Black Friday Sale!",
-  description = "It kicks off today and is available for just 24 hours — don't miss out!",
+  description = "It starts today and runs for 24 hours.",
   ctaLabel = "Buy now",
   onCtaClick,
   className,

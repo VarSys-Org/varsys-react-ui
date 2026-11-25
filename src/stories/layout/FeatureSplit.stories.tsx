@@ -17,7 +17,7 @@ export const Default: Story = {
     <FeatureSplit
       eyebrow="New release"
       title="Ship faster with a component library built for the edge"
-      description="Drop-in, theme-safe components that work with any stack. No lock-in, no configuration maze — just copy, paste, and ship."
+      description="Theme-safe components for any stack. Copy them into your project without extra configuration."
       bullets={[
         "Accessible out of the box with full keyboard navigation",
         "Theme-safe tokens that follow light and dark mode",

@@ -31,7 +31,7 @@ const DEFAULT_BACKGROUND_COLORS = [
 
 export function FeatureSectionStickyScroll({
   title = "Built for the way you work",
-  description = "Scroll through the highlights — the content pins while you explore.",
+  description = "Scroll through the highlights. The content stays pinned as you scroll.",
   features = [],
   backgroundColors = DEFAULT_BACKGROUND_COLORS,
   className,

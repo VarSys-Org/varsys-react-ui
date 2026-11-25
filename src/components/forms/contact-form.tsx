@@ -19,7 +19,7 @@ export interface ContactFormProps
 export function ContactForm({
   submitLabel = "Send Message",
   successTitle = "Message sent!",
-  successMessage = "Thanks for reaching out — we'll get back to you shortly.",
+  successMessage = "Thanks for reaching out. We'll get back to you shortly.",
   onSubmitted,
   className,
   onSubmit,
