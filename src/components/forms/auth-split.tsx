@@ -162,6 +162,7 @@ export function AuthSplit({
                 id="auth-password"
                 type="password"
                 required
+                autoComplete="new-password"
                 className="mt-2 w-full rounded-lg border bg-transparent px-3 py-2 text-muted-foreground shadow-sm outline-none focus:border-indigo-600"
               />
             </div>

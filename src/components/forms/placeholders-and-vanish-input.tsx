@@ -139,7 +139,12 @@ export function PlaceholdersAndVanishInput({
   }
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter" && !animating) {
+    if (
+      e.key === "Enter" &&
+      !e.nativeEvent.isComposing &&
+      e.nativeEvent.keyCode !== 229 &&
+      !animating
+    ) {
       vanishAndSubmit()
     }
   }

@@ -161,7 +161,7 @@ export function LoginForm({
             </div>
             <div>
               <label className="font-medium">Password</label>
-              <input type="password" required className={inputCls} />
+              <input type="password" autoComplete="current-password" required className={inputCls} />
             </div>
             <button type="submit" className={buttonCls}>
               Sign in

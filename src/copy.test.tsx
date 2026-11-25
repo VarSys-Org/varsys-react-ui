@@ -1,9 +1,13 @@
 // @vitest-environment jsdom
 
 import { cleanup, fireEvent, render, screen } from "@testing-library/react"
-import { afterEach, describe, expect, it } from "vitest"
+import { afterEach, describe, expect, it, vi } from "vitest"
 
 import { ContactForm } from "./components/forms/contact-form"
+import { AuthSplit } from "./components/forms/auth-split"
+import { LoginForm } from "./components/forms/login-form"
+import { NumberInput } from "./components/forms/number-input"
+import { TagsInput } from "./components/forms/tags-input"
 import { CountdownBanner } from "./components/layout/countdown-banner"
 import { FeatureSectionStickyScroll } from "./components/layout/feature-section-sticky-scroll"
 import { FaqDashed } from "./components/layout/faq-dashed"
@@ -14,6 +18,39 @@ import { Default as SkipLinkStory } from "./stories/navigation/SkipLink.stories"
 afterEach(cleanup)
 
 describe("default component and story copy", () => {
+  it("sets password autofill hints for sign-up and sign-in", () => {
+    const { rerender } = render(<LoginForm />)
+    expect(document.querySelector('input[type="password"]')?.getAttribute("autocomplete")).toBe("current-password")
+
+    rerender(<AuthSplit />)
+    expect(document.querySelector('input[type="password"]')?.getAttribute("autocomplete")).toBe("new-password")
+  })
+
+  it("does not submit a number while Enter confirms IME composition", () => {
+    const onSubmit = vi.fn()
+    render(<NumberInput aria-label="Quantity" onSubmit={onSubmit} />)
+    const input = screen.getByRole("spinbutton", { name: "Quantity" })
+
+    fireEvent.keyDown(input, { key: "Enter", isComposing: true })
+    expect(onSubmit).not.toHaveBeenCalled()
+
+    fireEvent.keyDown(input, { key: "Enter" })
+    expect(onSubmit).toHaveBeenCalledOnce()
+  })
+
+  it("does not add a tag while Enter confirms IME composition", () => {
+    const onValueChange = vi.fn()
+    render(<TagsInput onValueChange={onValueChange} />)
+    const input = screen.getByPlaceholderText("Type and press Enter to add...")
+    fireEvent.change(input, { target: { value: "東京" } })
+
+    fireEvent.keyDown(input, { key: "Enter", isComposing: true })
+    expect(onValueChange).not.toHaveBeenCalled()
+
+    fireEvent.keyDown(input, { key: "Enter" })
+    expect(onValueChange).toHaveBeenCalledWith(["東京"])
+  })
+
   it("shows the contact form confirmation after submit", () => {
     render(<ContactForm />)
 

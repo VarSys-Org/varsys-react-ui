@@ -51,7 +51,14 @@ export const NumberInput = React.forwardRef<HTMLInputElement, NumberInputProps>(
           type="number"
           disabled={disabled}
           onKeyDown={(e) => {
-            if (e.key === "Enter" && !e.ctrlKey && !e.altKey && !e.shiftKey) {
+            if (
+              e.key === "Enter" &&
+              !e.nativeEvent.isComposing &&
+              e.nativeEvent.keyCode !== 229 &&
+              !e.ctrlKey &&
+              !e.altKey &&
+              !e.shiftKey
+            ) {
               onSubmit?.(parseFloat(e.currentTarget.value))
             }
           }}

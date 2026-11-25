@@ -71,7 +71,13 @@ export function SliderWithInput({
             onBlur={() => validateAndUpdateValue(inputValues[0] ?? "", 0)}
             onChange={(e) => handleInputChange(e, 0)}
             onKeyDown={(e) => {
-              if (e.key === "Enter") validateAndUpdateValue(inputValues[0] ?? "", 0)
+              if (
+                e.key === "Enter" &&
+                !e.nativeEvent.isComposing &&
+                e.nativeEvent.keyCode !== 229
+              ) {
+                validateAndUpdateValue(inputValues[0] ?? "", 0)
+              }
             }}
             type="text"
             value={inputValues[0]}

@@ -455,7 +455,11 @@ function EditablePreview(props: EditablePreviewProps) {
       propsRef.current.onKeyDown?.(event)
       if (event.defaultPrevented) return
 
-      if (event.key === "Enter") {
+      if (
+        event.key === "Enter" &&
+        !event.nativeEvent.isComposing &&
+        event.nativeEvent.keyCode !== 229
+      ) {
         const nativeEvent = event.nativeEvent
         if (context.onEnterKeyDown) {
           context.onEnterKeyDown(nativeEvent)
@@ -596,7 +600,11 @@ function EditableInput(props: EditableInputProps) {
           if (nativeEvent.defaultPrevented) return
         }
         context.onCancel()
-      } else if (event.key === "Enter") {
+      } else if (
+        event.key === "Enter" &&
+        !event.nativeEvent.isComposing &&
+        event.nativeEvent.keyCode !== 229
+      ) {
         context.onSubmit(value)
       }
     },

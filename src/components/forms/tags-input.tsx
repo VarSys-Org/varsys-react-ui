@@ -69,6 +69,11 @@ export function TagsInput({
   )
 
   const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.nativeEvent.isComposing || event.nativeEvent.keyCode === 229) {
+      onKeyDown?.(event)
+      return
+    }
+
     const value = event.currentTarget.value
 
     if (event.key === "Enter" || event.key === ",") {
